@@ -1,0 +1,30 @@
+{
+    "id": "ProfilePress",
+    "name": "Profilepress",
+    "slug": "profilepress",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "profilepress_customer_updated",
+            "label": "A ProfilePress customer is updated",
+            "since": "1.0.0"
+        },
+        {
+            "id": "profilepress_subscription_activated",
+            "label": "A ProfilePress subscription is activated",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "add_new_order",
+            "label": "Add New Order",
+            "since": "1.0.0"
+        },
+        {
+            "id": "add_update_profilepress_customer",
+            "label": "Add/Update ProfilePress customer",
+            "since": "1.0.0"
+        }
+    ]
+}

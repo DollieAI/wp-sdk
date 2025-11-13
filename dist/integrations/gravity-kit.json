@@ -1,0 +1,19 @@
+{
+    "id": "GravityKit",
+    "name": "GravityKit",
+    "slug": "gravity-kit",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "gk_form_entry_approved",
+            "label": "Form Entry Approved",
+            "since": "1.0.0"
+        },
+        {
+            "id": "gk_form_entry_rejected",
+            "label": "Form Entry Rejected",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": []
+}

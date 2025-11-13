@@ -1,0 +1,60 @@
+{
+    "id": "GeoDirectory",
+    "name": "GeoDirectory",
+    "slug": "geo-directory",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "geodir_claim_approved",
+            "label": "Listing Claim Approved",
+            "since": "1.0.0"
+        },
+        {
+            "id": "geodir_claim_rejected",
+            "label": "Listing Claim Rejected",
+            "since": "1.0.0"
+        },
+        {
+            "id": "geodir_claimed_listing_added",
+            "label": "New Listing Claim Submitted",
+            "since": "1.0.0"
+        },
+        {
+            "id": "geodir_listing_added",
+            "label": "New Place Listing Added",
+            "since": "1.0.0"
+        },
+        {
+            "id": "geodir_listing_upgraded",
+            "label": "Listing Package Upgraded",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "add_category_to_place",
+            "label": "Add Category To Place",
+            "since": "1.0.0"
+        },
+        {
+            "id": "add_or_update_place",
+            "label": "Add/Update Place",
+            "since": "1.0.0"
+        },
+        {
+            "id": "add_tag_to_place",
+            "label": "Add Tag To Place",
+            "since": "1.0.0"
+        },
+        {
+            "id": "remove_category_from_place",
+            "label": "Remove Category From Place",
+            "since": "1.0.0"
+        },
+        {
+            "id": "remove_tag_from_place",
+            "label": "Remove Tag From Place",
+            "since": "1.0.0"
+        }
+    ]
+}

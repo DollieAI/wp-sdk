@@ -1,0 +1,19 @@
+{
+    "id": "GiveWP",
+    "name": "Givewp",
+    "slug": "givewp",
+    "since": "1.0.0",
+    "triggers": [],
+    "actions": [
+        {
+            "id": "givewp_add_not_to_donor",
+            "label": "Add Note To Donor",
+            "since": "1.0.0"
+        },
+        {
+            "id": "givewp_create_donor",
+            "label": "Create Donor",
+            "since": "1.0.0"
+        }
+    ]
+}

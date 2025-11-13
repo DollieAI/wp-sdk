@@ -1,0 +1,14 @@
+{
+    "id": "ConvertPro",
+    "name": "Convertpro",
+    "slug": "convertpro",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "convert_pro_form_submit",
+            "label": "Form Submitted",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": []
+}

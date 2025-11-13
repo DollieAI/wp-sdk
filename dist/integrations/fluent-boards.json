@@ -1,0 +1,105 @@
+{
+    "id": "FluentBoards",
+    "name": "FluentBoards",
+    "slug": "fluent-boards",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "fbs_board_created",
+            "label": "New Board Created",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fbs_board_member_added",
+            "label": "Board Member Added",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fbs_stage_changed",
+            "label": "Stage Changed",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fbs_task_created",
+            "label": "New Task Created",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "fbs_add_user_to_board",
+            "label": "Add User to Board",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fbs_assign_task",
+            "label": "Assign Task",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fbs_create_board",
+            "label": "Create Board",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fbs_create_label",
+            "label": "Create Label",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fbs_create_stage",
+            "label": "Create Stage",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fbs_create_sub_task",
+            "label": "Create Sub Task",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fbs_create_subtask_group",
+            "label": "Create Subtask Group",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fbs_create_task",
+            "label": "Create Task",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fbs_get_board_details",
+            "label": "Get Board",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fbs_get_crm_contact_for_task",
+            "label": "Get CRM Contact for Task",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fbs_get_task_assignees",
+            "label": "Get Task Assignees",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fbs_get_task_details",
+            "label": "Get Task",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fbs_list_labels",
+            "label": "List Task Labels",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fbs_list_tasks",
+            "label": "List Tasks",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fbs_remove_assignee_from_task",
+            "label": "Remove Assignee from Task",
+            "since": "1.0.0"
+        }
+    ]
+}

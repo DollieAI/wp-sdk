@@ -1,0 +1,14 @@
+{
+    "id": "PowerfulDocs",
+    "name": "PowerfulDocs",
+    "slug": "powerful-docs",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "pfd_feedback_received",
+            "label": "Feedback Received",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": []
+}

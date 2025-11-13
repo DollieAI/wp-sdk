@@ -1,0 +1,29 @@
+services:
+  php:
+    image: php:8.2-cli
+    container_name: dollie-sdk-php
+    working_dir: /app
+    volumes:
+      - .:/app
+      - /Users/gabi/projects/dollie-wp/wp-content/mu-plugins/platform:/platform:ro
+    command: tail -f /dev/null  # Keep container running
+    environment:
+      - COMPOSER_ALLOW_SUPERUSER=1
+    networks:
+      - dollie-sdk
+
+  composer:
+    image: composer:2
+    container_name: dollie-sdk-composer
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: install --no-interaction --prefer-dist
+    environment:
+      - COMPOSER_ALLOW_SUPERUSER=1
+    networks:
+      - dollie-sdk
+
+networks:
+  dollie-sdk:
+    driver: bridge

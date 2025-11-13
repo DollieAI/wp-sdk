@@ -1,0 +1,124 @@
+name: Build & Publish Manifest
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Generate Manifest
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+          coverage: none
+          extensions: json
+
+      - name: Validate composer.json
+        run: composer validate --strict
+
+      - name: Install dependencies
+        run: composer install --no-interaction --prefer-dist --no-dev
+
+      - name: Generate manifest
+        run: composer generate-manifest
+
+      - name: Verify manifest exists
+        run: |
+          if [ ! -f dist/manifest.json ]; then
+            echo "Error: manifest.json was not generated"
+            exit 1
+          fi
+          echo "Manifest generated successfully"
+          cat dist/manifest.json | jq '.'
+
+      - name: Upload manifest artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: sdk-manifest
+          path: |
+            dist/manifest.json
+            dist/integrations/*.json
+          retention-days: 90
+
+      - name: Commit manifest to repository
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add dist/
+          git diff --staged --quiet || git commit -m "chore: update generated manifest [skip ci]"
+          git push
+
+  test:
+    name: Run Tests
+    runs-on: ubuntu-latest
+    needs: build
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+          coverage: none
+
+      - name: Install dependencies
+        run: composer install --no-interaction --prefer-dist
+
+      - name: Run tests
+        run: composer test
+
+  validate:
+    name: Validate Manifest
+    runs-on: ubuntu-latest
+    needs: build
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+          coverage: none
+
+      - name: Install dependencies
+        run: composer install --no-interaction --prefer-dist --no-dev
+
+      - name: Generate and validate manifest
+        run: |
+          composer generate-manifest
+
+          # Check for duplicate IDs
+          php -r "
+          \$manifest = json_decode(file_get_contents('dist/manifest.json'), true);
+          foreach (\$manifest['integrations'] as \$integration) {
+            \$triggerIds = array_column(\$integration['triggers'] ?? [], 'id');
+            \$actionIds = array_column(\$integration['actions'] ?? [], 'id');
+
+            if (count(\$triggerIds) !== count(array_unique(\$triggerIds))) {
+              echo 'Error: Duplicate trigger IDs found in ' . \$integration['id'] . PHP_EOL;
+              exit(1);
+            }
+
+            if (count(\$actionIds) !== count(array_unique(\$actionIds))) {
+              echo 'Error: Duplicate action IDs found in ' . \$integration['id'] . PHP_EOL;
+              exit(1);
+            }
+          }
+
+          echo 'Validation passed: No duplicate IDs found' . PHP_EOL;
+          "

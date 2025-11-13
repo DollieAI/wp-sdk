@@ -1,0 +1,4811 @@
+{
+    "plugin": "dolliewp/sdk",
+    "name": "Dollie Integrations SDK",
+    "version": "1.0.0",
+    "generated_at": "2025-11-13T08:11:14Z",
+    "integrations": [
+        {
+            "id": "AcademyLMS",
+            "name": "Academylms",
+            "slug": "academylms",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "ac_lms_course_completed",
+                    "label": "Course Completed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ac_lms_enrolled_course",
+                    "label": "Enrolled Course",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ac_lms_lesson_completed",
+                    "label": "Lesson Completed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ac_lms_quiz_completed",
+                    "label": "Quiz Completed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ac_lms_quiz_failed",
+                    "label": "Quiz Failed",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "ac_enroll_user_to_course",
+                    "label": "Enroll User To Course",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "AdvancedAds",
+            "name": "AdvancedAds",
+            "slug": "advanced-ads",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "ad_status_change",
+                    "label": "Ad Status Changed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ad_status_set_to_specific_type",
+                    "label": "Ad Status Set to Specific Type",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "set_ad_status",
+                    "label": "Set Ad Status",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "AdvancedCoupons",
+            "name": "AdvancedCoupons",
+            "slug": "advanced-coupons",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "user_receives_store_credit",
+                    "label": "User Store Credit Exceeds Specific Amount",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_spends_store_credit",
+                    "label": "User Spends Store Credit",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "add_store_credit_to_user",
+                    "label": "Add Store Credit to User",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "remove_store_credit_from_user",
+                    "label": "Remove Store Credit from User",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "AdvancedCustomFields",
+            "name": "AdvancedCustomFields",
+            "slug": "advanced-custom-fields",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "options_acf_field_updated",
+                    "label": "Field Updated On Options Page",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "post_acf_field_updated",
+                    "label": "Field Updated On Post",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_acf_field_updated",
+                    "label": "Field Updated On User Profile",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "get_option_acf_value",
+                    "label": "Get Option Value",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "get_post_acf_value",
+                    "label": "Get Post Value",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "get_user_acf_value",
+                    "label": "Get User Value",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "update_group_field_acf_value",
+                    "label": "Add Sub Field Value in Group",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "update_option_acf_value",
+                    "label": "Update Option Value",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "update_post_acf_value",
+                    "label": "Update Post Value",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "update_repeater_field_acf_value",
+                    "label": "Update Repeater Field Value",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "update_user_acf_value",
+                    "label": "Update User Value",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "AffiliateWP",
+            "name": "Affiliatewp",
+            "slug": "affiliatewp",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "affiliate_edd_product_purchased",
+                    "label": "Affiliate Refers a sale of Easy Digital Downloads Product",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "affiliate_makes_specific_type_referral",
+                    "label": "Affiliate Approved",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "affiliate_mb_product_purchased",
+                    "label": "MemberPress Product Purchased using Affiliate Referral",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "affiliate_specific_type_referral_paid",
+                    "label": "Affiliate Referral of Specific Type Paid",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "affiliate_specific_type_referral_rejected",
+                    "label": "Affiliate Referral of Specific Type Rejected",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "affiliate_wc_product_purchased",
+                    "label": "WooCommerce Product Purchased using Affiliate Referral",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "affwp_register_user_approval",
+                    "label": "Affiliate Awaiting Approval",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "affwp_set_affiliate_status",
+                    "label": "Affiliate Approved",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "affwp_set_referral_status",
+                    "label": "New Referral/Referral Status Updated",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "Amelia",
+            "name": "Amelia",
+            "slug": "amelia",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "amelia_appointment_booking_status_changed",
+                    "label": "Appointment Booking Status Changed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "amelia_appointment_cancelled",
+                    "label": "Appointment Cancelled",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "amelia_appointment_rescheduled",
+                    "label": "Appointment Rescheduled",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "amelia_event_booking_status_changed",
+                    "label": "Event Booking Status Changed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "amelia_event_cancelled",
+                    "label": "Event Cancelled",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "amelia_event_rescheduled",
+                    "label": "Event Rescheduled",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "amelia_new_appointment_booked",
+                    "label": "New Appointment Booked",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "amelia_new_event_attendee",
+                    "label": "New Event Attendee",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "amelia_create_coupon",
+                    "label": "Create Coupon",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "AppointmentHourBooking",
+            "name": "AppointmentHourBooking",
+            "slug": "appointment-hour-booking",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "ahb_booking_status_updated",
+                    "label": "Booking Status Updated",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ahb_new_appointment",
+                    "label": "New Appointment Booked",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "Asgaros",
+            "name": "Asgaros",
+            "slug": "asgaros",
+            "since": "1.0.0",
+            "triggers": [],
+            "actions": [
+                {
+                    "id": "asgaros_create_forum",
+                    "label": "Create a group",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "asgaros_create_topic",
+                    "label": "Create a topic",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "BadgeOS",
+            "name": "Badgeos",
+            "slug": "badgeos",
+            "since": "1.0.0",
+            "triggers": [],
+            "actions": [
+                {
+                    "id": "award_achievement_to_user",
+                    "label": "Award a Achievement to the user",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "BeaverBuilder",
+            "name": "BeaverBuilder",
+            "slug": "beaver-builder",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "user_submits_beaver_builder_form",
+                    "label": "User Submits Contact/Subscribe Form",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "BetterMessages",
+            "name": "BetterMessages",
+            "slug": "better-messages",
+            "since": "1.0.0",
+            "triggers": [],
+            "actions": [
+                {
+                    "id": "bm_post_message_to_chatroom",
+                    "label": "Post Message to Chatroom",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "bm_private_message_to_user",
+                    "label": "Send Private Message",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "BricksBuilder",
+            "name": "BricksBuilder",
+            "slug": "bricks-builder",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "user_submits_bricks_builder_form",
+                    "label": "Form Submitted",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "BuddyBoss",
+            "name": "Buddyboss",
+            "slug": "buddyboss",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "bb_user_account_activated",
+                    "label": "User Account Activated",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "bb_user_creates_group",
+                    "label": "User Creates Group",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "bb_user_gains_follower",
+                    "label": "User Gains Follower",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "bb_user_joins_private_group",
+                    "label": "User Joins Private Group.",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "bb_user_leaves_a_private_group",
+                    "label": "User Leaves Private Group",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "bb_user_requests_access_private_group",
+                    "label": "User Requests Access Private Group",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "bb_user_updates_profile",
+                    "label": "User Updates Profile",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_accepts_friendship",
+                    "label": "User Accepts Request",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_joins_public_group",
+                    "label": "User Joins Public Group.",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_joins_specific_type_group",
+                    "label": "User Joins Specific Type of Group.",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_leaves_a_group",
+                    "label": "User Leaves Group",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_profile_type_changed",
+                    "label": "User Profile Type Set To Specific Type",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_receives_private_message",
+                    "label": "User Receives Private Message",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_sends_friendship_request",
+                    "label": "User Sends Request",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "bb_add_post_to_activity_feed",
+                    "label": "Add post to activity feed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "bb_add_post_to_user_activity_feed",
+                    "label": "Add Post to User Activity Feed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "bb_add_user_to_group",
+                    "label": "Add User to Group",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "bb_change_user_member_type",
+                    "label": "Change Member Profile Type",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "bb_create_group",
+                    "label": "Create Group",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "bb_end_friendship_with_user",
+                    "label": "End friendship with user",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "bb_follow_user",
+                    "label": "Follow User",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "bb_post_reply_topic_forum",
+                    "label": "Post Reply Topic In Forum",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "bb_post_topic_in_forum",
+                    "label": "Post Topic In Forum",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "bb_remove_user_from_group",
+                    "label": "Remove User from Group",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "bb_send_message_to_group_members",
+                    "label": "Send Message to Group Members",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "bb_send_notification_to_all_members_of_group",
+                    "label": "Send Notification To All Members Of Group",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "bb_set_user_extended_profile",
+                    "label": "Set User Extended Profile",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "bb_set_user_status",
+                    "label": "Set User Status",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "bb_stop_following_user",
+                    "label": "Stop Following User",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "bb_subscribe_user_to_forum",
+                    "label": "Subscribe User to Forum",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "get_forum_subscribers",
+                    "label": "Get Forum Subscribers",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "BuddyPress",
+            "name": "Buddypress",
+            "slug": "buddypress",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "bp_user_joins_public_group",
+                    "label": "A user joins a public group",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "bp_user_leaves_group",
+                    "label": "A user leaves a group",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_accepts_friend_request",
+                    "label": "A user accepts a friendship request",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_account_activated",
+                    "label": "The user",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_connection_request_accepted",
+                    "label": "A user",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_creates_group",
+                    "label": "A user creates a group",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_joins_private_group",
+                    "label": "A user joins a private group",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_member_type_changed",
+                    "label": "A user",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_posts_activity_group",
+                    "label": "A user makes a post to the activity stream of a group",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_posts_activity_stream",
+                    "label": "A user posts activity to their stream",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_registers_specific_field_value",
+                    "label": "A user registers with specific field",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_request_access_private_group",
+                    "label": "A user requests access to a private group",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_sends_friend_request",
+                    "label": "A user sends a friendship request",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_updates_avatar",
+                    "label": "A user updates their avatar",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_updates_profile",
+                    "label": "A user updates their profile",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_updates_profile_specific_field",
+                    "label": "A user updates their profile in a specific field",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "add_post_activity_stream_to_group",
+                    "label": "Add a post to the activity stream of a group",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "add_post_sitewide_activity_stream",
+                    "label": "Add a post to the sitewide activity stream",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "add_post_user_activity_stream",
+                    "label": "Add a post to the user",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "bp_create_group",
+                    "label": "Create a group",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "change_user_member_type",
+                    "label": "Set the user",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "end_friendship_with_user",
+                    "label": "End friendship with a user",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "remove_user_from_group",
+                    "label": "Remove the user from a group",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "send_friendship_request_user",
+                    "label": "Send a friendship request to a user",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "send_members_group_notification",
+                    "label": "Send all members of a group a notification",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "send_private_message_user",
+                    "label": "Send a private message to the user",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "send_user_notification",
+                    "label": "Send the user a notification",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "set_user_xprofile_data",
+                    "label": "Set The User",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "CartFlows",
+            "name": "Cartflows",
+            "slug": "cartflows",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "cartflows_downsell_offer_skipped",
+                    "label": "Downsell Offer Skipped",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "cartflows_upsell_offer_skipped",
+                    "label": "Upsell Offer Skipped",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wcf_order_bump_item_added",
+                    "label": "Order Bump Item Added",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wcf_order_bump_item_removed",
+                    "label": "Order Bump Item Removed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wcf_order_bump_item_replaced",
+                    "label": "Order Bump Item Removed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wcf_pre_checkout_offer_item_added",
+                    "label": "Pre Checkout Offer Item Added",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "ClickWhale",
+            "name": "Clickwhale",
+            "slug": "clickwhale",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "cw_link_clicked",
+                    "label": "Link Clicked",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "cw_link_created",
+                    "label": "Link Created",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "cw_link_deleted",
+                    "label": "Link Deleted",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "cw_link_updated",
+                    "label": "Link Updated",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "cw_create_link",
+                    "label": "Create Link",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "cw_delete_link",
+                    "label": "Delete Link",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "cw_get_link_details",
+                    "label": "Get Link Details",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "cw_update_link",
+                    "label": "Update Link",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "ContactForm7",
+            "name": "ContactForm7",
+            "slug": "contact-form7",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "contact_form7_form_submit",
+                    "label": "Form Submitted",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "ConvertPro",
+            "name": "Convertpro",
+            "slug": "convertpro",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "convert_pro_form_submit",
+                    "label": "Form Submitted",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "DiviBuilder",
+            "name": "DiviBuilder",
+            "slug": "divi-builder",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "user_submits_diviform",
+                    "label": "Form Submitted",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "Dollie",
+            "name": "Dollie",
+            "slug": "dollie",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "dollie_site_created",
+                    "label": "Site Created",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "dollie_site_deleted",
+                    "label": "Site Deleted",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "dollie_create_site",
+                    "label": "Create Site",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "dollie_delete_site",
+                    "label": "Delete Site",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "EDD",
+            "name": "Edd",
+            "slug": "edd",
+            "since": "1.0.0",
+            "triggers": [],
+            "actions": [
+                {
+                    "id": "edd_fetch_discount_details",
+                    "label": "Fetch Discount Details",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "EasyAffiliate",
+            "name": "EasyAffiliate",
+            "slug": "easy-affiliate",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "affiliate_added",
+                    "label": "Affiliate Added",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "affiliate_payout_made",
+                    "label": "Payout made for Affiliate",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "affiliate_sale_recorded",
+                    "label": "Sale Recorded for Affiliate",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "ea_add_affiliate",
+                    "label": "Add Affiliate",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ea_record_sale_affiliate",
+                    "label": "Record Sale for Affiliate",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "ElementorPro",
+            "name": "ElementorPro",
+            "slug": "elementor-pro",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "elementor_post_published",
+                    "label": "Post Published with Elementor",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "elementor_submit_form_specific_value",
+                    "label": "Form Submitted with Specific Field Value",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "EventsManager",
+            "name": "EventsManager",
+            "slug": "events-manager",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "em_user_booking_approved",
+                    "label": "Booking Approved",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "em_user_register_in_event",
+                    "label": "User Registered in Event",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "em_user_registers_event_with_specific_ticket",
+                    "label": "User Registers Event with Specific Ticket",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "FluentBoards",
+            "name": "FluentBoards",
+            "slug": "fluent-boards",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "fbs_board_created",
+                    "label": "New Board Created",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fbs_board_member_added",
+                    "label": "Board Member Added",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fbs_stage_changed",
+                    "label": "Stage Changed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fbs_task_created",
+                    "label": "New Task Created",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "fbs_add_user_to_board",
+                    "label": "Add User to Board",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fbs_assign_task",
+                    "label": "Assign Task",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fbs_create_board",
+                    "label": "Create Board",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fbs_create_label",
+                    "label": "Create Label",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fbs_create_stage",
+                    "label": "Create Stage",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fbs_create_sub_task",
+                    "label": "Create Sub Task",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fbs_create_subtask_group",
+                    "label": "Create Subtask Group",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fbs_create_task",
+                    "label": "Create Task",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fbs_get_board_details",
+                    "label": "Get Board",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fbs_get_crm_contact_for_task",
+                    "label": "Get CRM Contact for Task",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fbs_get_task_assignees",
+                    "label": "Get Task Assignees",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fbs_get_task_details",
+                    "label": "Get Task",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fbs_list_labels",
+                    "label": "List Task Labels",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fbs_list_tasks",
+                    "label": "List Tasks",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fbs_remove_assignee_from_task",
+                    "label": "Remove Assignee from Task",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "FluentBooking",
+            "name": "FluentBooking",
+            "slug": "fluent-booking",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "fluent_booking_appointment_cancelled",
+                    "label": "Appointment Cancelled",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fluent_booking_appointment_completed",
+                    "label": "Appointment Completed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fluent_booking_new_appointment_booked",
+                    "label": "New Appointment Booked",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "fluent_booking_cancel_booking",
+                    "label": "Cancel Booking",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fluent_booking_create_booking",
+                    "label": "Create Booking",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fluent_booking_create_booking_pro",
+                    "label": "Create Booking (Pro)",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fluent_booking_get_booking_details",
+                    "label": "Get Booking Details",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fluent_booking_update_booking_status",
+                    "label": "Update Booking Status",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "FluentCRM",
+            "name": "Fluentcrm",
+            "slug": "fluentcrm",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "tag_removed_from_contact",
+                    "label": "Tag Removed",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "fluentcrm_add_contact",
+                    "label": "Add/Update Contact",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fluentcrm_add_email_to_sequence",
+                    "label": "Add Email to Sequence",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fluentcrm_add_event",
+                    "label": "Add Event",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fluentcrm_add_note",
+                    "label": "Add Note",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fluentcrm_add_tag_to_contact",
+                    "label": "Add Tag",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fluentcrm_attach_subscribers_company",
+                    "label": "Attach Subscribers to Company",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fluentcrm_create_company",
+                    "label": "Create Company",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fluentcrm_create_tag",
+                    "label": "Create Tag",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fluentcrm_detach_subscribers_company",
+                    "label": "Detach Subscribers to Company",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fluentcrm_list_email_templates",
+                    "label": "List Email Templates",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fluentcrm_list_sequences",
+                    "label": "List Sequences",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fluentcrm_remove_contact",
+                    "label": "Remove Contact",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fluentcrm_remove_tag_from_contact",
+                    "label": "Remove Tag",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fluentcrm_retrieve_contact_by_email",
+                    "label": "Retrieve Contact By Email",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fluentcrm_retrieve_contact_by_id",
+                    "label": "Retrieve Contact By ID",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fluentcrm_retrieve_contact_by_segment",
+                    "label": "Retrieve Contact By Segment",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fluentcrm_retrieve_contact_by_status",
+                    "label": "Retrieve Contact By Status",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fluentcrm_retrieve_contact_by_user_id",
+                    "label": "Retrieve Contact By User ID",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fluentcrm_send_email_by_campaign",
+                    "label": "Send Email By Campaign",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fluentcrm_send_email_by_template",
+                    "label": "Send Email By Template",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fluentcrm_send_email_to_list_contacts",
+                    "label": "Send Email",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fluentcrm_update_template",
+                    "label": "Update Email Template",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "FluentCommunity",
+            "name": "Fluentcommunity",
+            "slug": "fluentcommunity",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "fc_comment_deleted",
+                    "label": "CommentDeleted",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fc_comment_updated",
+                    "label": "CommentUpdated",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fc_course_created",
+                    "label": "CourseCreated",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fc_course_deleted",
+                    "label": "CourseDeleted",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fc_course_published",
+                    "label": "CoursePublished",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fc_course_updated",
+                    "label": "CourseUpdated",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fc_space_created",
+                    "label": "New Space Created",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fc_user_completes_course",
+                    "label": "User Completes Course",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fc_user_joins_space",
+                    "label": "User Joins Space",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fc_user_leaves_space",
+                    "label": "User Leaves Space",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fc_user_unenrolls_from_course",
+                    "label": "User Unenrolls From Course",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fcs_feed_created",
+                    "label": "New Feed Created",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fcs_feed_updated",
+                    "label": "Feed Updated",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fcs_new_space_feed_created",
+                    "label": "New Space Feed Created",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "fc_add_user_to_course",
+                    "label": "Add User to Course",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fc_add_user_to_space",
+                    "label": "Add User to Space",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fc_create_lesson_in_course",
+                    "label": "Create Lesson in Course",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fc_create_new_post_feed",
+                    "label": "Create New Post in Feed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fc_get_all_courses",
+                    "label": "Get All Courses List",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fc_get_all_spaces",
+                    "label": "Get All Spaces List",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fc_list_course_sections",
+                    "label": "List Course Sections",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fc_remove_user_from_course",
+                    "label": "Remove User from Course",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fc_remove_user_from_space",
+                    "label": "Remove User from Space",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "FluentForm",
+            "name": "FluentForm",
+            "slug": "fluent-form",
+            "since": "1.0.0",
+            "triggers": [],
+            "actions": [
+                {
+                    "id": "register_a_new_user",
+                    "label": "Register New User",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "FluentSMTP",
+            "name": "Fluentsmtp",
+            "slug": "fluentsmtp",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "fs_email_delivery_error",
+                    "label": "Error in Email Delivery",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "FluentSupport",
+            "name": "FluentSupport",
+            "slug": "fluent-support",
+            "since": "1.0.0",
+            "triggers": [],
+            "actions": [
+                {
+                    "id": "add_tag_to_ticket_fluent_support",
+                    "label": "Add Tag to Ticket",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "block_user_fluent_support",
+                    "label": "Block User",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "create_or_obtain_customer_fluent_support",
+                    "label": "Create Or Obtain Customer",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "create_ticket_fluent_support",
+                    "label": "Create Ticket",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "reply_to_ticket_as_agent_fluent_support",
+                    "label": "Reply to Ticket as Agent",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "FormidableForms",
+            "name": "FormidableForms",
+            "slug": "formidable-forms",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "ff_form_submit",
+                    "label": "Form Submitted",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ff_user_updates_entry_form",
+                    "label": "Form Entry Updated",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "Forminator",
+            "name": "Forminator",
+            "slug": "forminator",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "forminatorform_submitted",
+                    "label": "A form is submitted",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "FunnelKitAutomations",
+            "name": "FunnelKitAutomations",
+            "slug": "funnel-kit-automations",
+            "since": "1.0.0",
+            "triggers": [],
+            "actions": [
+                {
+                    "id": "funnel_kit_automations_add_contact_to_lists",
+                    "label": "Add Contact to List(s)",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "funnel_kit_automations_add_tags_to_contact",
+                    "label": "Add Tag(s) to Contact",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "funnel_kit_automations_remove_contact_from_lists",
+                    "label": "Remove Contact from List(s)",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "funnel_kit_automations_remove_tags_from_contact",
+                    "label": "Remove Tag(s) from Contact",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "GamiPress",
+            "name": "Gamipress",
+            "slug": "gamipress",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "user_attains_rank",
+                    "label": "A user attains a rank",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_earns_achivements",
+                    "label": "User Earns an Achievement",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_earns_specific_points",
+                    "label": "User Earns Specific Number of Points",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_total_points_meets_threshold",
+                    "label": "User’s Total Point Meets A Threshold",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "award_achivement_user",
+                    "label": "Award Achievement to User",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "award_points_user",
+                    "label": "Award Points to User",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "award_rank_user",
+                    "label": "Award Rank to User",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "revoke_achivement_user",
+                    "label": "Revoke Achievement from User",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "revoke_points_user",
+                    "label": "Revoke Points from the User",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "revoke_rank_user",
+                    "label": "Revoke Rank to User",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "GeoDirectory",
+            "name": "GeoDirectory",
+            "slug": "geo-directory",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "geodir_claim_approved",
+                    "label": "Listing Claim Approved",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "geodir_claim_rejected",
+                    "label": "Listing Claim Rejected",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "geodir_claimed_listing_added",
+                    "label": "New Listing Claim Submitted",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "geodir_listing_added",
+                    "label": "New Place Listing Added",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "geodir_listing_upgraded",
+                    "label": "Listing Package Upgraded",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "add_category_to_place",
+                    "label": "Add Category To Place",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "add_or_update_place",
+                    "label": "Add/Update Place",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "add_tag_to_place",
+                    "label": "Add Tag To Place",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "remove_category_from_place",
+                    "label": "Remove Category From Place",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "remove_tag_from_place",
+                    "label": "Remove Tag From Place",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "GiveWP",
+            "name": "Givewp",
+            "slug": "givewp",
+            "since": "1.0.0",
+            "triggers": [],
+            "actions": [
+                {
+                    "id": "givewp_add_not_to_donor",
+                    "label": "Add Note To Donor",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "givewp_create_donor",
+                    "label": "Create Donor",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "GravityForms",
+            "name": "GravityForm",
+            "slug": "gravity-form",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "user_register_gravityform",
+                    "label": "User Register with Gravity Form",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_submits_payment_gravityform",
+                    "label": "User Submits Payment Form",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "create_entry_gravity_form",
+                    "label": "Create Entry for Form",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "delete_entry_gravity_form",
+                    "label": "Delete Entry for Form",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "GravityKit",
+            "name": "GravityKit",
+            "slug": "gravity-kit",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "gk_form_entry_approved",
+                    "label": "Form Entry Approved",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "gk_form_entry_rejected",
+                    "label": "Form Entry Rejected",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "Groundhogg",
+            "name": "Groundhogg",
+            "slug": "groundhogg",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "gh_tag_added_to_contact",
+                    "label": "Tag Added to Contact",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "gh_tag_removed_from_contact",
+                    "label": "Tag Removed from Contact",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "gh_add_tag_to_contact",
+                    "label": "Add Tag to Contact",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "gh_create_contact",
+                    "label": "Create/Update Contact",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "gh_removetag_from_contact",
+                    "label": "Remove Tag from Contact",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "HappyForms",
+            "name": "Happyforms",
+            "slug": "happyforms",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "happyforms_form_submitted",
+                    "label": "Form Submitted",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "JetEngine",
+            "name": "Jetengine",
+            "slug": "jetengine",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "specific_post_field_update",
+                    "label": "A user updates a specific JetEngine field on a specific post type",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "JetFormBuilder",
+            "name": "Jetformbuilder",
+            "slug": "jetformbuilder",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "jetform_submitted",
+                    "label": "Form Submitted",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "JetpackCRM",
+            "name": "JetpackCrm",
+            "slug": "jetpack-crm",
+            "since": "1.0.0",
+            "triggers": [],
+            "actions": [
+                {
+                    "id": "jetpack_crm_add_tag_to_company",
+                    "label": "Add Tag to Company",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "jetpack_crm_add_tag_to_contact",
+                    "label": "Add Tag to Contact",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "jetpack_crm_create_contact",
+                    "label": "Create Contact",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "jetpack_crm_delete_contact",
+                    "label": "Delete Contact",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "KadenceForms",
+            "name": "KadenceForms",
+            "slug": "kadence-forms",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "kadenceform_submitted",
+                    "label": "Form Submitted",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "LatePoint",
+            "name": "LatePoint",
+            "slug": "late-point",
+            "since": "1.0.0",
+            "triggers": [],
+            "actions": [
+                {
+                    "id": "lp_cancel_booking",
+                    "label": "Cancel Booking",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "lp_create_agent",
+                    "label": "Create Agent",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "lp_create_booking",
+                    "label": "Create Order",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "lp_create_coupon",
+                    "label": "Create Coupon",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "lp_create_customer",
+                    "label": "Create Customer",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "lp_find_agent_by_email",
+                    "label": "Find Agent By Email",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "lp_find_booking_by_id",
+                    "label": "Find Booking By ID",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "lp_find_customer_by_email",
+                    "label": "Find Customer By Email",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "lp_get_all_bundles",
+                    "label": "List Bundles",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "lp_update_booking",
+                    "label": "Update Booking",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "lp_update_coupon",
+                    "label": "Update Coupon",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "LearnDash",
+            "name": "Learndash",
+            "slug": "learndash",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "essay_question_graded",
+                    "label": "User Added in Group",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_assignment_ld_graded",
+                    "label": "User Submits Essay Quiz",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_submits_ld_assignment",
+                    "label": "User Removed from Group",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "ld_enroll_to_course",
+                    "label": "Enroll User in a course",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ld_list_user_enrolled_courses",
+                    "label": "List User Enrolled Courses",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ld_mark_course_complete_for_user",
+                    "label": "Mark Course Complete For User",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ld_mark_lesson_complete_for_user",
+                    "label": "Mark Lesson Complete For User",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ld_mark_quiz_complete_for_user",
+                    "label": "Mark Quiz Complete For User",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ld_mark_topic_complete_for_user",
+                    "label": "Mark Topic Complete For User",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ld_reset_user_course_progress",
+                    "label": "Reset User Progress",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ld_unenroll_from_course",
+                    "label": "Remove user from a course",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "learndash_add_user_group",
+                    "label": "Add user to a group",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "learndash_find_user_groups",
+                    "label": "Find User Groups",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "learndash_remove_user_from_group_leader",
+                    "label": "Remove User from Group Leader",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "learndash_remove_user_group",
+                    "label": "Remove user from a group",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "LearnDashAchievements",
+            "name": "LearndashAchievements",
+            "slug": "learndash-achievements",
+            "since": "1.0.0",
+            "triggers": [],
+            "actions": [
+                {
+                    "id": "learndash_award_achievement_to_user",
+                    "label": "Award Achievement to User",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "LearnPress",
+            "name": "Learnpress",
+            "slug": "learnpress",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "learnpress_course_completed",
+                    "label": "User completes course",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "learnpress_lesson_completed",
+                    "label": "User completes lesson",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "learnpress_user_enrolled_in_course",
+                    "label": "User Enrolled In Course",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "lp_enroll_user_course",
+                    "label": "Enroll User To Course",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "lp_remove_user_course",
+                    "label": "Remove User From Course",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "LifterLMS",
+            "name": "Lifterlms",
+            "slug": "lifterlms",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "lifterlms_course_completed",
+                    "label": "User complete course",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "lifterlms_lesson_completed",
+                    "label": "User Completes a Lesson",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "lifterlms_purchase_course",
+                    "label": "User purchase course",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "lifterlms_purchase_membership",
+                    "label": "User purchase a membership",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "lifterlms_section_completed",
+                    "label": "User complete section",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "lifterlms_user_cancels_membership",
+                    "label": "User cancels a membership",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "lifterlms_user_enrolled_in_course",
+                    "label": "User Enrolled In Course",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "lifterlms_user_unenrolled_from_course",
+                    "label": "User Enrolled In Course",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "lms_enroll_to_course",
+                    "label": "Enroll User in a course",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "lms_enroll_to_membership",
+                    "label": "Enroll User in a Membership",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "lms_mark_course_complete",
+                    "label": "Mark course complete for User",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "lms_mark_lesson_complete",
+                    "label": "Mark lesson complete for User",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "lms_mark_section_complete",
+                    "label": "Mark section complete for User",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "lms_remove_from_course",
+                    "label": "Remove user from course",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "lms_remove_from_membership",
+                    "label": "Remove user from membership",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "MailMint",
+            "name": "MailMint",
+            "slug": "mail-mint",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "mail_mint_lists_added_to_contact",
+                    "label": "Lists Added To Contact",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "mail_mint_tags_added_to_contact",
+                    "label": "TagAppliedToContact",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "mail_mint_add_lists_to_contact",
+                    "label": "Add Lists To Contact",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "mail_mint_add_recipients_to_campaign",
+                    "label": "Add Recipients To Campaign",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "mail_mint_add_tags_to_contact",
+                    "label": "Add Tag To Contact",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "mail_mint_create_contact",
+                    "label": "Create Contact",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "mail_mint_delete_contact",
+                    "label": "Delete Contact",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "mail_mint_get_all_campaigns",
+                    "label": "List Campaigns",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "mail_mint_get_all_contacts",
+                    "label": "List Contacts",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "mail_mint_get_all_lists",
+                    "label": "Get Lists",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "mail_mint_get_all_tags",
+                    "label": "List Tags",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "mail_mint_remove_lists_from_contact",
+                    "label": "Remove Lists From Contact",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "mail_mint_remove_tags_from_contact",
+                    "label": "Remove Tags From Contact",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "MailPoet",
+            "name": "Mailpoet",
+            "slug": "mailpoet",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "mailpoet_form_submitted",
+                    "label": "Form Submitted",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "add_subscriber_to_list",
+                    "label": "Add New Subscriber",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "remove_subscriber_from_list",
+                    "label": "Remove User from List",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "update_subscriber_status",
+                    "label": "Update Subscriber Status",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "update_subscriber_to_new_list",
+                    "label": "Add User to List",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "MasterStudyLms",
+            "name": "MasterstudyLms",
+            "slug": "masterstudy-lms",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "stm_lesson_passed",
+                    "label": "Lesson Completed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "stm_lms_course_completed",
+                    "label": "Course Completed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "stm_lms_user_enroll_course",
+                    "label": "User Enrolled InTo Course",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "stm_quiz_failed",
+                    "label": "Quiz Failed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "stm_quiz_passed",
+                    "label": "Quiz Passed",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "Masteriyo",
+            "name": "Masteriyo",
+            "slug": "masteriyo",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "ma_lms_course_completed",
+                    "label": "Course Completed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ma_lms_lesson_completed",
+                    "label": "Lesson Completed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ma_lms_quiz_failed",
+                    "label": "Quiz Failed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ma_lms_quiz_passed",
+                    "label": "Quiz Passed",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "MemberPress",
+            "name": "Memberpress",
+            "slug": "memberpress",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "mepr-coupon-code-redeemed",
+                    "label": "Coupon Code Redeemed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "mepr-event-transaction-completed",
+                    "label": "Membership Purchased",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "mepr-event-transaction-paused",
+                    "label": "Membership Paused",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "mepr_subscription_transition_status",
+                    "label": "Membership Cancelled",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "mp_add_membership",
+                    "label": "Add to Membership",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "mp_create_coupon",
+                    "label": "Create Coupon",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "mp_remove_membership",
+                    "label": "Remove from Membership",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "MemberPressCourse",
+            "name": "MemberpressCourse",
+            "slug": "memberpress-course",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "mpc_course_completed",
+                    "label": "Course Completed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "mpc_lesson_completed",
+                    "label": "Lesson Completed",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "mpc_complete_course",
+                    "label": "Complete Course",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "mpc_complete_lesson",
+                    "label": "Complete Lesson",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "MetForm",
+            "name": "Metform",
+            "slug": "metform",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "user_submits_metform",
+                    "label": "User Submits Form",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "MetaBox",
+            "name": "Metabox",
+            "slug": "metabox",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "post_metabox_field_updated",
+                    "label": "Field is updated on Post",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_metabox_field_updated",
+                    "label": "User Metabox Field Updated",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "ModernEventsCalendar",
+            "name": "ModernEventsCalendar",
+            "slug": "modern-events-calendar",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "mec_event_booking_cancelled",
+                    "label": "Event Booking Cancelled",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "mec_event_booking_completed",
+                    "label": "Event Booking Completed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "mec_event_booking_confirmed",
+                    "label": "Event Booking Confirmed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "mec_event_booking_pending",
+                    "label": "Event Booking Pending",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "mec_event_created",
+                    "label": "New Event Created",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "mec_register_user_for_an_event",
+                    "label": "Register User for an Event",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "MyCred",
+            "name": "Mycred",
+            "slug": "mycred",
+            "since": "1.0.0",
+            "triggers": [],
+            "actions": [
+                {
+                    "id": "award_badge_to_user",
+                    "label": "Award Badge",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "award_points_to_user",
+                    "label": "Award Points",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "award_rank_to_user",
+                    "label": "Award Rank",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "revoke_badge_from_user",
+                    "label": "Revoke Badge",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "revoke_points_from_user",
+                    "label": "Revoke Badge",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "Newsletter",
+            "name": "Newsletter",
+            "slug": "newsletter",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "subscription_form_submitted_list",
+                    "label": "Subscription Form Submitted with Specific List",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "add_user_to_list",
+                    "label": "Add User to List",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "remove_user_from_list",
+                    "label": "Remove User from List",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "NinjaForms",
+            "name": "NinjaForms",
+            "slug": "ninja-forms",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "user_submits_ninjaforms",
+                    "label": "User Submits Form",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "NinjaTables",
+            "name": "NinjaTables",
+            "slug": "ninja-tables",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "ninja_tables_new_row_added",
+                    "label": "New Row Added",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ninja_tables_row_updated",
+                    "label": "Row Updated",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "ninja_tables_delete_row",
+                    "label": "Delete Row in Table",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ninja_tables_new_row",
+                    "label": "Add Row in Table",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ninja_tables_update_row",
+                    "label": "Update Row in Table",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "PaidMembershipsPro",
+            "name": "PaidMembershipsPro",
+            "slug": "paid-memberships-pro",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "admin_assigns_membership_user",
+                    "label": "An admin assigns a membership level to a user",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_cancels_membership",
+                    "label": "A user cancels a membership",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_membership_expires",
+                    "label": "A user",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_purchases_membership",
+                    "label": "A user purchases a membership",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_renews_expired_membership",
+                    "label": "A user renews an expired membership",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "add_user_to_membership_level",
+                    "label": "Add the user to a membership level",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "list_members_by_membership_level",
+                    "label": "List all users in a membership level",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "remove_user_from_membership_level",
+                    "label": "Remove the user from a membership level",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "Paymattic",
+            "name": "Paymattic",
+            "slug": "paymattic",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "wppay_payment_form_submitted",
+                    "label": "Payment Form Completed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wppay_payment_status_changed",
+                    "label": "Payment Status Changed",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "wppay_payment_change_status",
+                    "label": "Change Payment Status ",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "PeepSo",
+            "name": "Peepso",
+            "slug": "peepso",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "peepso_activity_after_add_post",
+                    "label": "New Activity Post",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "peepso_user_follows_member",
+                    "label": "User Follows PeppSo Member",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "peepso_user_gains_follower",
+                    "label": "User Gains Follower",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "peepso_user_loses_follower",
+                    "label": "User Loses Follower",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "peepso_user_unfollows_member",
+                    "label": "User Unfollows PeppSo Member",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "peepso_user_updates_avatar",
+                    "label": "User Updates Avatar",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "peepso_user_updates_specific_profile_field",
+                    "label": "User Updates Specific Profile Field",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "peepso_user_updates_specific_profile_field_value",
+                    "label": "User Updates Specific Profile Field Value",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "change_user_peepso_role",
+                    "label": "Change User PeepSo Role",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "peepso_add_post_sitewide_activity_stream",
+                    "label": "Add Post to Sitewide Activity Stream",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "peepso_follow_user",
+                    "label": "Follow User",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "PieForms",
+            "name": "PieForms",
+            "slug": "pie-forms",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "user_submits_pieforms",
+                    "label": "Form Submitted",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "PowerfulDocs",
+            "name": "PowerfulDocs",
+            "slug": "powerful-docs",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "pfd_feedback_received",
+                    "label": "Feedback Received",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "PrestoPlayer",
+            "name": "PrestoPlayer",
+            "slug": "presto-player",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "user_video_completes",
+                    "label": "Video Completed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_video_percent",
+                    "label": "Video Watched",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "pp_create_mediahub",
+                    "label": "Create Media Hub",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "ProfileGrid",
+            "name": "Profilegrid",
+            "slug": "profilegrid",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "pg_group_deleted",
+                    "label": "Group Deleted",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "pg_group_manager_resets_password",
+                    "label": "Group Manager Resets Password",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "pg_membership_request_approved",
+                    "label": "Membership Request Approved",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "pg_membership_request_denied",
+                    "label": "Membership Request Denied",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "pg_new_membership_request",
+                    "label": "New Membership Request",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "pg_payment_complete",
+                    "label": "Payment Complete",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "pg_payment_failed",
+                    "label": "Payment Failed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "pg_user_added_to_group",
+                    "label": "User Added to Group",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "pg_user_assigned_group_manager",
+                    "label": "User Assigned Group Manager",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "pg_user_removed_from_group",
+                    "label": "User Removed from Group",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "ProfilePress",
+            "name": "Profilepress",
+            "slug": "profilepress",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "profilepress_customer_updated",
+                    "label": "A ProfilePress customer is updated",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "profilepress_subscription_activated",
+                    "label": "A ProfilePress subscription is activated",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "add_new_order",
+                    "label": "Add New Order",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "add_update_profilepress_customer",
+                    "label": "Add/Update ProfilePress customer",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "ProjectHuddle",
+            "name": "Projecthuddle",
+            "slug": "projecthuddle",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "new_comment_on_site",
+                    "label": "New Comment On Site",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ph_comment_resolved",
+                    "label": "Comment Marked As Resolved",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "ph_create_mockup",
+                    "label": "Post: Create a Post",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "RafflePress",
+            "name": "RafflePress",
+            "slug": "raffle-press",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "rp_someone_registered_for_giveaway",
+                    "label": "Someone Registered for Giveaway",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "rp_someone_registered_for_giveaway_with_specific_action",
+                    "label": "Someone Registered for Giveaway with Specific Action",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "rafflepress_add_contact_to_contest",
+                    "label": "Add Contact to Contest",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "RestrictContent",
+            "name": "RestrictContent",
+            "slug": "restrict-content",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "restrict_content_membership_cancelled",
+                    "label": "Customer Membership Cancelled",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "restrict_content_membership_expired",
+                    "label": "Customer Membership Expired",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "restrict_content_membership_purchased",
+                    "label": "Membership Purchased",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "restrict_content_add_user",
+                    "label": "Add User to Membership Level",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "restrict_content_remove_user",
+                    "label": "Remove User from Membership Level",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "SenseiLMS",
+            "name": "SenseiLms",
+            "slug": "sensei-lms",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "sl_user_attempt_quiz",
+                    "label": "User Attempts Quiz",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "sl_user_completes_course",
+                    "label": "User Completes Course",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "sl_user_completes_lesson",
+                    "label": "User Completes Lesson",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "sl_user_completes_quiz_percentage",
+                    "label": "User Completes Quiz Percentage",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "sl_user_enrolled_course",
+                    "label": "User Enrolled Course",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "sl_user_fails_quiz",
+                    "label": "User Fails Quiz",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "sl_user_passes_quiz",
+                    "label": "User Passes Quiz",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "sl_enroll_user_to_course",
+                    "label": "Enroll User To Course",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "sl_unenroll_user_from_course",
+                    "label": "Unenroll User From Course",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "ServicesForSureCart",
+            "name": "ServicesForSurecart",
+            "slug": "services-for-surecart",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "ss_contract_signed",
+                    "label": "Contract Signed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ss_customer_approves_final_delivery",
+                    "label": "Customer Approves Final Delivery",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ss_customer_request_revision",
+                    "label": "Customer Request Revision",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ss_delivery_date_changed",
+                    "label": "Delivery Date Changed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ss_message_final_delivery_sent",
+                    "label": "Final Delivery Sent",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ss_message_sent",
+                    "label": "Message Sent",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ss_new_service_created",
+                    "label": "New Service Created",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ss_requirement_submitted",
+                    "label": "Requirement Submitted",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ss_service_auto_complete",
+                    "label": "Service Auto Complete",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ss_service_cancel",
+                    "label": "Service Cancel",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ss_service_completed",
+                    "label": "Service Completed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ss_service_mark_completed",
+                    "label": "Service Mark Completed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ss_service_marked_cancelled",
+                    "label": "Service Marked as Canceled",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "SimplyScheduleAppointments",
+            "name": "SimplyScheduleAppointments",
+            "slug": "simply-schedule-appointments",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "ssa_appointment_booked",
+                    "label": "New Appointment Booked",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ssa_appointment_rescheduled",
+                    "label": "Appointment Rescheduled",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "SliceWP",
+            "name": "SliceWp",
+            "slug": "slice-wp",
+            "since": "1.0.0",
+            "triggers": [],
+            "actions": [
+                {
+                    "id": "slicewp_create_affiliate",
+                    "label": "Create Affiliate",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "slicewp_create_commission",
+                    "label": "Create Commission for specific Affiliate",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "slicewp_list_affiliates",
+                    "label": "List Affiliates",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "Spectra",
+            "name": "UltimateAddonsForGutenberg",
+            "slug": "ultimate-addons-for-gutenberg",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "user_submits_spectraform",
+                    "label": "User Submits Form",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "StoreEngine",
+            "name": "Storeengine",
+            "slug": "storeengine",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "se_product_purchased",
+                    "label": "Product Purchased",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "se_create_order",
+                    "label": "Create Order",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "se_create_product",
+                    "label": "Create Product",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "se_update_product",
+                    "label": "Update Product",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "SupportPortalForSureCart",
+            "name": "SupportPortalForSurecart",
+            "slug": "support-portal-for-surecart",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "sps_new_email_message_fetched",
+                    "label": "New Email Message Fetched",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "sps_new_message_sent",
+                    "label": "New Message Sent",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "sps_new_ticket_created",
+                    "label": "New Support Ticket Created",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "sps_support_ticket_status_changed",
+                    "label": "Support Ticket Status Changed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "sps_ticket_marked_as_closed",
+                    "label": "Tickets Marked as Closed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "sps_ticket_marked_as_open",
+                    "label": "Tickets Marked as Opened",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "SureForms",
+            "name": "Sureforms",
+            "slug": "sureforms",
+            "since": "1.0.0",
+            "triggers": [],
+            "actions": [
+                {
+                    "id": "sureforms_send_data",
+                    "label": "Send Data",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "SureMail",
+            "name": "Suremail",
+            "slug": "suremail",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "suremail_mail_blocked",
+                    "label": "Mail Blocked To Send",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "suremail_mail_failed",
+                    "label": "Mail Failed To Send",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "suremail_mail_sent",
+                    "label": "Mail Sent",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "SureMembers",
+            "name": "Suremembers",
+            "slug": "suremembers",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "suremember_user_added_in_group",
+                    "label": "User Added",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "suremember_user_removed_from_group",
+                    "label": "User Removed",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "add_access_to_group",
+                    "label": "Add User to Access Group",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "remove_access_from_group",
+                    "label": "Remove User from Group",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "TheEventCalendar",
+            "name": "EventCalendar",
+            "slug": "event-calendar",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "attendee_registered_event",
+                    "label": "Attendee Registered for Event",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_attends_event",
+                    "label": "User Attends Event",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_register_for_event",
+                    "label": "New Attendee",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "ThriveLeads",
+            "name": "ThriveLeads",
+            "slug": "thrive-leads",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "tl_form_submitted",
+                    "label": "Form Submitted",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "tl_registration_form_submitted",
+                    "label": "Registration Form Submitted",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "TriggerButton",
+            "name": "Triggerbutton",
+            "slug": "triggerbutton",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "st_trigger_button",
+                    "label": "A User Clicks on Trigger Button",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "TutorLMS",
+            "name": "Tutorlms",
+            "slug": "tutorlms",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "tlms_quiz_failed",
+                    "label": "User fails Quiz",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "tlms_quiz_passed",
+                    "label": "User passes Quiz",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "tlms_quiz_percentage",
+                    "label": "User passes Quiz",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "tutor_after_asked_question",
+                    "label": "User Posts Question in Course",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "tutor_after_enrolled",
+                    "label": "User Enrolled In Course",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "tutor_course_complete_after",
+                    "label": "User complete Course",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "tutor_lesson_completed_after",
+                    "label": "User complete Lesson",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "tlms_list_enrolled_users",
+                    "label": "List Enrolled Users",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "tlms_mark_course_complete",
+                    "label": "Mark Course Complete",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "tlms_mark_lesson_complete",
+                    "label": "Mark Lesson Complete",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "tlms_reset_user_course_progress",
+                    "label": "Reset User Course Progress",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "UltimateMember",
+            "name": "UltimateMember",
+            "slug": "ultimate-member",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "user_inactive",
+                    "label": "User Become Inactive",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "um_add_user_role",
+                    "label": "Add a role to the user",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "um_set_user_role",
+                    "label": "Set the user role",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "Voxel",
+            "name": "Voxel",
+            "slug": "voxel",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "voxel_collection_post_created",
+                    "label": "Collection Post Submitted",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_collection_post_updated",
+                    "label": "Collection Post Updated",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_comment_liked",
+                    "label": "Comment Liked",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_comment_reply_created_timeline",
+                    "label": "New Comment Reply Created on Timeline",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_membership_plan_activated",
+                    "label": "Membership Plan Activated",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_membership_plan_canceled",
+                    "label": "Membership Plan Canceled",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_membership_plan_switched",
+                    "label": "Membership Plan Switched",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_membership_plan_updated",
+                    "label": "Membership Plan Updated",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_membership_user_registered",
+                    "label": "User Registered",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_new_comment_timeline",
+                    "label": "New Comment Created on Timeline",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_new_message_post_created",
+                    "label": "Voxel Message Posted",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_new_order_placed",
+                    "label": "New Order Placed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_new_profile_created",
+                    "label": "New Profile Created",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_new_wall_post_by_user",
+                    "label": "New Wall Post by User",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_order_approved_by_vendor",
+                    "label": "Order Approved By Vendor",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_order_canceled_by_customer",
+                    "label": "Order Canceled by Customer",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_order_declined_by_vendor",
+                    "label": "Order Declined By Vendor",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_orders_claim_listing",
+                    "label": "Orders Claim Listing",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_orders_promotion_activated",
+                    "label": "Order Approved By Vendor",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_orders_promotion_canceled",
+                    "label": "Order Promotion Canceled",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_post_approved",
+                    "label": "Post Approved",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_post_followed",
+                    "label": "Post Followed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_post_liked",
+                    "label": "Post Liked",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_post_quoted",
+                    "label": "Post Reposted",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_post_rejected",
+                    "label": "Post Rejected",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_post_reposted",
+                    "label": "Post Reposted",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_post_reviewed",
+                    "label": "Post Reviewed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_post_submitted",
+                    "label": "Post Submitted",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_post_updated",
+                    "label": "Post Updated",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_profile_approved",
+                    "label": "Profile Approved",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_profile_new_wall_post",
+                    "label": "Profile New Wall Post",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_profile_rejected",
+                    "label": "Profile Rejected",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_profile_reviewed",
+                    "label": "Profile Reviewed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_profile_updated",
+                    "label": "Profile Updated",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_taxonomy_updated",
+                    "label": "Taxonomy Updated",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_user_mentioned_in_comment",
+                    "label": "User Mentioned In Comment",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_user_mentioned_in_post",
+                    "label": "User Mentioned In Post",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_user_receives_message",
+                    "label": "User Receives Message",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "voxel_add_post_profile_wall",
+                    "label": "Add Post to Profile Wall",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_add_post_to_collection",
+                    "label": "Add Post to Collection",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_add_post_wall",
+                    "label": "Add Post to Wall",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_change_membership_plan",
+                    "label": "Change Membership Plan",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_claim_post",
+                    "label": "Claim Post",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_create_new_collection_post",
+                    "label": "Create New Collection Post",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_create_new_post",
+                    "label": "Create New Post",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_create_new_profile",
+                    "label": "Create New Profile",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_delete_wall_post",
+                    "label": "Delete Post Wall",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_follow_post",
+                    "label": "Follow Post",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_get_address_by_coordinates",
+                    "label": "Get Address By Coordinates",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_get_cooordinates_by_address",
+                    "label": "Get Coordinates By Address",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_get_member_by_email",
+                    "label": "Get Member By Email",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_get_posts_by_voxel_field",
+                    "label": "Get Posts by Voxel Field",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_remove_post_from_collection",
+                    "label": "Remove Post from Collection",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_send_custom_in_app_notification",
+                    "label": "Send Custom In App Notification",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_send_direct_message",
+                    "label": "Send Direct Message",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_send_email",
+                    "label": "Send Email",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_set_collection_post_verified",
+                    "label": "Set Collection Post Verified",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_set_custom_priority",
+                    "label": "Set Custom Priority",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_set_post_verified",
+                    "label": "Send Email",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_set_profile_verified",
+                    "label": "Send Email",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_update_existing_collection_post",
+                    "label": "Update Collection Post",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_update_existing_post",
+                    "label": "Update Post",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_update_existing_profile",
+                    "label": "Update Profile",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_update_post_field",
+                    "label": "Update Voxel Post Field",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_update_taxonomy",
+                    "label": "Update Voxel Taxonomy",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "WPCourseware",
+            "name": "WpCourseware",
+            "slug": "wp-courseware",
+            "since": "1.0.0",
+            "triggers": [],
+            "actions": [
+                {
+                    "id": "wpcw_enroll_user_to_course",
+                    "label": "Enroll User To Course",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wpcw_remove_user_from_course",
+                    "label": "Remove User from Course",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "WPForms",
+            "name": "Wpforms",
+            "slug": "wpforms",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "user_submits_wpform",
+                    "label": "Form Submitted",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "WPFusion",
+            "name": "WpFusion",
+            "slug": "wp-fusion",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "wf_tag_added_to_user",
+                    "label": "Tag Added To User",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wf_tag_modified",
+                    "label": "User Tag Modified",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wf_tag_removed_from_user",
+                    "label": "Tag Removed From User",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "wf_add_tag_to_user",
+                    "label": "Add Tag To User",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wf_get_contact_tags",
+                    "label": "Get Contact Tags",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wf_remove_tag_from_user",
+                    "label": "Remove Tag From User",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "WPJobManager",
+            "name": "WpJobManager",
+            "slug": "wp-job-manager",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "wpjob_manager_transition_post_status",
+                    "label": "User publishes a job of a type",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "WPLMS",
+            "name": "Wplms",
+            "slug": "wplms",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "wplms_submit_course",
+                    "label": "User complete course",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "WPLoyalty",
+            "name": "Wployalty",
+            "slug": "wployalty",
+            "since": "1.0.0",
+            "triggers": [],
+            "actions": [
+                {
+                    "id": "wp_loyalty_add_points_customer",
+                    "label": "Add Points to Customer",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wp_loyalty_remove_points_customer",
+                    "label": "Remove Points of Customer",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "WPSubscription",
+            "name": "Wpsubscription",
+            "slug": "wpsubscription",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "wp_subscription_activated",
+                    "label": "Subscription Activated",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wp_subscription_cancelled",
+                    "label": "Subscription Cancelled",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wp_subscription_expired",
+                    "label": "Subscription Expired",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wp_subscription_pending",
+                    "label": "Subscription Pending",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wp_subscription_pending_cancellation",
+                    "label": "Subscription Pending Cancellation",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wp_subscription_status_changed",
+                    "label": "Subscription Status Changed",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "wp_get_subscription_details",
+                    "label": "Get Subscription Details",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wp_update_subscription_status",
+                    "label": "Update Subscription Status",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "WPTravelEngine",
+            "name": "WpTravelEngine",
+            "slug": "wp-travel-engine",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "wte_booking_cancelled",
+                    "label": "Booking Cancelled",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wte_booking_confirmed",
+                    "label": "Booking Confirmed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wte_booking_created",
+                    "label": "Booking Created",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wte_enquiry_submitted",
+                    "label": "New Enquiry Submitted",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "wpte_create_trip",
+                    "label": "Create a Trip",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wte_create_coupon",
+                    "label": "Create a Coupon",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wte_list_bookings",
+                    "label": "List Bookings",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wte_list_trips",
+                    "label": "List Trips",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wte_retrieve_booking",
+                    "label": "Retrieve a Booking",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wte_retrieve_enquiry",
+                    "label": "Retrieve an Enquiry",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wte_update_booking_status",
+                    "label": "Update Booking Status",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "WPUserManager",
+            "name": "WpUserManager",
+            "slug": "wp-user-manager",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "wpuser_manager_user_removes_profile_cover_image",
+                    "label": "User Removes Profile Cover Image",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wpuser_manager_user_removes_profile_photo",
+                    "label": "User Removes Profile Photo",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wpuser_manager_user_updates_account_information",
+                    "label": "User Updates Account Information",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wpuser_manager_user_updates_cover_photo",
+                    "label": "User Updates Cover Photo",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wpuser_manager_user_updates_profile_description",
+                    "label": "User Updates Profile Description",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wpuser_manager_user_updates_profile_photo",
+                    "label": "User Updates Profile Photo",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "WSForm",
+            "name": "WsForm",
+            "slug": "ws-form",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "user_submits_wsform",
+                    "label": "Form Submitted",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "WishlistMember",
+            "name": "Wishlistmember",
+            "slug": "wishlistmember",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "wishlist_membership_add_user",
+                    "label": "User Added to Membership Level",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wishlist_membership_remove_user",
+                    "label": "User Removed from Membership Level",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "wishlist_member_add_user",
+                    "label": "Add User to Membership Level",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wishlist_member_check_if_user_is_member",
+                    "label": "Check if User is Member",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wishlist_member_delete_existing_member",
+                    "label": "Delete Existing Member",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wishlist_member_delete_level",
+                    "label": "Delete Level",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wishlist_member_get_all_levels",
+                    "label": "Get all Levels",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wishlist_member_get_member_by_email",
+                    "label": "Get Member By Email",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wishlist_member_get_member_by_username",
+                    "label": "Get Member By Username",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wishlist_member_get_member_information",
+                    "label": "Get Member Information",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wishlist_member_get_specific_levels_details",
+                    "label": "Get Specific Level Details",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wishlist_member_get_specific_member_level",
+                    "label": "Get specific Members Levels",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wishlist_member_update_existing_level",
+                    "label": "Update Existing Level",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wishlistmember_remove_user_levels",
+                    "label": "Remove User from Membership Level",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "WooCommerce",
+            "name": "Woocommerce",
+            "slug": "woocommerce",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "wc_customer_created",
+                    "label": "Customer Created",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_customer_order_count_reach_specific_count",
+                    "label": "Customer Order Count Reaches Specific Count",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_customer_total_spend_reach_specific_amount",
+                    "label": "Customer Created",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_order_created",
+                    "label": "Order created",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_order_note_added",
+                    "label": "Order Note Added",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_order_paid",
+                    "label": "Order Paid",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_order_status_changed",
+                    "label": "Order Status Changes",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_purchase_product",
+                    "label": "User purchases a product",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_purchase_product_category",
+                    "label": "Product Category Purchased",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_purchase_sub_variation",
+                    "label": "User purchases a variable subscription",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_purchase_variable_product",
+                    "label": "User purchases a variable product with a variation selected",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_review_product",
+                    "label": "User reviews a product",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "woocommerce_add_to_cart",
+                    "label": "Product is added to cart",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wp_view_product",
+                    "label": "User views a product",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "wc_add_attribute_terms",
+                    "label": "Add Attribute Terms",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_add_order_note",
+                    "label": "Add Order Note",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_add_product_attribute",
+                    "label": "Add Product Attributes",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_add_update_custom_fields",
+                    "label": "Add or Update Custom Fields",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_create_attribute",
+                    "label": "Create Attributes",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_create_coupon_code",
+                    "label": "Generate a coupon code.",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_create_new_order",
+                    "label": "Create a new order for the user",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_create_product",
+                    "label": "Create Product in WooCommerce",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_create_product_variation",
+                    "label": "Create Product Variation",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_fetch_coupon_details",
+                    "label": "Fetch Coupon Details",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_retrieve_coupons_totals",
+                    "label": "Retrieve Coupons Totals",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_retrieve_customers_totals",
+                    "label": "Retrieve Customers Totals",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_retrieve_orders_totals",
+                    "label": "Retrieve Orders Totals",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_retrieve_products_totals",
+                    "label": "Retrieve Products Totals",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_retrieve_refunds_list",
+                    "label": "Retrieve a List of Refunds",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_retrieve_reviews_totals",
+                    "label": "Retrieve Reviews Totals",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_retrieve_sales_report",
+                    "label": "Retrieve Sales Report",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_retrieve_top_sellers_report",
+                    "label": "Retrieve Top Sellers Report",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_update_status_of_order",
+                    "label": "Update Status of Order.",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "WoocommerceBookings",
+            "name": "WoocommerceBookings",
+            "slug": "woocommerce-bookings",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "wc_booking_created",
+                    "label": "Booking Created",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_booking_status_changed",
+                    "label": "Booking Created",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "WoocommerceMemberships",
+            "name": "WoocommerceMemberships",
+            "slug": "woocommerce-memberships",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "wc_user_membership_plan",
+                    "label": "A user is added to a membership plan",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_user_membership_plan_cancelled",
+                    "label": "A user",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_user_membership_plan_expires",
+                    "label": "A user",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_user_membership_status_changed",
+                    "label": "User",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "wc_add_user_to_membership_plan",
+                    "label": "Add the user to a membership plan.",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_change_user_membership_plan",
+                    "label": "Change User Membership Plan",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_remove_user_from_membership_plan",
+                    "label": "Remove the user from a membership plan.",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "WoocommerceShipstation",
+            "name": "WoocommerceShipstation",
+            "slug": "woocommerce-shipstation",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "wc_order_shipped",
+                    "label": "Order Is Shipped",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_specific_amount_order_shipped",
+                    "label": "Order For Specific Amount Shipped",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_specific_product_order_shipped",
+                    "label": "Order For Specific Product Shipped",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "WoocommerceSubscriptions",
+            "name": "WoocommerceSubscriptions",
+            "slug": "woocommerce-subscriptions",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "wc_cancels_subscription_product",
+                    "label": "User Cancels Subscription",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_purchases_variable_subscription",
+                    "label": "User Purchases Variable Subscription",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_renewal_subscription_payment_failed",
+                    "label": "User Renewal Subscription Payment Failed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_renews_subscription_product",
+                    "label": "User Renews Subscription",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_subscribes_product",
+                    "label": "User Subscribes To Product",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_subscription_product_expires",
+                    "label": "User Subscription Expires",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_subscription_trial_end",
+                    "label": "User Subscription Trial End",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_subscription_updated",
+                    "label": "User Subscription Updated",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "wc_add_subscription_coupon",
+                    "label": "Add Coupon",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_add_update_subscription_custom_fields",
+                    "label": "Add or Update Custom Fields",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_change_subscription_status",
+                    "label": "Change Subscription Status",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_create_subscription_order_cost",
+                    "label": "Create a subscription order with a product",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_create_subscription_order_product",
+                    "label": "Create a subscription order with a product",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_extend_subscription_date",
+                    "label": "Extend User Subscription",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_remove_product_user_subscription",
+                    "label": "Remove Product User Subscription",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_update_subscription_end_date",
+                    "label": "Update Subscription End Date",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_update_subscription_next_payment_date",
+                    "label": "Update Subscription Next Payment Date",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "WordPress",
+            "name": "WordPress",
+            "slug": "wordpress",
+            "since": "1.0.0",
+            "homepage": "https://wordpress.org",
+            "tags": [
+                "core",
+                "users",
+                "posts",
+                "comments"
+            ],
+            "triggers": [
+                {
+                    "id": "add_user_role",
+                    "label": "Role: Add a new role to the users roles",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "after_password_reset",
+                    "label": "User resets their password",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "post_updated",
+                    "label": "User updates a post",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "remove_user_role",
+                    "label": "Role: Remove a role from the user",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "set_user_role",
+                    "label": "Role: Change the users role to a new role",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "transition_comment_status",
+                    "label": "User Comment Approved",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "transition_post_status",
+                    "label": "User updates a post in a specific status",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "trashed_post",
+                    "label": "Post/Page/CPT is moved to Trash",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "updated_user_meta",
+                    "label": "User Meta Key Updated",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wordpress.user.created",
+                    "label": "User is created",
+                    "description": "Fires when a new WordPress user is registered",
+                    "payloadSchema": {
+                        "type": "object",
+                        "properties": {
+                            "wp_user_id": {
+                                "type": "integer",
+                                "description": "User ID"
+                            },
+                            "user_login": {
+                                "type": "string",
+                                "description": "Username"
+                            },
+                            "display_name": {
+                                "type": "string",
+                                "description": "Display name"
+                            },
+                            "user_firstname": {
+                                "type": "string",
+                                "description": "First name"
+                            },
+                            "user_lastname": {
+                                "type": "string",
+                                "description": "Last name"
+                            },
+                            "user_email": {
+                                "type": "string",
+                                "format": "email",
+                                "description": "Email address"
+                            },
+                            "user_registered": {
+                                "type": "string",
+                                "format": "date-time",
+                                "description": "Registration date"
+                            },
+                            "user_role": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string"
+                                },
+                                "description": "User roles"
+                            }
+                        }
+                    },
+                    "examples": [
+                        {
+                            "wp_user_id": 123,
+                            "user_login": "johndoe",
+                            "display_name": "John Doe",
+                            "user_firstname": "John",
+                            "user_lastname": "Doe",
+                            "user_email": "john@example.com",
+                            "user_registered": "2025-11-12 10:30:00",
+                            "user_role": [
+                                "subscriber"
+                            ]
+                        }
+                    ],
+                    "tags": [
+                        "users",
+                        "registration"
+                    ],
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wp_insert_comment",
+                    "label": "User submits a comment on a post",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wp_login",
+                    "label": "User logs in to the site",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wp_view_post",
+                    "label": "User views any post",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "add_new_media",
+                    "label": "Add New Image To Media Library",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "add_new_role",
+                    "label": "Add a new role to the user",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "add_tag_to_post",
+                    "label": "Add Tag To Post",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "add_taxonomy_to_post",
+                    "label": "Add Taxonomy",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "change_role",
+                    "label": "Role: Change the user",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "create_category",
+                    "label": "Create New Category",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "create_role",
+                    "label": "Create Role",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "create_tag",
+                    "label": "Create New Tag",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "create_update_post",
+                    "label": "Post: Create a Post",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "create_user_if_not_exists",
+                    "label": "User: Create new user if not exists with Email",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "delete_user",
+                    "label": "Delete User",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "find_post_by_criteria",
+                    "label": "Find Posts",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "find_user_by_email",
+                    "label": "Find User By Email",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "find_user_meta_by_key",
+                    "label": "User: Find User meta by key",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "get_post_metadata",
+                    "label": "Get Post Metadata",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "get_post_taxonomy",
+                    "label": "Get Post Taxonomies",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "get_post_terms",
+                    "label": "Get Post Terms",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "get_taxonomy_by_name",
+                    "label": "Get Taxonomy By Name",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "get_user_by_role",
+                    "label": "Get All Users By Role",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "remove_role",
+                    "label": "Role: Remove a role from the user",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "remove_user",
+                    "label": "User: Remove User",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "remove_user_meta",
+                    "label": "Remove User Meta",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "send_mail",
+                    "label": "Send an email",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "set_post_meta",
+                    "label": "Post: Set Post meta",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "set_user_meta",
+                    "label": "User: Set User meta",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "update_comment_status",
+                    "label": "Update Comment Status",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "update_post",
+                    "label": "Post: Update a Post",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "update_post_excerpt",
+                    "label": "Post: Create a Post",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "update_user",
+                    "label": "User: Update User Details",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wp_create_comment",
+                    "label": "Create Comment",
+                    "since": "1.0.0"
+                }
+            ]
+        },
+        {
+            "id": "WpAllImport",
+            "name": "WpAllImport",
+            "slug": "wp-all-import",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "wp_all_import_completed",
+                    "label": "Import Completed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wp_all_import_failed",
+                    "label": "Import Failed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wp_all_import_post_type_imported",
+                    "label": "Post Type Imported",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "WpPolls",
+            "name": "WpPolls",
+            "slug": "wp-polls",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "wp_polls_poll_submitted",
+                    "label": "Poll Submitted",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wp_polls_poll_submitted_with_specific_answer",
+                    "label": "Poll Submitted with a Specific Answer",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "WpSimplePay",
+            "name": "WpSimplePay",
+            "slug": "wp-simple-pay",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "wsp_payment_for_form_completed",
+                    "label": "Payment For Form Completed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wsp_subscription_for_form_created",
+                    "label": "Subscription For Form Created",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wsp_subscription_for_form_renewed",
+                    "label": "Subscription For Form Renewed",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "bbPress",
+            "name": "Bbpress",
+            "slug": "bbpress",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "bbpress_reply_to_topic",
+                    "label": "Reply To Topic.",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": []
+        },
+        {
+            "id": "wpForo",
+            "name": "Wpforo",
+            "slug": "wpforo",
+            "since": "1.0.0",
+            "triggers": [
+                {
+                    "id": "user_creates_new_topic_forum",
+                    "label": "User Creates New Topic in Forum",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_replies_topic_forum",
+                    "label": "User Replies to Topic in Forum",
+                    "since": "1.0.0"
+                }
+            ],
+            "actions": [
+                {
+                    "id": "wp_foro_add_user_to_group",
+                    "label": "Add User to Group",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wp_foro_create_topic",
+                    "label": "Create Topic",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wp_foro_delete_topic",
+                    "label": "Delete Topic",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wp_foro_remove_user_from_group",
+                    "label": "Remove User from Group",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wp_foro_set_user_reputation",
+                    "label": "Set User Reputation",
+                    "since": "1.0.0"
+                }
+            ]
+        }
+    ],
+    "checksum": "sha256:e562590f4a7120ad40a53f0cdb7c617b60a85949a99c6d41572ec19de2d9a414"
+}

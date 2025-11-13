@@ -1,0 +1,85 @@
+{
+    "id": "LearnDash",
+    "name": "Learndash",
+    "slug": "learndash",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "essay_question_graded",
+            "label": "User Added in Group",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_assignment_ld_graded",
+            "label": "User Submits Essay Quiz",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_submits_ld_assignment",
+            "label": "User Removed from Group",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "ld_enroll_to_course",
+            "label": "Enroll User in a course",
+            "since": "1.0.0"
+        },
+        {
+            "id": "ld_list_user_enrolled_courses",
+            "label": "List User Enrolled Courses",
+            "since": "1.0.0"
+        },
+        {
+            "id": "ld_mark_course_complete_for_user",
+            "label": "Mark Course Complete For User",
+            "since": "1.0.0"
+        },
+        {
+            "id": "ld_mark_lesson_complete_for_user",
+            "label": "Mark Lesson Complete For User",
+            "since": "1.0.0"
+        },
+        {
+            "id": "ld_mark_quiz_complete_for_user",
+            "label": "Mark Quiz Complete For User",
+            "since": "1.0.0"
+        },
+        {
+            "id": "ld_mark_topic_complete_for_user",
+            "label": "Mark Topic Complete For User",
+            "since": "1.0.0"
+        },
+        {
+            "id": "ld_reset_user_course_progress",
+            "label": "Reset User Progress",
+            "since": "1.0.0"
+        },
+        {
+            "id": "ld_unenroll_from_course",
+            "label": "Remove user from a course",
+            "since": "1.0.0"
+        },
+        {
+            "id": "learndash_add_user_group",
+            "label": "Add user to a group",
+            "since": "1.0.0"
+        },
+        {
+            "id": "learndash_find_user_groups",
+            "label": "Find User Groups",
+            "since": "1.0.0"
+        },
+        {
+            "id": "learndash_remove_user_from_group_leader",
+            "label": "Remove User from Group Leader",
+            "since": "1.0.0"
+        },
+        {
+            "id": "learndash_remove_user_group",
+            "label": "Remove user from a group",
+            "since": "1.0.0"
+        }
+    ]
+}

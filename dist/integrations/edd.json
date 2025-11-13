@@ -1,0 +1,14 @@
+{
+    "id": "EDD",
+    "name": "Edd",
+    "slug": "edd",
+    "since": "1.0.0",
+    "triggers": [],
+    "actions": [
+        {
+            "id": "edd_fetch_discount_details",
+            "label": "Fetch Discount Details",
+            "since": "1.0.0"
+        }
+    ]
+}

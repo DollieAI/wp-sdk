@@ -1,0 +1,14 @@
+{
+    "id": "bbPress",
+    "name": "Bbpress",
+    "slug": "bbpress",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "bbpress_reply_to_topic",
+            "label": "Reply To Topic.",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": []
+}

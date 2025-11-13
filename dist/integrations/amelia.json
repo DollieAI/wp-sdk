@@ -1,0 +1,55 @@
+{
+    "id": "Amelia",
+    "name": "Amelia",
+    "slug": "amelia",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "amelia_appointment_booking_status_changed",
+            "label": "Appointment Booking Status Changed",
+            "since": "1.0.0"
+        },
+        {
+            "id": "amelia_appointment_cancelled",
+            "label": "Appointment Cancelled",
+            "since": "1.0.0"
+        },
+        {
+            "id": "amelia_appointment_rescheduled",
+            "label": "Appointment Rescheduled",
+            "since": "1.0.0"
+        },
+        {
+            "id": "amelia_event_booking_status_changed",
+            "label": "Event Booking Status Changed",
+            "since": "1.0.0"
+        },
+        {
+            "id": "amelia_event_cancelled",
+            "label": "Event Cancelled",
+            "since": "1.0.0"
+        },
+        {
+            "id": "amelia_event_rescheduled",
+            "label": "Event Rescheduled",
+            "since": "1.0.0"
+        },
+        {
+            "id": "amelia_new_appointment_booked",
+            "label": "New Appointment Booked",
+            "since": "1.0.0"
+        },
+        {
+            "id": "amelia_new_event_attendee",
+            "label": "New Event Attendee",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "amelia_create_coupon",
+            "label": "Create Coupon",
+            "since": "1.0.0"
+        }
+    ]
+}

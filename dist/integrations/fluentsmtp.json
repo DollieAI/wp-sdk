@@ -1,0 +1,14 @@
+{
+    "id": "FluentSMTP",
+    "name": "Fluentsmtp",
+    "slug": "fluentsmtp",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "fs_email_delivery_error",
+            "label": "Error in Email Delivery",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": []
+}

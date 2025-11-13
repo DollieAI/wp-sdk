@@ -1,0 +1,25 @@
+{
+    "id": "RafflePress",
+    "name": "RafflePress",
+    "slug": "raffle-press",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "rp_someone_registered_for_giveaway",
+            "label": "Someone Registered for Giveaway",
+            "since": "1.0.0"
+        },
+        {
+            "id": "rp_someone_registered_for_giveaway_with_specific_action",
+            "label": "Someone Registered for Giveaway with Specific Action",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "rafflepress_add_contact_to_contest",
+            "label": "Add Contact to Contest",
+            "since": "1.0.0"
+        }
+    ]
+}

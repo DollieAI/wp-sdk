@@ -1,0 +1,14 @@
+{
+    "id": "Spectra",
+    "name": "UltimateAddonsForGutenberg",
+    "slug": "ultimate-addons-for-gutenberg",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "user_submits_spectraform",
+            "label": "User Submits Form",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": []
+}

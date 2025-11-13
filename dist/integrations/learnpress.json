@@ -1,0 +1,35 @@
+{
+    "id": "LearnPress",
+    "name": "Learnpress",
+    "slug": "learnpress",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "learnpress_course_completed",
+            "label": "User completes course",
+            "since": "1.0.0"
+        },
+        {
+            "id": "learnpress_lesson_completed",
+            "label": "User completes lesson",
+            "since": "1.0.0"
+        },
+        {
+            "id": "learnpress_user_enrolled_in_course",
+            "label": "User Enrolled In Course",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "lp_enroll_user_course",
+            "label": "Enroll User To Course",
+            "since": "1.0.0"
+        },
+        {
+            "id": "lp_remove_user_course",
+            "label": "Remove User From Course",
+            "since": "1.0.0"
+        }
+    ]
+}

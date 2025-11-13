@@ -1,0 +1,24 @@
+{
+    "id": "SureMail",
+    "name": "Suremail",
+    "slug": "suremail",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "suremail_mail_blocked",
+            "label": "Mail Blocked To Send",
+            "since": "1.0.0"
+        },
+        {
+            "id": "suremail_mail_failed",
+            "label": "Mail Failed To Send",
+            "since": "1.0.0"
+        },
+        {
+            "id": "suremail_mail_sent",
+            "label": "Mail Sent",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": []
+}

@@ -1,0 +1,14 @@
+{
+    "id": "Forminator",
+    "name": "Forminator",
+    "slug": "forminator",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "forminatorform_submitted",
+            "label": "A form is submitted",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": []
+}

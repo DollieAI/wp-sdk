@@ -1,0 +1,35 @@
+{
+    "id": "RestrictContent",
+    "name": "RestrictContent",
+    "slug": "restrict-content",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "restrict_content_membership_cancelled",
+            "label": "Customer Membership Cancelled",
+            "since": "1.0.0"
+        },
+        {
+            "id": "restrict_content_membership_expired",
+            "label": "Customer Membership Expired",
+            "since": "1.0.0"
+        },
+        {
+            "id": "restrict_content_membership_purchased",
+            "label": "Membership Purchased",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "restrict_content_add_user",
+            "label": "Add User to Membership Level",
+            "since": "1.0.0"
+        },
+        {
+            "id": "restrict_content_remove_user",
+            "label": "Remove User from Membership Level",
+            "since": "1.0.0"
+        }
+    ]
+}

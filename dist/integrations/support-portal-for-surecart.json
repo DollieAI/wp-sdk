@@ -1,0 +1,39 @@
+{
+    "id": "SupportPortalForSureCart",
+    "name": "SupportPortalForSurecart",
+    "slug": "support-portal-for-surecart",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "sps_new_email_message_fetched",
+            "label": "New Email Message Fetched",
+            "since": "1.0.0"
+        },
+        {
+            "id": "sps_new_message_sent",
+            "label": "New Message Sent",
+            "since": "1.0.0"
+        },
+        {
+            "id": "sps_new_ticket_created",
+            "label": "New Support Ticket Created",
+            "since": "1.0.0"
+        },
+        {
+            "id": "sps_support_ticket_status_changed",
+            "label": "Support Ticket Status Changed",
+            "since": "1.0.0"
+        },
+        {
+            "id": "sps_ticket_marked_as_closed",
+            "label": "Tickets Marked as Closed",
+            "since": "1.0.0"
+        },
+        {
+            "id": "sps_ticket_marked_as_open",
+            "label": "Tickets Marked as Opened",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": []
+}

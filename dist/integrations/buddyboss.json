@@ -1,0 +1,165 @@
+{
+    "id": "BuddyBoss",
+    "name": "Buddyboss",
+    "slug": "buddyboss",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "bb_user_account_activated",
+            "label": "User Account Activated",
+            "since": "1.0.0"
+        },
+        {
+            "id": "bb_user_creates_group",
+            "label": "User Creates Group",
+            "since": "1.0.0"
+        },
+        {
+            "id": "bb_user_gains_follower",
+            "label": "User Gains Follower",
+            "since": "1.0.0"
+        },
+        {
+            "id": "bb_user_joins_private_group",
+            "label": "User Joins Private Group.",
+            "since": "1.0.0"
+        },
+        {
+            "id": "bb_user_leaves_a_private_group",
+            "label": "User Leaves Private Group",
+            "since": "1.0.0"
+        },
+        {
+            "id": "bb_user_requests_access_private_group",
+            "label": "User Requests Access Private Group",
+            "since": "1.0.0"
+        },
+        {
+            "id": "bb_user_updates_profile",
+            "label": "User Updates Profile",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_accepts_friendship",
+            "label": "User Accepts Request",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_joins_public_group",
+            "label": "User Joins Public Group.",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_joins_specific_type_group",
+            "label": "User Joins Specific Type of Group.",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_leaves_a_group",
+            "label": "User Leaves Group",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_profile_type_changed",
+            "label": "User Profile Type Set To Specific Type",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_receives_private_message",
+            "label": "User Receives Private Message",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_sends_friendship_request",
+            "label": "User Sends Request",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "bb_add_post_to_activity_feed",
+            "label": "Add post to activity feed",
+            "since": "1.0.0"
+        },
+        {
+            "id": "bb_add_post_to_user_activity_feed",
+            "label": "Add Post to User Activity Feed",
+            "since": "1.0.0"
+        },
+        {
+            "id": "bb_add_user_to_group",
+            "label": "Add User to Group",
+            "since": "1.0.0"
+        },
+        {
+            "id": "bb_change_user_member_type",
+            "label": "Change Member Profile Type",
+            "since": "1.0.0"
+        },
+        {
+            "id": "bb_create_group",
+            "label": "Create Group",
+            "since": "1.0.0"
+        },
+        {
+            "id": "bb_end_friendship_with_user",
+            "label": "End friendship with user",
+            "since": "1.0.0"
+        },
+        {
+            "id": "bb_follow_user",
+            "label": "Follow User",
+            "since": "1.0.0"
+        },
+        {
+            "id": "bb_post_reply_topic_forum",
+            "label": "Post Reply Topic In Forum",
+            "since": "1.0.0"
+        },
+        {
+            "id": "bb_post_topic_in_forum",
+            "label": "Post Topic In Forum",
+            "since": "1.0.0"
+        },
+        {
+            "id": "bb_remove_user_from_group",
+            "label": "Remove User from Group",
+            "since": "1.0.0"
+        },
+        {
+            "id": "bb_send_message_to_group_members",
+            "label": "Send Message to Group Members",
+            "since": "1.0.0"
+        },
+        {
+            "id": "bb_send_notification_to_all_members_of_group",
+            "label": "Send Notification To All Members Of Group",
+            "since": "1.0.0"
+        },
+        {
+            "id": "bb_set_user_extended_profile",
+            "label": "Set User Extended Profile",
+            "since": "1.0.0"
+        },
+        {
+            "id": "bb_set_user_status",
+            "label": "Set User Status",
+            "since": "1.0.0"
+        },
+        {
+            "id": "bb_stop_following_user",
+            "label": "Stop Following User",
+            "since": "1.0.0"
+        },
+        {
+            "id": "bb_subscribe_user_to_forum",
+            "label": "Subscribe User to Forum",
+            "since": "1.0.0"
+        },
+        {
+            "id": "get_forum_subscribers",
+            "label": "Get Forum Subscribers",
+            "since": "1.0.0"
+        }
+    ]
+}

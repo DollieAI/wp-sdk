@@ -1,0 +1,19 @@
+{
+    "id": "WpPolls",
+    "name": "WpPolls",
+    "slug": "wp-polls",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "wp_polls_poll_submitted",
+            "label": "Poll Submitted",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wp_polls_poll_submitted_with_specific_answer",
+            "label": "Poll Submitted with a Specific Answer",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": []
+}

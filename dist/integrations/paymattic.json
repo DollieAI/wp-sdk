@@ -1,0 +1,25 @@
+{
+    "id": "Paymattic",
+    "name": "Paymattic",
+    "slug": "paymattic",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "wppay_payment_form_submitted",
+            "label": "Payment Form Completed",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wppay_payment_status_changed",
+            "label": "Payment Status Changed",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "wppay_payment_change_status",
+            "label": "Change Payment Status ",
+            "since": "1.0.0"
+        }
+    ]
+}

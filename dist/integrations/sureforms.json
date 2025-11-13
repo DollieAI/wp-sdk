@@ -1,0 +1,14 @@
+{
+    "id": "SureForms",
+    "name": "Sureforms",
+    "slug": "sureforms",
+    "since": "1.0.0",
+    "triggers": [],
+    "actions": [
+        {
+            "id": "sureforms_send_data",
+            "label": "Send Data",
+            "since": "1.0.0"
+        }
+    ]
+}

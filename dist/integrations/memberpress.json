@@ -1,0 +1,45 @@
+{
+    "id": "MemberPress",
+    "name": "Memberpress",
+    "slug": "memberpress",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "mepr-coupon-code-redeemed",
+            "label": "Coupon Code Redeemed",
+            "since": "1.0.0"
+        },
+        {
+            "id": "mepr-event-transaction-completed",
+            "label": "Membership Purchased",
+            "since": "1.0.0"
+        },
+        {
+            "id": "mepr-event-transaction-paused",
+            "label": "Membership Paused",
+            "since": "1.0.0"
+        },
+        {
+            "id": "mepr_subscription_transition_status",
+            "label": "Membership Cancelled",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "mp_add_membership",
+            "label": "Add to Membership",
+            "since": "1.0.0"
+        },
+        {
+            "id": "mp_create_coupon",
+            "label": "Create Coupon",
+            "since": "1.0.0"
+        },
+        {
+            "id": "mp_remove_membership",
+            "label": "Remove from Membership",
+            "since": "1.0.0"
+        }
+    ]
+}

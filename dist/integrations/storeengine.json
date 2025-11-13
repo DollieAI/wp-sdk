@@ -1,0 +1,30 @@
+{
+    "id": "StoreEngine",
+    "name": "Storeengine",
+    "slug": "storeengine",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "se_product_purchased",
+            "label": "Product Purchased",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "se_create_order",
+            "label": "Create Order",
+            "since": "1.0.0"
+        },
+        {
+            "id": "se_create_product",
+            "label": "Create Product",
+            "since": "1.0.0"
+        },
+        {
+            "id": "se_update_product",
+            "label": "Update Product",
+            "since": "1.0.0"
+        }
+    ]
+}

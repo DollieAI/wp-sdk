@@ -1,0 +1,14 @@
+{
+    "id": "WPJobManager",
+    "name": "WpJobManager",
+    "slug": "wp-job-manager",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "wpjob_manager_transition_post_status",
+            "label": "User publishes a job of a type",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": []
+}

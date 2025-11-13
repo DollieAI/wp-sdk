@@ -1,0 +1,24 @@
+{
+    "id": "SliceWP",
+    "name": "SliceWp",
+    "slug": "slice-wp",
+    "since": "1.0.0",
+    "triggers": [],
+    "actions": [
+        {
+            "id": "slicewp_create_affiliate",
+            "label": "Create Affiliate",
+            "since": "1.0.0"
+        },
+        {
+            "id": "slicewp_create_commission",
+            "label": "Create Commission for specific Affiliate",
+            "since": "1.0.0"
+        },
+        {
+            "id": "slicewp_list_affiliates",
+            "label": "List Affiliates",
+            "since": "1.0.0"
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "id": "LifterLMS",
+    "name": "Lifterlms",
+    "slug": "lifterlms",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "lifterlms_course_completed",
+            "label": "User complete course",
+            "since": "1.0.0"
+        },
+        {
+            "id": "lifterlms_lesson_completed",
+            "label": "User Completes a Lesson",
+            "since": "1.0.0"
+        },
+        {
+            "id": "lifterlms_purchase_course",
+            "label": "User purchase course",
+            "since": "1.0.0"
+        },
+        {
+            "id": "lifterlms_purchase_membership",
+            "label": "User purchase a membership",
+            "since": "1.0.0"
+        },
+        {
+            "id": "lifterlms_section_completed",
+            "label": "User complete section",
+            "since": "1.0.0"
+        },
+        {
+            "id": "lifterlms_user_cancels_membership",
+            "label": "User cancels a membership",
+            "since": "1.0.0"
+        },
+        {
+            "id": "lifterlms_user_enrolled_in_course",
+            "label": "User Enrolled In Course",
+            "since": "1.0.0"
+        },
+        {
+            "id": "lifterlms_user_unenrolled_from_course",
+            "label": "User Enrolled In Course",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "lms_enroll_to_course",
+            "label": "Enroll User in a course",
+            "since": "1.0.0"
+        },
+        {
+            "id": "lms_enroll_to_membership",
+            "label": "Enroll User in a Membership",
+            "since": "1.0.0"
+        },
+        {
+            "id": "lms_mark_course_complete",
+            "label": "Mark course complete for User",
+            "since": "1.0.0"
+        },
+        {
+            "id": "lms_mark_lesson_complete",
+            "label": "Mark lesson complete for User",
+            "since": "1.0.0"
+        },
+        {
+            "id": "lms_mark_section_complete",
+            "label": "Mark section complete for User",
+            "since": "1.0.0"
+        },
+        {
+            "id": "lms_remove_from_course",
+            "label": "Remove user from course",
+            "since": "1.0.0"
+        },
+        {
+            "id": "lms_remove_from_membership",
+            "label": "Remove user from membership",
+            "since": "1.0.0"
+        }
+    ]
+}

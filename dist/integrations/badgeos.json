@@ -1,0 +1,14 @@
+{
+    "id": "BadgeOS",
+    "name": "Badgeos",
+    "slug": "badgeos",
+    "since": "1.0.0",
+    "triggers": [],
+    "actions": [
+        {
+            "id": "award_achievement_to_user",
+            "label": "Award a Achievement to the user",
+            "since": "1.0.0"
+        }
+    ]
+}

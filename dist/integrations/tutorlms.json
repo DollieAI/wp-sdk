@@ -1,0 +1,65 @@
+{
+    "id": "TutorLMS",
+    "name": "Tutorlms",
+    "slug": "tutorlms",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "tlms_quiz_failed",
+            "label": "User fails Quiz",
+            "since": "1.0.0"
+        },
+        {
+            "id": "tlms_quiz_passed",
+            "label": "User passes Quiz",
+            "since": "1.0.0"
+        },
+        {
+            "id": "tlms_quiz_percentage",
+            "label": "User passes Quiz",
+            "since": "1.0.0"
+        },
+        {
+            "id": "tutor_after_asked_question",
+            "label": "User Posts Question in Course",
+            "since": "1.0.0"
+        },
+        {
+            "id": "tutor_after_enrolled",
+            "label": "User Enrolled In Course",
+            "since": "1.0.0"
+        },
+        {
+            "id": "tutor_course_complete_after",
+            "label": "User complete Course",
+            "since": "1.0.0"
+        },
+        {
+            "id": "tutor_lesson_completed_after",
+            "label": "User complete Lesson",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "tlms_list_enrolled_users",
+            "label": "List Enrolled Users",
+            "since": "1.0.0"
+        },
+        {
+            "id": "tlms_mark_course_complete",
+            "label": "Mark Course Complete",
+            "since": "1.0.0"
+        },
+        {
+            "id": "tlms_mark_lesson_complete",
+            "label": "Mark Lesson Complete",
+            "since": "1.0.0"
+        },
+        {
+            "id": "tlms_reset_user_course_progress",
+            "label": "Reset User Course Progress",
+            "since": "1.0.0"
+        }
+    ]
+}

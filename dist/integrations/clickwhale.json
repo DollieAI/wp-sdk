@@ -1,0 +1,50 @@
+{
+    "id": "ClickWhale",
+    "name": "Clickwhale",
+    "slug": "clickwhale",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "cw_link_clicked",
+            "label": "Link Clicked",
+            "since": "1.0.0"
+        },
+        {
+            "id": "cw_link_created",
+            "label": "Link Created",
+            "since": "1.0.0"
+        },
+        {
+            "id": "cw_link_deleted",
+            "label": "Link Deleted",
+            "since": "1.0.0"
+        },
+        {
+            "id": "cw_link_updated",
+            "label": "Link Updated",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "cw_create_link",
+            "label": "Create Link",
+            "since": "1.0.0"
+        },
+        {
+            "id": "cw_delete_link",
+            "label": "Delete Link",
+            "since": "1.0.0"
+        },
+        {
+            "id": "cw_get_link_details",
+            "label": "Get Link Details",
+            "since": "1.0.0"
+        },
+        {
+            "id": "cw_update_link",
+            "label": "Update Link",
+            "since": "1.0.0"
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "id": "FluentBooking",
+    "name": "FluentBooking",
+    "slug": "fluent-booking",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "fluent_booking_appointment_cancelled",
+            "label": "Appointment Cancelled",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fluent_booking_appointment_completed",
+            "label": "Appointment Completed",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fluent_booking_new_appointment_booked",
+            "label": "New Appointment Booked",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "fluent_booking_cancel_booking",
+            "label": "Cancel Booking",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fluent_booking_create_booking",
+            "label": "Create Booking",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fluent_booking_create_booking_pro",
+            "label": "Create Booking (Pro)",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fluent_booking_get_booking_details",
+            "label": "Get Booking Details",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fluent_booking_update_booking_status",
+            "label": "Update Booking Status",
+            "since": "1.0.0"
+        }
+    ]
+}

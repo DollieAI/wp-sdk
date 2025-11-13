@@ -1,0 +1,25 @@
+{
+    "id": "PrestoPlayer",
+    "name": "PrestoPlayer",
+    "slug": "presto-player",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "user_video_completes",
+            "label": "Video Completed",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_video_percent",
+            "label": "Video Watched",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "pp_create_mediahub",
+            "label": "Create Media Hub",
+            "since": "1.0.0"
+        }
+    ]
+}

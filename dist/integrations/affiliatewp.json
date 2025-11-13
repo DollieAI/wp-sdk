@@ -1,0 +1,54 @@
+{
+    "id": "AffiliateWP",
+    "name": "Affiliatewp",
+    "slug": "affiliatewp",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "affiliate_edd_product_purchased",
+            "label": "Affiliate Refers a sale of Easy Digital Downloads Product",
+            "since": "1.0.0"
+        },
+        {
+            "id": "affiliate_makes_specific_type_referral",
+            "label": "Affiliate Approved",
+            "since": "1.0.0"
+        },
+        {
+            "id": "affiliate_mb_product_purchased",
+            "label": "MemberPress Product Purchased using Affiliate Referral",
+            "since": "1.0.0"
+        },
+        {
+            "id": "affiliate_specific_type_referral_paid",
+            "label": "Affiliate Referral of Specific Type Paid",
+            "since": "1.0.0"
+        },
+        {
+            "id": "affiliate_specific_type_referral_rejected",
+            "label": "Affiliate Referral of Specific Type Rejected",
+            "since": "1.0.0"
+        },
+        {
+            "id": "affiliate_wc_product_purchased",
+            "label": "WooCommerce Product Purchased using Affiliate Referral",
+            "since": "1.0.0"
+        },
+        {
+            "id": "affwp_register_user_approval",
+            "label": "Affiliate Awaiting Approval",
+            "since": "1.0.0"
+        },
+        {
+            "id": "affwp_set_affiliate_status",
+            "label": "Affiliate Approved",
+            "since": "1.0.0"
+        },
+        {
+            "id": "affwp_set_referral_status",
+            "label": "New Referral/Referral Status Updated",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": []
+}

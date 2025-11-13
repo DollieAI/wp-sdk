@@ -1,0 +1,30 @@
+{
+    "id": "AdvancedCoupons",
+    "name": "AdvancedCoupons",
+    "slug": "advanced-coupons",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "user_receives_store_credit",
+            "label": "User Store Credit Exceeds Specific Amount",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_spends_store_credit",
+            "label": "User Spends Store Credit",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "add_store_credit_to_user",
+            "label": "Add Store Credit to User",
+            "since": "1.0.0"
+        },
+        {
+            "id": "remove_store_credit_from_user",
+            "label": "Remove Store Credit from User",
+            "since": "1.0.0"
+        }
+    ]
+}

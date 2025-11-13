@@ -1,0 +1,14 @@
+{
+    "id": "DiviBuilder",
+    "name": "DiviBuilder",
+    "slug": "divi-builder",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "user_submits_diviform",
+            "label": "Form Submitted",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": []
+}

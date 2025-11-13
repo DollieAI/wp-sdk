@@ -1,0 +1,29 @@
+{
+    "id": "JetpackCRM",
+    "name": "JetpackCrm",
+    "slug": "jetpack-crm",
+    "since": "1.0.0",
+    "triggers": [],
+    "actions": [
+        {
+            "id": "jetpack_crm_add_tag_to_company",
+            "label": "Add Tag to Company",
+            "since": "1.0.0"
+        },
+        {
+            "id": "jetpack_crm_add_tag_to_contact",
+            "label": "Add Tag to Contact",
+            "since": "1.0.0"
+        },
+        {
+            "id": "jetpack_crm_create_contact",
+            "label": "Create Contact",
+            "since": "1.0.0"
+        },
+        {
+            "id": "jetpack_crm_delete_contact",
+            "label": "Delete Contact",
+            "since": "1.0.0"
+        }
+    ]
+}

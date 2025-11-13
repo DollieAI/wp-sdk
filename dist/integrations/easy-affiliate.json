@@ -1,0 +1,35 @@
+{
+    "id": "EasyAffiliate",
+    "name": "EasyAffiliate",
+    "slug": "easy-affiliate",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "affiliate_added",
+            "label": "Affiliate Added",
+            "since": "1.0.0"
+        },
+        {
+            "id": "affiliate_payout_made",
+            "label": "Payout made for Affiliate",
+            "since": "1.0.0"
+        },
+        {
+            "id": "affiliate_sale_recorded",
+            "label": "Sale Recorded for Affiliate",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "ea_add_affiliate",
+            "label": "Add Affiliate",
+            "since": "1.0.0"
+        },
+        {
+            "id": "ea_record_sale_affiliate",
+            "label": "Record Sale for Affiliate",
+            "since": "1.0.0"
+        }
+    ]
+}

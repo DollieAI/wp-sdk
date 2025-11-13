@@ -1,0 +1,35 @@
+{
+    "id": "NinjaTables",
+    "name": "NinjaTables",
+    "slug": "ninja-tables",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "ninja_tables_new_row_added",
+            "label": "New Row Added",
+            "since": "1.0.0"
+        },
+        {
+            "id": "ninja_tables_row_updated",
+            "label": "Row Updated",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "ninja_tables_delete_row",
+            "label": "Delete Row in Table",
+            "since": "1.0.0"
+        },
+        {
+            "id": "ninja_tables_new_row",
+            "label": "Add Row in Table",
+            "since": "1.0.0"
+        },
+        {
+            "id": "ninja_tables_update_row",
+            "label": "Update Row in Table",
+            "since": "1.0.0"
+        }
+    ]
+}

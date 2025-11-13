@@ -1,0 +1,19 @@
+{
+    "id": "ElementorPro",
+    "name": "ElementorPro",
+    "slug": "elementor-pro",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "elementor_post_published",
+            "label": "Post Published with Elementor",
+            "since": "1.0.0"
+        },
+        {
+            "id": "elementor_submit_form_specific_value",
+            "label": "Form Submitted with Specific Field Value",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": []
+}

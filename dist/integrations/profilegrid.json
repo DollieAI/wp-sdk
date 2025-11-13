@@ -1,0 +1,59 @@
+{
+    "id": "ProfileGrid",
+    "name": "Profilegrid",
+    "slug": "profilegrid",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "pg_group_deleted",
+            "label": "Group Deleted",
+            "since": "1.0.0"
+        },
+        {
+            "id": "pg_group_manager_resets_password",
+            "label": "Group Manager Resets Password",
+            "since": "1.0.0"
+        },
+        {
+            "id": "pg_membership_request_approved",
+            "label": "Membership Request Approved",
+            "since": "1.0.0"
+        },
+        {
+            "id": "pg_membership_request_denied",
+            "label": "Membership Request Denied",
+            "since": "1.0.0"
+        },
+        {
+            "id": "pg_new_membership_request",
+            "label": "New Membership Request",
+            "since": "1.0.0"
+        },
+        {
+            "id": "pg_payment_complete",
+            "label": "Payment Complete",
+            "since": "1.0.0"
+        },
+        {
+            "id": "pg_payment_failed",
+            "label": "Payment Failed",
+            "since": "1.0.0"
+        },
+        {
+            "id": "pg_user_added_to_group",
+            "label": "User Added to Group",
+            "since": "1.0.0"
+        },
+        {
+            "id": "pg_user_assigned_group_manager",
+            "label": "User Assigned Group Manager",
+            "since": "1.0.0"
+        },
+        {
+            "id": "pg_user_removed_from_group",
+            "label": "User Removed from Group",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": []
+}

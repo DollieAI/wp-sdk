@@ -1,0 +1,119 @@
+<?php
+
+namespace Dollie\SDK\Integrations\Buddyboss\Triggers;
+
+use Dollie\SDK\Attributes\Trigger;
+use Dollie\SDK\Controllers\AutomationController;
+use Dollie\SDK\Integrations\WordPress\WordPress;
+use Dollie\SDK\Traits\SingletonLoader;
+
+#[Trigger(
+    id: 'user_leaves_a_group',
+    label: 'User Leaves Group',
+    since: '1.0.0'
+)]
+/**
+ * UserLeavesGroup.
+ * php version 5.6
+ *
+ * @category UserLeavesGroup
+ * @author   BSF <username@example.com>
+ * @license  https://www.gnu.org/licenses/gpl-3.0.html GPLv3
+ * @link     https://www.brainstormforce.com/
+ * @since    1.0.0
+ */
+/**
+ * UserLeavesGroup
+ *
+ * @category UserLeavesGroup
+ * @author   BSF <username@example.com>
+ * @license  https://www.gnu.org/licenses/gpl-3.0.html GPLv3
+ * @link     https://www.brainstormforce.com/
+ * @since    1.0.0
+ *
+ * @psalm-suppress UndefinedTrait
+ */
+class UserLeavesGroup
+{
+    use SingletonLoader;
+
+    use SingletonLoader;
+
+    /**
+     * Integration type.
+     *
+     * @var string
+     */
+    public $integration = 'BuddyBoss';
+
+    /**
+     * Trigger name.
+     *
+     * @var string
+     */
+    public $trigger = 'user_leaves_a_group';
+
+    /**
+     * Constructor
+     *
+     * @since  1.0.0
+     */
+    public function __construct()
+    {
+        add_filter('dollie_trigger_register_trigger', [$this, 'register']);
+    }
+
+    /**
+     * Register action.
+     *
+     * @param array $triggers triggers.
+     *
+     * @return array
+     */
+    public function register($triggers)
+    {
+        $triggers[$this->integration][$this->trigger] = [
+            'label' => __('User Leaves Group', 'dollie'),
+            'action' => $this->trigger,
+            'common_action' => 'groups_leave_group',
+            'function' => [$this, 'trigger_listener'],
+            'priority' => 10,
+            'accepted_args' => 2,
+        ];
+
+        return $triggers;
+    }
+
+    /**
+     *  Trigger listener
+     *
+     * @param int $group_id group id.
+     * @param int $user_id user id.
+     *
+     * @return void
+     */
+    public function trigger_listener($group_id, $user_id)
+    {
+        if (! function_exists('groups_get_group')) {
+            return;
+        }
+        $context = WordPress::get_user_context($user_id);
+        $avatar = get_avatar_url($user_id);
+        $group = groups_get_group($group_id);
+
+        $context['avatar_url'] = ($avatar) ? $avatar : '';
+        $context['group_id'] = (property_exists($group, 'id')) ? (int) $group->id : '';
+        $context['group_name'] = (property_exists($group, 'name')) ? $group->name : '';
+        $context['group_description'] = (property_exists($group, 'description')) ? $group->description : '';
+
+        AutomationController::dollie_trigger_handle_trigger(
+            [
+                'trigger' => $this->trigger,
+                'wp_user_id' => $user_id,
+                'context' => $context,
+            ]
+        );
+    }
+}
+
+UserLeavesGroup::get_instance();

@@ -1,0 +1,45 @@
+{
+    "id": "wpForo",
+    "name": "Wpforo",
+    "slug": "wpforo",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "user_creates_new_topic_forum",
+            "label": "User Creates New Topic in Forum",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_replies_topic_forum",
+            "label": "User Replies to Topic in Forum",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "wp_foro_add_user_to_group",
+            "label": "Add User to Group",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wp_foro_create_topic",
+            "label": "Create Topic",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wp_foro_delete_topic",
+            "label": "Delete Topic",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wp_foro_remove_user_from_group",
+            "label": "Remove User from Group",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wp_foro_set_user_reputation",
+            "label": "Set User Reputation",
+            "since": "1.0.0"
+        }
+    ]
+}

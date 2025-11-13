@@ -1,0 +1,40 @@
+{
+    "id": "ModernEventsCalendar",
+    "name": "ModernEventsCalendar",
+    "slug": "modern-events-calendar",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "mec_event_booking_cancelled",
+            "label": "Event Booking Cancelled",
+            "since": "1.0.0"
+        },
+        {
+            "id": "mec_event_booking_completed",
+            "label": "Event Booking Completed",
+            "since": "1.0.0"
+        },
+        {
+            "id": "mec_event_booking_confirmed",
+            "label": "Event Booking Confirmed",
+            "since": "1.0.0"
+        },
+        {
+            "id": "mec_event_booking_pending",
+            "label": "Event Booking Pending",
+            "since": "1.0.0"
+        },
+        {
+            "id": "mec_event_created",
+            "label": "New Event Created",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "mec_register_user_for_an_event",
+            "label": "Register User for an Event",
+            "since": "1.0.0"
+        }
+    ]
+}

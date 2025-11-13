@@ -1,0 +1,65 @@
+{
+    "id": "AdvancedCustomFields",
+    "name": "AdvancedCustomFields",
+    "slug": "advanced-custom-fields",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "options_acf_field_updated",
+            "label": "Field Updated On Options Page",
+            "since": "1.0.0"
+        },
+        {
+            "id": "post_acf_field_updated",
+            "label": "Field Updated On Post",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_acf_field_updated",
+            "label": "Field Updated On User Profile",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "get_option_acf_value",
+            "label": "Get Option Value",
+            "since": "1.0.0"
+        },
+        {
+            "id": "get_post_acf_value",
+            "label": "Get Post Value",
+            "since": "1.0.0"
+        },
+        {
+            "id": "get_user_acf_value",
+            "label": "Get User Value",
+            "since": "1.0.0"
+        },
+        {
+            "id": "update_group_field_acf_value",
+            "label": "Add Sub Field Value in Group",
+            "since": "1.0.0"
+        },
+        {
+            "id": "update_option_acf_value",
+            "label": "Update Option Value",
+            "since": "1.0.0"
+        },
+        {
+            "id": "update_post_acf_value",
+            "label": "Update Post Value",
+            "since": "1.0.0"
+        },
+        {
+            "id": "update_repeater_field_acf_value",
+            "label": "Update Repeater Field Value",
+            "since": "1.0.0"
+        },
+        {
+            "id": "update_user_acf_value",
+            "label": "Update User Value",
+            "since": "1.0.0"
+        }
+    ]
+}

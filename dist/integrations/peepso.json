@@ -1,0 +1,65 @@
+{
+    "id": "PeepSo",
+    "name": "Peepso",
+    "slug": "peepso",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "peepso_activity_after_add_post",
+            "label": "New Activity Post",
+            "since": "1.0.0"
+        },
+        {
+            "id": "peepso_user_follows_member",
+            "label": "User Follows PeppSo Member",
+            "since": "1.0.0"
+        },
+        {
+            "id": "peepso_user_gains_follower",
+            "label": "User Gains Follower",
+            "since": "1.0.0"
+        },
+        {
+            "id": "peepso_user_loses_follower",
+            "label": "User Loses Follower",
+            "since": "1.0.0"
+        },
+        {
+            "id": "peepso_user_unfollows_member",
+            "label": "User Unfollows PeppSo Member",
+            "since": "1.0.0"
+        },
+        {
+            "id": "peepso_user_updates_avatar",
+            "label": "User Updates Avatar",
+            "since": "1.0.0"
+        },
+        {
+            "id": "peepso_user_updates_specific_profile_field",
+            "label": "User Updates Specific Profile Field",
+            "since": "1.0.0"
+        },
+        {
+            "id": "peepso_user_updates_specific_profile_field_value",
+            "label": "User Updates Specific Profile Field Value",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "change_user_peepso_role",
+            "label": "Change User PeepSo Role",
+            "since": "1.0.0"
+        },
+        {
+            "id": "peepso_add_post_sitewide_activity_stream",
+            "label": "Add Post to Sitewide Activity Stream",
+            "since": "1.0.0"
+        },
+        {
+            "id": "peepso_follow_user",
+            "label": "Follow User",
+            "since": "1.0.0"
+        }
+    ]
+}

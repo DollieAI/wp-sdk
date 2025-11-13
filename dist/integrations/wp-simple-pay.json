@@ -1,0 +1,24 @@
+{
+    "id": "WpSimplePay",
+    "name": "WpSimplePay",
+    "slug": "wp-simple-pay",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "wsp_payment_for_form_completed",
+            "label": "Payment For Form Completed",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wsp_subscription_for_form_created",
+            "label": "Subscription For Form Created",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wsp_subscription_for_form_renewed",
+            "label": "Subscription For Form Renewed",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": []
+}

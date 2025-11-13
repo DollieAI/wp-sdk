@@ -1,0 +1,45 @@
+{
+    "id": "WoocommerceMemberships",
+    "name": "WoocommerceMemberships",
+    "slug": "woocommerce-memberships",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "wc_user_membership_plan",
+            "label": "A user is added to a membership plan",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wc_user_membership_plan_cancelled",
+            "label": "A user",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wc_user_membership_plan_expires",
+            "label": "A user",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wc_user_membership_status_changed",
+            "label": "User",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "wc_add_user_to_membership_plan",
+            "label": "Add the user to a membership plan.",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wc_change_user_membership_plan",
+            "label": "Change User Membership Plan",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wc_remove_user_from_membership_plan",
+            "label": "Remove the user from a membership plan.",
+            "since": "1.0.0"
+        }
+    ]
+}

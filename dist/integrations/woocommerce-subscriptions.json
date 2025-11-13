@@ -1,0 +1,95 @@
+{
+    "id": "WoocommerceSubscriptions",
+    "name": "WoocommerceSubscriptions",
+    "slug": "woocommerce-subscriptions",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "wc_cancels_subscription_product",
+            "label": "User Cancels Subscription",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wc_purchases_variable_subscription",
+            "label": "User Purchases Variable Subscription",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wc_renewal_subscription_payment_failed",
+            "label": "User Renewal Subscription Payment Failed",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wc_renews_subscription_product",
+            "label": "User Renews Subscription",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wc_subscribes_product",
+            "label": "User Subscribes To Product",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wc_subscription_product_expires",
+            "label": "User Subscription Expires",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wc_subscription_trial_end",
+            "label": "User Subscription Trial End",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wc_subscription_updated",
+            "label": "User Subscription Updated",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "wc_add_subscription_coupon",
+            "label": "Add Coupon",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wc_add_update_subscription_custom_fields",
+            "label": "Add or Update Custom Fields",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wc_change_subscription_status",
+            "label": "Change Subscription Status",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wc_create_subscription_order_cost",
+            "label": "Create a subscription order with a product",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wc_create_subscription_order_product",
+            "label": "Create a subscription order with a product",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wc_extend_subscription_date",
+            "label": "Extend User Subscription",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wc_remove_product_user_subscription",
+            "label": "Remove Product User Subscription",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wc_update_subscription_end_date",
+            "label": "Update Subscription End Date",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wc_update_subscription_next_payment_date",
+            "label": "Update Subscription Next Payment Date",
+            "since": "1.0.0"
+        }
+    ]
+}

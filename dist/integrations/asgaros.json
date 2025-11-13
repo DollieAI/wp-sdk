@@ -1,0 +1,19 @@
+{
+    "id": "Asgaros",
+    "name": "Asgaros",
+    "slug": "asgaros",
+    "since": "1.0.0",
+    "triggers": [],
+    "actions": [
+        {
+            "id": "asgaros_create_forum",
+            "label": "Create a group",
+            "since": "1.0.0"
+        },
+        {
+            "id": "asgaros_create_topic",
+            "label": "Create a topic",
+            "since": "1.0.0"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "id": "WPUserManager",
+    "name": "WpUserManager",
+    "slug": "wp-user-manager",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "wpuser_manager_user_removes_profile_cover_image",
+            "label": "User Removes Profile Cover Image",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wpuser_manager_user_removes_profile_photo",
+            "label": "User Removes Profile Photo",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wpuser_manager_user_updates_account_information",
+            "label": "User Updates Account Information",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wpuser_manager_user_updates_cover_photo",
+            "label": "User Updates Cover Photo",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wpuser_manager_user_updates_profile_description",
+            "label": "User Updates Profile Description",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wpuser_manager_user_updates_profile_photo",
+            "label": "User Updates Profile Photo",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": []
+}

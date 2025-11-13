@@ -1,0 +1,30 @@
+{
+    "id": "Dollie",
+    "name": "Dollie",
+    "slug": "dollie",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "dollie_site_created",
+            "label": "Site Created",
+            "since": "1.0.0"
+        },
+        {
+            "id": "dollie_site_deleted",
+            "label": "Site Deleted",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "dollie_create_site",
+            "label": "Create Site",
+            "since": "1.0.0"
+        },
+        {
+            "id": "dollie_delete_site",
+            "label": "Delete Site",
+            "since": "1.0.0"
+        }
+    ]
+}

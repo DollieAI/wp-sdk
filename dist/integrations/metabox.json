@@ -1,0 +1,19 @@
+{
+    "id": "MetaBox",
+    "name": "Metabox",
+    "slug": "metabox",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "post_metabox_field_updated",
+            "label": "Field is updated on Post",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_metabox_field_updated",
+            "label": "User Metabox Field Updated",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": []
+}

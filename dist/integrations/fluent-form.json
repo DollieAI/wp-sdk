@@ -1,0 +1,14 @@
+{
+    "id": "FluentForm",
+    "name": "FluentForm",
+    "slug": "fluent-form",
+    "since": "1.0.0",
+    "triggers": [],
+    "actions": [
+        {
+            "id": "register_a_new_user",
+            "label": "Register New User",
+            "since": "1.0.0"
+        }
+    ]
+}

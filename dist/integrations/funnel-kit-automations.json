@@ -1,0 +1,29 @@
+{
+    "id": "FunnelKitAutomations",
+    "name": "FunnelKitAutomations",
+    "slug": "funnel-kit-automations",
+    "since": "1.0.0",
+    "triggers": [],
+    "actions": [
+        {
+            "id": "funnel_kit_automations_add_contact_to_lists",
+            "label": "Add Contact to List(s)",
+            "since": "1.0.0"
+        },
+        {
+            "id": "funnel_kit_automations_add_tags_to_contact",
+            "label": "Add Tag(s) to Contact",
+            "since": "1.0.0"
+        },
+        {
+            "id": "funnel_kit_automations_remove_contact_from_lists",
+            "label": "Remove Contact from List(s)",
+            "since": "1.0.0"
+        },
+        {
+            "id": "funnel_kit_automations_remove_tags_from_contact",
+            "label": "Remove Tag(s) from Contact",
+            "since": "1.0.0"
+        }
+    ]
+}

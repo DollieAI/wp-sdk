@@ -1,0 +1,19 @@
+{
+    "id": "SimplyScheduleAppointments",
+    "name": "SimplyScheduleAppointments",
+    "slug": "simply-schedule-appointments",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "ssa_appointment_booked",
+            "label": "New Appointment Booked",
+            "since": "1.0.0"
+        },
+        {
+            "id": "ssa_appointment_rescheduled",
+            "label": "Appointment Rescheduled",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": []
+}

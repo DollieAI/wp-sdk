@@ -1,0 +1,75 @@
+{
+    "id": "MailMint",
+    "name": "MailMint",
+    "slug": "mail-mint",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "mail_mint_lists_added_to_contact",
+            "label": "Lists Added To Contact",
+            "since": "1.0.0"
+        },
+        {
+            "id": "mail_mint_tags_added_to_contact",
+            "label": "TagAppliedToContact",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "mail_mint_add_lists_to_contact",
+            "label": "Add Lists To Contact",
+            "since": "1.0.0"
+        },
+        {
+            "id": "mail_mint_add_recipients_to_campaign",
+            "label": "Add Recipients To Campaign",
+            "since": "1.0.0"
+        },
+        {
+            "id": "mail_mint_add_tags_to_contact",
+            "label": "Add Tag To Contact",
+            "since": "1.0.0"
+        },
+        {
+            "id": "mail_mint_create_contact",
+            "label": "Create Contact",
+            "since": "1.0.0"
+        },
+        {
+            "id": "mail_mint_delete_contact",
+            "label": "Delete Contact",
+            "since": "1.0.0"
+        },
+        {
+            "id": "mail_mint_get_all_campaigns",
+            "label": "List Campaigns",
+            "since": "1.0.0"
+        },
+        {
+            "id": "mail_mint_get_all_contacts",
+            "label": "List Contacts",
+            "since": "1.0.0"
+        },
+        {
+            "id": "mail_mint_get_all_lists",
+            "label": "Get Lists",
+            "since": "1.0.0"
+        },
+        {
+            "id": "mail_mint_get_all_tags",
+            "label": "List Tags",
+            "since": "1.0.0"
+        },
+        {
+            "id": "mail_mint_remove_lists_from_contact",
+            "label": "Remove Lists From Contact",
+            "since": "1.0.0"
+        },
+        {
+            "id": "mail_mint_remove_tags_from_contact",
+            "label": "Remove Tags From Contact",
+            "since": "1.0.0"
+        }
+    ]
+}

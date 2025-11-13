@@ -1,0 +1,14 @@
+{
+    "id": "WPForms",
+    "name": "Wpforms",
+    "slug": "wpforms",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "user_submits_wpform",
+            "label": "Form Submitted",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": []
+}

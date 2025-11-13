@@ -1,0 +1,30 @@
+{
+    "id": "GravityForms",
+    "name": "GravityForm",
+    "slug": "gravity-form",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "user_register_gravityform",
+            "label": "User Register with Gravity Form",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_submits_payment_gravityform",
+            "label": "User Submits Payment Form",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "create_entry_gravity_form",
+            "label": "Create Entry for Form",
+            "since": "1.0.0"
+        },
+        {
+            "id": "delete_entry_gravity_form",
+            "label": "Delete Entry for Form",
+            "since": "1.0.0"
+        }
+    ]
+}

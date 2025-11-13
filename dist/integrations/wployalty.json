@@ -1,0 +1,19 @@
+{
+    "id": "WPLoyalty",
+    "name": "Wployalty",
+    "slug": "wployalty",
+    "since": "1.0.0",
+    "triggers": [],
+    "actions": [
+        {
+            "id": "wp_loyalty_add_points_customer",
+            "label": "Add Points to Customer",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wp_loyalty_remove_points_customer",
+            "label": "Remove Points of Customer",
+            "since": "1.0.0"
+        }
+    ]
+}

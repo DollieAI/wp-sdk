@@ -1,0 +1,60 @@
+{
+    "id": "GamiPress",
+    "name": "Gamipress",
+    "slug": "gamipress",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "user_attains_rank",
+            "label": "A user attains a rank",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_earns_achivements",
+            "label": "User Earns an Achievement",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_earns_specific_points",
+            "label": "User Earns Specific Number of Points",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_total_points_meets_threshold",
+            "label": "User’s Total Point Meets A Threshold",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "award_achivement_user",
+            "label": "Award Achievement to User",
+            "since": "1.0.0"
+        },
+        {
+            "id": "award_points_user",
+            "label": "Award Points to User",
+            "since": "1.0.0"
+        },
+        {
+            "id": "award_rank_user",
+            "label": "Award Rank to User",
+            "since": "1.0.0"
+        },
+        {
+            "id": "revoke_achivement_user",
+            "label": "Revoke Achievement from User",
+            "since": "1.0.0"
+        },
+        {
+            "id": "revoke_points_user",
+            "label": "Revoke Points from the User",
+            "since": "1.0.0"
+        },
+        {
+            "id": "revoke_rank_user",
+            "label": "Revoke Rank to User",
+            "since": "1.0.0"
+        }
+    ]
+}

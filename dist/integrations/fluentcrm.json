@@ -1,0 +1,125 @@
+{
+    "id": "FluentCRM",
+    "name": "Fluentcrm",
+    "slug": "fluentcrm",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "tag_removed_from_contact",
+            "label": "Tag Removed",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "fluentcrm_add_contact",
+            "label": "Add/Update Contact",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fluentcrm_add_email_to_sequence",
+            "label": "Add Email to Sequence",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fluentcrm_add_event",
+            "label": "Add Event",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fluentcrm_add_note",
+            "label": "Add Note",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fluentcrm_add_tag_to_contact",
+            "label": "Add Tag",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fluentcrm_attach_subscribers_company",
+            "label": "Attach Subscribers to Company",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fluentcrm_create_company",
+            "label": "Create Company",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fluentcrm_create_tag",
+            "label": "Create Tag",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fluentcrm_detach_subscribers_company",
+            "label": "Detach Subscribers to Company",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fluentcrm_list_email_templates",
+            "label": "List Email Templates",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fluentcrm_list_sequences",
+            "label": "List Sequences",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fluentcrm_remove_contact",
+            "label": "Remove Contact",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fluentcrm_remove_tag_from_contact",
+            "label": "Remove Tag",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fluentcrm_retrieve_contact_by_email",
+            "label": "Retrieve Contact By Email",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fluentcrm_retrieve_contact_by_id",
+            "label": "Retrieve Contact By ID",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fluentcrm_retrieve_contact_by_segment",
+            "label": "Retrieve Contact By Segment",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fluentcrm_retrieve_contact_by_status",
+            "label": "Retrieve Contact By Status",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fluentcrm_retrieve_contact_by_user_id",
+            "label": "Retrieve Contact By User ID",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fluentcrm_send_email_by_campaign",
+            "label": "Send Email By Campaign",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fluentcrm_send_email_by_template",
+            "label": "Send Email By Template",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fluentcrm_send_email_to_list_contacts",
+            "label": "Send Email",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fluentcrm_update_template",
+            "label": "Update Email Template",
+            "since": "1.0.0"
+        }
+    ]
+}

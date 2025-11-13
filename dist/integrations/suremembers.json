@@ -1,0 +1,30 @@
+{
+    "id": "SureMembers",
+    "name": "Suremembers",
+    "slug": "suremembers",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "suremember_user_added_in_group",
+            "label": "User Added",
+            "since": "1.0.0"
+        },
+        {
+            "id": "suremember_user_removed_from_group",
+            "label": "User Removed",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "add_access_to_group",
+            "label": "Add User to Access Group",
+            "since": "1.0.0"
+        },
+        {
+            "id": "remove_access_from_group",
+            "label": "Remove User from Group",
+            "since": "1.0.0"
+        }
+    ]
+}

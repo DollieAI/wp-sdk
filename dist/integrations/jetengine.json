@@ -1,0 +1,14 @@
+{
+    "id": "JetEngine",
+    "name": "Jetengine",
+    "slug": "jetengine",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "specific_post_field_update",
+            "label": "A user updates a specific JetEngine field on a specific post type",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": []
+}

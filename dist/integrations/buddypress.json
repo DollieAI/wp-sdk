@@ -1,0 +1,150 @@
+{
+    "id": "BuddyPress",
+    "name": "Buddypress",
+    "slug": "buddypress",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "bp_user_joins_public_group",
+            "label": "A user joins a public group",
+            "since": "1.0.0"
+        },
+        {
+            "id": "bp_user_leaves_group",
+            "label": "A user leaves a group",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_accepts_friend_request",
+            "label": "A user accepts a friendship request",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_account_activated",
+            "label": "The user",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_connection_request_accepted",
+            "label": "A user",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_creates_group",
+            "label": "A user creates a group",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_joins_private_group",
+            "label": "A user joins a private group",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_member_type_changed",
+            "label": "A user",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_posts_activity_group",
+            "label": "A user makes a post to the activity stream of a group",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_posts_activity_stream",
+            "label": "A user posts activity to their stream",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_registers_specific_field_value",
+            "label": "A user registers with specific field",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_request_access_private_group",
+            "label": "A user requests access to a private group",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_sends_friend_request",
+            "label": "A user sends a friendship request",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_updates_avatar",
+            "label": "A user updates their avatar",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_updates_profile",
+            "label": "A user updates their profile",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_updates_profile_specific_field",
+            "label": "A user updates their profile in a specific field",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "add_post_activity_stream_to_group",
+            "label": "Add a post to the activity stream of a group",
+            "since": "1.0.0"
+        },
+        {
+            "id": "add_post_sitewide_activity_stream",
+            "label": "Add a post to the sitewide activity stream",
+            "since": "1.0.0"
+        },
+        {
+            "id": "add_post_user_activity_stream",
+            "label": "Add a post to the user",
+            "since": "1.0.0"
+        },
+        {
+            "id": "bp_create_group",
+            "label": "Create a group",
+            "since": "1.0.0"
+        },
+        {
+            "id": "change_user_member_type",
+            "label": "Set the user",
+            "since": "1.0.0"
+        },
+        {
+            "id": "end_friendship_with_user",
+            "label": "End friendship with a user",
+            "since": "1.0.0"
+        },
+        {
+            "id": "remove_user_from_group",
+            "label": "Remove the user from a group",
+            "since": "1.0.0"
+        },
+        {
+            "id": "send_friendship_request_user",
+            "label": "Send a friendship request to a user",
+            "since": "1.0.0"
+        },
+        {
+            "id": "send_members_group_notification",
+            "label": "Send all members of a group a notification",
+            "since": "1.0.0"
+        },
+        {
+            "id": "send_private_message_user",
+            "label": "Send a private message to the user",
+            "since": "1.0.0"
+        },
+        {
+            "id": "send_user_notification",
+            "label": "Send the user a notification",
+            "since": "1.0.0"
+        },
+        {
+            "id": "set_user_xprofile_data",
+            "label": "Set The User",
+            "since": "1.0.0"
+        }
+    ]
+}

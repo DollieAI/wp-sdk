@@ -1,0 +1,19 @@
+{
+    "id": "WoocommerceBookings",
+    "name": "WoocommerceBookings",
+    "slug": "woocommerce-bookings",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "wc_booking_created",
+            "label": "Booking Created",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wc_booking_status_changed",
+            "label": "Booking Created",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": []
+}

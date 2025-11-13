@@ -1,0 +1,19 @@
+{
+    "id": "BetterMessages",
+    "name": "BetterMessages",
+    "slug": "better-messages",
+    "since": "1.0.0",
+    "triggers": [],
+    "actions": [
+        {
+            "id": "bm_post_message_to_chatroom",
+            "label": "Post Message to Chatroom",
+            "since": "1.0.0"
+        },
+        {
+            "id": "bm_private_message_to_user",
+            "label": "Send Private Message",
+            "since": "1.0.0"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "id": "Masteriyo",
+    "name": "Masteriyo",
+    "slug": "masteriyo",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "ma_lms_course_completed",
+            "label": "Course Completed",
+            "since": "1.0.0"
+        },
+        {
+            "id": "ma_lms_lesson_completed",
+            "label": "Lesson Completed",
+            "since": "1.0.0"
+        },
+        {
+            "id": "ma_lms_quiz_failed",
+            "label": "Quiz Failed",
+            "since": "1.0.0"
+        },
+        {
+            "id": "ma_lms_quiz_passed",
+            "label": "Quiz Passed",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": []
+}

@@ -1,0 +1,120 @@
+<?php
+
+namespace Dollie\SDK\Integrations\ModernEventsCalendar\Triggers;
+
+use Dollie\SDK\Attributes\Trigger;
+use Dollie\SDK\Controllers\AutomationController;
+use Dollie\SDK\Integrations\ModernEventsCalendar\ModernEventsCalendar;
+use Dollie\SDK\Traits\SingletonLoader;
+
+#[Trigger(
+    id: 'mec_event_booking_confirmed',
+    label: 'Event Booking Confirmed',
+    since: '1.0.0'
+)]
+/**
+ * EventBookingConfirmed.
+ * php version 5.6
+ *
+ * @category EventBookingConfirmed
+ * @author   BSF <username@example.com>
+ * @license  https://www.gnu.org/licenses/gpl-3.0.html GPLv3
+ * @link     https://www.brainstormforce.com/
+ * @since    1.0.0
+ */
+/**
+ * EventBookingConfirmed
+ *
+ * @category EventBookingConfirmed
+ * @author   BSF <username@example.com>
+ * @license  https://www.gnu.org/licenses/gpl-3.0.html GPLv3
+ * @link     https://www.brainstormforce.com/
+ * @since    1.0.0
+ *
+ * @psalm-suppress UndefinedTrait
+ */
+class EventBookingConfirmed
+{
+    use SingletonLoader;
+
+    /**
+     * Integration type.
+     *
+     * @var string
+     */
+    public $integration = 'ModernEventsCalendar';
+
+    /**
+     * Trigger name.
+     *
+     * @var string
+     */
+    public $trigger = 'mec_event_booking_confirmed';
+
+    /**
+     * Constructor
+     *
+     * @since  1.0.0
+     */
+    public function __construct()
+    {
+        add_filter('dollie_trigger_register_trigger', [$this, 'register']);
+    }
+
+    /**
+     * Register action.
+     *
+     * @param array $triggers trigger data.
+     * @return array
+     */
+    public function register($triggers)
+    {
+
+        $triggers[$this->integration][$this->trigger] = [
+            'label' => __('Event Booking Confirmed', 'dollie'),
+            'action' => 'mec_event_booking_confirmed',
+            'common_action' => 'mec_booking_confirmed',
+            'function' => [$this, 'trigger_listener'],
+            'priority' => 10,
+            'accepted_args' => 1,
+        ];
+
+        return $triggers;
+
+    }
+
+    /**
+     * Trigger listener
+     *
+     * @param int $booking_id Booking ID.
+     *
+     * @since 1.0.0
+     * @return void
+     */
+    public function trigger_listener($booking_id)
+    {
+        if (! $booking_id) {
+            return;
+        }
+
+        $context = ModernEventsCalendar::get_event_context($booking_id);
+
+        if (! $context) {
+            return;
+        }
+
+        AutomationController::dollie_trigger_handle_trigger(
+            [
+                'trigger' => $this->trigger,
+                'context' => $context,
+            ]
+        );
+    }
+}
+
+/**
+ * Ignore false positive
+ *
+ * @psalm-suppress UndefinedMethod
+ */
+EventBookingConfirmed::get_instance();

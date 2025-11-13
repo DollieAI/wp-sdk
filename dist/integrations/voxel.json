@@ -1,0 +1,335 @@
+{
+    "id": "Voxel",
+    "name": "Voxel",
+    "slug": "voxel",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "voxel_collection_post_created",
+            "label": "Collection Post Submitted",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_collection_post_updated",
+            "label": "Collection Post Updated",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_comment_liked",
+            "label": "Comment Liked",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_comment_reply_created_timeline",
+            "label": "New Comment Reply Created on Timeline",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_membership_plan_activated",
+            "label": "Membership Plan Activated",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_membership_plan_canceled",
+            "label": "Membership Plan Canceled",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_membership_plan_switched",
+            "label": "Membership Plan Switched",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_membership_plan_updated",
+            "label": "Membership Plan Updated",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_membership_user_registered",
+            "label": "User Registered",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_new_comment_timeline",
+            "label": "New Comment Created on Timeline",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_new_message_post_created",
+            "label": "Voxel Message Posted",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_new_order_placed",
+            "label": "New Order Placed",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_new_profile_created",
+            "label": "New Profile Created",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_new_wall_post_by_user",
+            "label": "New Wall Post by User",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_order_approved_by_vendor",
+            "label": "Order Approved By Vendor",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_order_canceled_by_customer",
+            "label": "Order Canceled by Customer",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_order_declined_by_vendor",
+            "label": "Order Declined By Vendor",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_orders_claim_listing",
+            "label": "Orders Claim Listing",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_orders_promotion_activated",
+            "label": "Order Approved By Vendor",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_orders_promotion_canceled",
+            "label": "Order Promotion Canceled",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_post_approved",
+            "label": "Post Approved",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_post_followed",
+            "label": "Post Followed",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_post_liked",
+            "label": "Post Liked",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_post_quoted",
+            "label": "Post Reposted",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_post_rejected",
+            "label": "Post Rejected",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_post_reposted",
+            "label": "Post Reposted",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_post_reviewed",
+            "label": "Post Reviewed",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_post_submitted",
+            "label": "Post Submitted",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_post_updated",
+            "label": "Post Updated",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_profile_approved",
+            "label": "Profile Approved",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_profile_new_wall_post",
+            "label": "Profile New Wall Post",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_profile_rejected",
+            "label": "Profile Rejected",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_profile_reviewed",
+            "label": "Profile Reviewed",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_profile_updated",
+            "label": "Profile Updated",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_taxonomy_updated",
+            "label": "Taxonomy Updated",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_user_mentioned_in_comment",
+            "label": "User Mentioned In Comment",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_user_mentioned_in_post",
+            "label": "User Mentioned In Post",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_user_receives_message",
+            "label": "User Receives Message",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "voxel_add_post_profile_wall",
+            "label": "Add Post to Profile Wall",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_add_post_to_collection",
+            "label": "Add Post to Collection",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_add_post_wall",
+            "label": "Add Post to Wall",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_change_membership_plan",
+            "label": "Change Membership Plan",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_claim_post",
+            "label": "Claim Post",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_create_new_collection_post",
+            "label": "Create New Collection Post",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_create_new_post",
+            "label": "Create New Post",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_create_new_profile",
+            "label": "Create New Profile",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_delete_wall_post",
+            "label": "Delete Post Wall",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_follow_post",
+            "label": "Follow Post",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_get_address_by_coordinates",
+            "label": "Get Address By Coordinates",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_get_cooordinates_by_address",
+            "label": "Get Coordinates By Address",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_get_member_by_email",
+            "label": "Get Member By Email",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_get_posts_by_voxel_field",
+            "label": "Get Posts by Voxel Field",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_remove_post_from_collection",
+            "label": "Remove Post from Collection",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_send_custom_in_app_notification",
+            "label": "Send Custom In App Notification",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_send_direct_message",
+            "label": "Send Direct Message",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_send_email",
+            "label": "Send Email",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_set_collection_post_verified",
+            "label": "Set Collection Post Verified",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_set_custom_priority",
+            "label": "Set Custom Priority",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_set_post_verified",
+            "label": "Send Email",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_set_profile_verified",
+            "label": "Send Email",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_update_existing_collection_post",
+            "label": "Update Collection Post",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_update_existing_post",
+            "label": "Update Post",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_update_existing_profile",
+            "label": "Update Profile",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_update_post_field",
+            "label": "Update Voxel Post Field",
+            "since": "1.0.0"
+        },
+        {
+            "id": "voxel_update_taxonomy",
+            "label": "Update Voxel Taxonomy",
+            "since": "1.0.0"
+        }
+    ]
+}

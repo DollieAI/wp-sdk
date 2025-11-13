@@ -1,0 +1,14 @@
+{
+    "id": "WPLMS",
+    "name": "Wplms",
+    "slug": "wplms",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "wplms_submit_course",
+            "label": "User complete course",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": []
+}

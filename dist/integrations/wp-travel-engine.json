@@ -1,0 +1,65 @@
+{
+    "id": "WPTravelEngine",
+    "name": "WpTravelEngine",
+    "slug": "wp-travel-engine",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "wte_booking_cancelled",
+            "label": "Booking Cancelled",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wte_booking_confirmed",
+            "label": "Booking Confirmed",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wte_booking_created",
+            "label": "Booking Created",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wte_enquiry_submitted",
+            "label": "New Enquiry Submitted",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "wpte_create_trip",
+            "label": "Create a Trip",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wte_create_coupon",
+            "label": "Create a Coupon",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wte_list_bookings",
+            "label": "List Bookings",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wte_list_trips",
+            "label": "List Trips",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wte_retrieve_booking",
+            "label": "Retrieve a Booking",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wte_retrieve_enquiry",
+            "label": "Retrieve an Enquiry",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wte_update_booking_status",
+            "label": "Update Booking Status",
+            "since": "1.0.0"
+        }
+    ]
+}

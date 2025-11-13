@@ -1,0 +1,19 @@
+{
+    "id": "ThriveLeads",
+    "name": "ThriveLeads",
+    "slug": "thrive-leads",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "tl_form_submitted",
+            "label": "Form Submitted",
+            "since": "1.0.0"
+        },
+        {
+            "id": "tl_registration_form_submitted",
+            "label": "Registration Form Submitted",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": []
+}

@@ -1,0 +1,34 @@
+{
+    "id": "FluentSupport",
+    "name": "FluentSupport",
+    "slug": "fluent-support",
+    "since": "1.0.0",
+    "triggers": [],
+    "actions": [
+        {
+            "id": "add_tag_to_ticket_fluent_support",
+            "label": "Add Tag to Ticket",
+            "since": "1.0.0"
+        },
+        {
+            "id": "block_user_fluent_support",
+            "label": "Block User",
+            "since": "1.0.0"
+        },
+        {
+            "id": "create_or_obtain_customer_fluent_support",
+            "label": "Create Or Obtain Customer",
+            "since": "1.0.0"
+        },
+        {
+            "id": "create_ticket_fluent_support",
+            "label": "Create Ticket",
+            "since": "1.0.0"
+        },
+        {
+            "id": "reply_to_ticket_as_agent_fluent_support",
+            "label": "Reply to Ticket as Agent",
+            "since": "1.0.0"
+        }
+    ]
+}

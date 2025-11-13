@@ -1,0 +1,14 @@
+{
+    "id": "ContactForm7",
+    "name": "ContactForm7",
+    "slug": "contact-form7",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "contact_form7_form_submit",
+            "label": "Form Submitted",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": []
+}

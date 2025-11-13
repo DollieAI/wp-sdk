@@ -1,0 +1,140 @@
+<?php
+
+namespace Dollie\SDK\Integrations\Fluentcrm\Actions;
+
+use Dollie\SDK\Attributes\Action;
+use Dollie\SDK\Integrations\AutomateAction;
+use Dollie\SDK\Traits\SingletonLoader;
+use Exception;
+use FluentCrm\App\Services\Helper;
+
+#[Action(
+    id: 'fluentcrm_detach_subscribers_company',
+    label: 'Detach Subscribers to Company',
+    since: '1.0.0'
+)]
+/**
+ * DetachSubscribersCompany.
+ * php version 5.6
+ *
+ * @category DetachSubscribersCompany
+ * @author   BSF <username@example.com>
+ * @license  https://www.gnu.org/licenses/gpl-3.0.html GPLv3
+ * @link     https://www.brainstormforce.com/
+ * @since    1.0.0
+ */
+/**
+ * DetachSubscribersCompany
+ *
+ * @category DetachSubscribersCompany
+ * @author   BSF <username@example.com>
+ * @license  https://www.gnu.org/licenses/gpl-3.0.html GPLv3
+ * @link     https://www.brainstormforce.com/
+ * @since    1.0.0
+ */
+class DetachSubscribersCompany extends AutomateAction
+{
+    use SingletonLoader;
+
+    /**
+     * Integration type.
+     *
+     * @var string
+     */
+    public $integration = 'FluentCRM';
+
+    /**
+     * Action name.
+     *
+     * @var string
+     */
+    public $action = 'fluentcrm_detach_subscribers_company';
+
+    /**
+     * Register a action.
+     *
+     * @param array $actions actions.
+     * @return array
+     */
+    public function register($actions)
+    {
+
+        $actions[$this->integration][$this->action] = [
+            'label' => __('Detach Subscribers to Company', 'dollie'),
+            'action' => $this->action,
+            'function' => [$this, 'action_listener'],
+        ];
+
+        return $actions;
+    }
+
+    /**
+     * Action listener.
+     *
+     * @param int   $user_id user_id.
+     * @param int   $automation_id automation_id.
+     * @param array $fields fields.
+     * @param array $selected_options selectedOptions.
+     *
+     * @return array|void
+     *
+     * @throws Exception Exception.
+     */
+    public function _action_listener($user_id, $automation_id, $fields, $selected_options)
+    {
+
+        if (! class_exists('FluentCrm\App\Services\Helper') || ! function_exists('FluentCrmApi')) {
+            return [
+                'status' => 'error',
+                'message' => __('Required functions not found.', 'dollie'),
+
+            ];
+        }
+
+        $is_company_enabled = Helper::isCompanyEnabled();
+
+        if (! $is_company_enabled) {
+            return [
+                'status' => 'error',
+                'message' => __('Company module disabled. You can add companies and assign contacts to companies only when it is enabled!!', 'dollie'),
+
+            ];
+        }
+        $contact_api = FluentCrmApi('contacts');
+        $company_api = FluentCrmApi('companies');
+
+        $contact_ids = explode(',', $selected_options['contact_id']);
+        $company_ids = explode(',', $selected_options['company_id']);
+
+        foreach ($contact_ids as $key => $contact_id) {
+            $contact = $contact_api->getContact($contact_id);
+            if (is_null($contact)) {
+                unset($contact_ids[$key]);
+            }
+        }
+
+        foreach ($company_ids as $key => $company_id) {
+            $company = $company_api->getCompany($company_id);
+            if (is_null($company)) {
+                unset($company_ids[$key]);
+            }
+        }
+
+        $result = FluentCrmApi('companies')->detachContactsByIds($contact_ids, $company_ids);
+
+        if (! $result) {
+            return [
+                'status' => 'error',
+                'message' => __('Invalid data', 'dollie'),
+
+            ];
+        }
+
+        return [
+            'message' => __('Company has been successfully detached', 'dollie'),
+            'companies' => $result['companies'],
+        ];
+    }
+}
+
+DetachSubscribersCompany::get_instance();

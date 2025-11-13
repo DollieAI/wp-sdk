@@ -1,0 +1,14 @@
+{
+    "id": "LearnDashAchievements",
+    "name": "LearndashAchievements",
+    "slug": "learndash-achievements",
+    "since": "1.0.0",
+    "triggers": [],
+    "actions": [
+        {
+            "id": "learndash_award_achievement_to_user",
+            "label": "Award Achievement to User",
+            "since": "1.0.0"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "id": "MemberPressCourse",
+    "name": "MemberpressCourse",
+    "slug": "memberpress-course",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "mpc_course_completed",
+            "label": "Course Completed",
+            "since": "1.0.0"
+        },
+        {
+            "id": "mpc_lesson_completed",
+            "label": "Lesson Completed",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "mpc_complete_course",
+            "label": "Complete Course",
+            "since": "1.0.0"
+        },
+        {
+            "id": "mpc_complete_lesson",
+            "label": "Complete Lesson",
+            "since": "1.0.0"
+        }
+    ]
+}

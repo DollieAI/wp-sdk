@@ -1,0 +1,34 @@
+{
+    "id": "MyCred",
+    "name": "Mycred",
+    "slug": "mycred",
+    "since": "1.0.0",
+    "triggers": [],
+    "actions": [
+        {
+            "id": "award_badge_to_user",
+            "label": "Award Badge",
+            "since": "1.0.0"
+        },
+        {
+            "id": "award_points_to_user",
+            "label": "Award Points",
+            "since": "1.0.0"
+        },
+        {
+            "id": "award_rank_to_user",
+            "label": "Award Rank",
+            "since": "1.0.0"
+        },
+        {
+            "id": "revoke_badge_from_user",
+            "label": "Revoke Badge",
+            "since": "1.0.0"
+        },
+        {
+            "id": "revoke_points_from_user",
+            "label": "Revoke Badge",
+            "since": "1.0.0"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "id": "Groundhogg",
+    "name": "Groundhogg",
+    "slug": "groundhogg",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "gh_tag_added_to_contact",
+            "label": "Tag Added to Contact",
+            "since": "1.0.0"
+        },
+        {
+            "id": "gh_tag_removed_from_contact",
+            "label": "Tag Removed from Contact",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "gh_add_tag_to_contact",
+            "label": "Add Tag to Contact",
+            "since": "1.0.0"
+        },
+        {
+            "id": "gh_create_contact",
+            "label": "Create/Update Contact",
+            "since": "1.0.0"
+        },
+        {
+            "id": "gh_removetag_from_contact",
+            "label": "Remove Tag from Contact",
+            "since": "1.0.0"
+        }
+    ]
+}

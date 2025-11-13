@@ -1,0 +1,25 @@
+{
+    "id": "AdvancedAds",
+    "name": "AdvancedAds",
+    "slug": "advanced-ads",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "ad_status_change",
+            "label": "Ad Status Changed",
+            "since": "1.0.0"
+        },
+        {
+            "id": "ad_status_set_to_specific_type",
+            "label": "Ad Status Set to Specific Type",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "set_ad_status",
+            "label": "Set Ad Status",
+            "since": "1.0.0"
+        }
+    ]
+}

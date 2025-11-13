@@ -1,0 +1,55 @@
+{
+    "id": "SenseiLMS",
+    "name": "SenseiLms",
+    "slug": "sensei-lms",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "sl_user_attempt_quiz",
+            "label": "User Attempts Quiz",
+            "since": "1.0.0"
+        },
+        {
+            "id": "sl_user_completes_course",
+            "label": "User Completes Course",
+            "since": "1.0.0"
+        },
+        {
+            "id": "sl_user_completes_lesson",
+            "label": "User Completes Lesson",
+            "since": "1.0.0"
+        },
+        {
+            "id": "sl_user_completes_quiz_percentage",
+            "label": "User Completes Quiz Percentage",
+            "since": "1.0.0"
+        },
+        {
+            "id": "sl_user_enrolled_course",
+            "label": "User Enrolled Course",
+            "since": "1.0.0"
+        },
+        {
+            "id": "sl_user_fails_quiz",
+            "label": "User Fails Quiz",
+            "since": "1.0.0"
+        },
+        {
+            "id": "sl_user_passes_quiz",
+            "label": "User Passes Quiz",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "sl_enroll_user_to_course",
+            "label": "Enroll User To Course",
+            "since": "1.0.0"
+        },
+        {
+            "id": "sl_unenroll_user_from_course",
+            "label": "Unenroll User From Course",
+            "since": "1.0.0"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "id": "MailPoet",
+    "name": "Mailpoet",
+    "slug": "mailpoet",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "mailpoet_form_submitted",
+            "label": "Form Submitted",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "add_subscriber_to_list",
+            "label": "Add New Subscriber",
+            "since": "1.0.0"
+        },
+        {
+            "id": "remove_subscriber_from_list",
+            "label": "Remove User from List",
+            "since": "1.0.0"
+        },
+        {
+            "id": "update_subscriber_status",
+            "label": "Update Subscriber Status",
+            "since": "1.0.0"
+        },
+        {
+            "id": "update_subscriber_to_new_list",
+            "label": "Add User to List",
+            "since": "1.0.0"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "id": "BricksBuilder",
+    "name": "BricksBuilder",
+    "slug": "bricks-builder",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "user_submits_bricks_builder_form",
+            "label": "Form Submitted",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": []
+}

@@ -1,0 +1,125 @@
+{
+    "id": "FluentCommunity",
+    "name": "Fluentcommunity",
+    "slug": "fluentcommunity",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "fc_comment_deleted",
+            "label": "CommentDeleted",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fc_comment_updated",
+            "label": "CommentUpdated",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fc_course_created",
+            "label": "CourseCreated",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fc_course_deleted",
+            "label": "CourseDeleted",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fc_course_published",
+            "label": "CoursePublished",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fc_course_updated",
+            "label": "CourseUpdated",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fc_space_created",
+            "label": "New Space Created",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fc_user_completes_course",
+            "label": "User Completes Course",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fc_user_joins_space",
+            "label": "User Joins Space",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fc_user_leaves_space",
+            "label": "User Leaves Space",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fc_user_unenrolls_from_course",
+            "label": "User Unenrolls From Course",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fcs_feed_created",
+            "label": "New Feed Created",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fcs_feed_updated",
+            "label": "Feed Updated",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fcs_new_space_feed_created",
+            "label": "New Space Feed Created",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "fc_add_user_to_course",
+            "label": "Add User to Course",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fc_add_user_to_space",
+            "label": "Add User to Space",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fc_create_lesson_in_course",
+            "label": "Create Lesson in Course",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fc_create_new_post_feed",
+            "label": "Create New Post in Feed",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fc_get_all_courses",
+            "label": "Get All Courses List",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fc_get_all_spaces",
+            "label": "Get All Spaces List",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fc_list_course_sections",
+            "label": "List Course Sections",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fc_remove_user_from_course",
+            "label": "Remove User from Course",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fc_remove_user_from_space",
+            "label": "Remove User from Space",
+            "since": "1.0.0"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "id": "WoocommerceShipstation",
+    "name": "WoocommerceShipstation",
+    "slug": "woocommerce-shipstation",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "wc_order_shipped",
+            "label": "Order Is Shipped",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wc_specific_amount_order_shipped",
+            "label": "Order For Specific Amount Shipped",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wc_specific_product_order_shipped",
+            "label": "Order For Specific Product Shipped",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": []
+}

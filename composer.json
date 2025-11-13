@@ -1,0 +1,56 @@
+{
+    "name": "dolliewp/sdk",
+    "version": "1.0.0",
+    "description": "Dollie Integrations SDK - Manifest-first integration framework for WordPress automations",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "dollie",
+        "wordpress",
+        "integrations",
+        "automation",
+        "triggers",
+        "actions",
+        "webhooks"
+    ],
+    "authors": [
+        {
+            "name": "Dollie",
+            "homepage": "https://getdollie.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "composer/class-map-generator": "^1.0",
+        "justinrainbow/json-schema": "^5.2",
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dollie\\SDK\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dollie\\SDK\\Build\\": "scripts/src/",
+            "Dollie\\SDK\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "generate-manifest": "php scripts/generate-manifest.php",
+        "post-autoload-dump": [
+            "@generate-manifest"
+        ],
+        "test": "phpunit"
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true,
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

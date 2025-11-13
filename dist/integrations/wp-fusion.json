@@ -1,0 +1,40 @@
+{
+    "id": "WPFusion",
+    "name": "WpFusion",
+    "slug": "wp-fusion",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "wf_tag_added_to_user",
+            "label": "Tag Added To User",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wf_tag_modified",
+            "label": "User Tag Modified",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wf_tag_removed_from_user",
+            "label": "Tag Removed From User",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "wf_add_tag_to_user",
+            "label": "Add Tag To User",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wf_get_contact_tags",
+            "label": "Get Contact Tags",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wf_remove_tag_from_user",
+            "label": "Remove Tag From User",
+            "since": "1.0.0"
+        }
+    ]
+}

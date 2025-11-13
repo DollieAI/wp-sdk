@@ -1,0 +1,24 @@
+{
+    "id": "TheEventCalendar",
+    "name": "EventCalendar",
+    "slug": "event-calendar",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "attendee_registered_event",
+            "label": "Attendee Registered for Event",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_attends_event",
+            "label": "User Attends Event",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_register_for_event",
+            "label": "New Attendee",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": []
+}

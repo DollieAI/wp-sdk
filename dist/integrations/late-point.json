@@ -1,0 +1,64 @@
+{
+    "id": "LatePoint",
+    "name": "LatePoint",
+    "slug": "late-point",
+    "since": "1.0.0",
+    "triggers": [],
+    "actions": [
+        {
+            "id": "lp_cancel_booking",
+            "label": "Cancel Booking",
+            "since": "1.0.0"
+        },
+        {
+            "id": "lp_create_agent",
+            "label": "Create Agent",
+            "since": "1.0.0"
+        },
+        {
+            "id": "lp_create_booking",
+            "label": "Create Order",
+            "since": "1.0.0"
+        },
+        {
+            "id": "lp_create_coupon",
+            "label": "Create Coupon",
+            "since": "1.0.0"
+        },
+        {
+            "id": "lp_create_customer",
+            "label": "Create Customer",
+            "since": "1.0.0"
+        },
+        {
+            "id": "lp_find_agent_by_email",
+            "label": "Find Agent By Email",
+            "since": "1.0.0"
+        },
+        {
+            "id": "lp_find_booking_by_id",
+            "label": "Find Booking By ID",
+            "since": "1.0.0"
+        },
+        {
+            "id": "lp_find_customer_by_email",
+            "label": "Find Customer By Email",
+            "since": "1.0.0"
+        },
+        {
+            "id": "lp_get_all_bundles",
+            "label": "List Bundles",
+            "since": "1.0.0"
+        },
+        {
+            "id": "lp_update_booking",
+            "label": "Update Booking",
+            "since": "1.0.0"
+        },
+        {
+            "id": "lp_update_coupon",
+            "label": "Update Coupon",
+            "since": "1.0.0"
+        }
+    ]
+}

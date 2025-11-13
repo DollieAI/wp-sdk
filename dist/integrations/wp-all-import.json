@@ -1,0 +1,24 @@
+{
+    "id": "WpAllImport",
+    "name": "WpAllImport",
+    "slug": "wp-all-import",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "wp_all_import_completed",
+            "label": "Import Completed",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wp_all_import_failed",
+            "label": "Import Failed",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wp_all_import_post_type_imported",
+            "label": "Post Type Imported",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": []
+}

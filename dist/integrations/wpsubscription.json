@@ -1,0 +1,50 @@
+{
+    "id": "WPSubscription",
+    "name": "Wpsubscription",
+    "slug": "wpsubscription",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "wp_subscription_activated",
+            "label": "Subscription Activated",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wp_subscription_cancelled",
+            "label": "Subscription Cancelled",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wp_subscription_expired",
+            "label": "Subscription Expired",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wp_subscription_pending",
+            "label": "Subscription Pending",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wp_subscription_pending_cancellation",
+            "label": "Subscription Pending Cancellation",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wp_subscription_status_changed",
+            "label": "Subscription Status Changed",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "wp_get_subscription_details",
+            "label": "Get Subscription Details",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wp_update_subscription_status",
+            "label": "Update Subscription Status",
+            "since": "1.0.0"
+        }
+    ]
+}

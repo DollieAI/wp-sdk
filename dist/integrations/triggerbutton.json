@@ -1,0 +1,14 @@
+{
+    "id": "TriggerButton",
+    "name": "Triggerbutton",
+    "slug": "triggerbutton",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "st_trigger_button",
+            "label": "A User Clicks on Trigger Button",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": []
+}

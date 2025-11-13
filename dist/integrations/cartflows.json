@@ -1,0 +1,39 @@
+{
+    "id": "CartFlows",
+    "name": "Cartflows",
+    "slug": "cartflows",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "cartflows_downsell_offer_skipped",
+            "label": "Downsell Offer Skipped",
+            "since": "1.0.0"
+        },
+        {
+            "id": "cartflows_upsell_offer_skipped",
+            "label": "Upsell Offer Skipped",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wcf_order_bump_item_added",
+            "label": "Order Bump Item Added",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wcf_order_bump_item_removed",
+            "label": "Order Bump Item Removed",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wcf_order_bump_item_replaced",
+            "label": "Order Bump Item Removed",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wcf_pre_checkout_offer_item_added",
+            "label": "Pre Checkout Offer Item Added",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": []
+}

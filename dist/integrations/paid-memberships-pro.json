@@ -1,0 +1,50 @@
+{
+    "id": "PaidMembershipsPro",
+    "name": "PaidMembershipsPro",
+    "slug": "paid-memberships-pro",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "admin_assigns_membership_user",
+            "label": "An admin assigns a membership level to a user",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_cancels_membership",
+            "label": "A user cancels a membership",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_membership_expires",
+            "label": "A user",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_purchases_membership",
+            "label": "A user purchases a membership",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_renews_expired_membership",
+            "label": "A user renews an expired membership",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "add_user_to_membership_level",
+            "label": "Add the user to a membership level",
+            "since": "1.0.0"
+        },
+        {
+            "id": "list_members_by_membership_level",
+            "label": "List all users in a membership level",
+            "since": "1.0.0"
+        },
+        {
+            "id": "remove_user_from_membership_level",
+            "label": "Remove the user from a membership level",
+            "since": "1.0.0"
+        }
+    ]
+}

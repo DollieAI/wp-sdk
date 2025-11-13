@@ -1,0 +1,19 @@
+{
+    "id": "AppointmentHourBooking",
+    "name": "AppointmentHourBooking",
+    "slug": "appointment-hour-booking",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "ahb_booking_status_updated",
+            "label": "Booking Status Updated",
+            "since": "1.0.0"
+        },
+        {
+            "id": "ahb_new_appointment",
+            "label": "New Appointment Booked",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": []
+}

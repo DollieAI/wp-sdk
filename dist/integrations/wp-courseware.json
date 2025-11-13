@@ -1,0 +1,19 @@
+{
+    "id": "WPCourseware",
+    "name": "WpCourseware",
+    "slug": "wp-courseware",
+    "since": "1.0.0",
+    "triggers": [],
+    "actions": [
+        {
+            "id": "wpcw_enroll_user_to_course",
+            "label": "Enroll User To Course",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wpcw_remove_user_from_course",
+            "label": "Remove User from Course",
+            "since": "1.0.0"
+        }
+    ]
+}

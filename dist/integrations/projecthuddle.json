@@ -1,0 +1,25 @@
+{
+    "id": "ProjectHuddle",
+    "name": "Projecthuddle",
+    "slug": "projecthuddle",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "new_comment_on_site",
+            "label": "New Comment On Site",
+            "since": "1.0.0"
+        },
+        {
+            "id": "ph_comment_resolved",
+            "label": "Comment Marked As Resolved",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "ph_create_mockup",
+            "label": "Post: Create a Post",
+            "since": "1.0.0"
+        }
+    ]
+}

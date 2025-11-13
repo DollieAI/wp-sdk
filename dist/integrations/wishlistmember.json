@@ -1,0 +1,80 @@
+{
+    "id": "WishlistMember",
+    "name": "Wishlistmember",
+    "slug": "wishlistmember",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "wishlist_membership_add_user",
+            "label": "User Added to Membership Level",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wishlist_membership_remove_user",
+            "label": "User Removed from Membership Level",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "wishlist_member_add_user",
+            "label": "Add User to Membership Level",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wishlist_member_check_if_user_is_member",
+            "label": "Check if User is Member",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wishlist_member_delete_existing_member",
+            "label": "Delete Existing Member",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wishlist_member_delete_level",
+            "label": "Delete Level",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wishlist_member_get_all_levels",
+            "label": "Get all Levels",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wishlist_member_get_member_by_email",
+            "label": "Get Member By Email",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wishlist_member_get_member_by_username",
+            "label": "Get Member By Username",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wishlist_member_get_member_information",
+            "label": "Get Member Information",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wishlist_member_get_specific_levels_details",
+            "label": "Get Specific Level Details",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wishlist_member_get_specific_member_level",
+            "label": "Get specific Members Levels",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wishlist_member_update_existing_level",
+            "label": "Update Existing Level",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wishlistmember_remove_user_levels",
+            "label": "Remove User from Membership Level",
+            "since": "1.0.0"
+        }
+    ]
+}

@@ -1,0 +1,293 @@
+{
+    "id": "WordPress",
+    "name": "WordPress",
+    "slug": "wordpress",
+    "since": "1.0.0",
+    "homepage": "https://wordpress.org",
+    "tags": [
+        "core",
+        "users",
+        "posts",
+        "comments"
+    ],
+    "triggers": [
+        {
+            "id": "add_user_role",
+            "label": "Role: Add a new role to the users roles",
+            "since": "1.0.0"
+        },
+        {
+            "id": "after_password_reset",
+            "label": "User resets their password",
+            "since": "1.0.0"
+        },
+        {
+            "id": "post_updated",
+            "label": "User updates a post",
+            "since": "1.0.0"
+        },
+        {
+            "id": "remove_user_role",
+            "label": "Role: Remove a role from the user",
+            "since": "1.0.0"
+        },
+        {
+            "id": "set_user_role",
+            "label": "Role: Change the users role to a new role",
+            "since": "1.0.0"
+        },
+        {
+            "id": "transition_comment_status",
+            "label": "User Comment Approved",
+            "since": "1.0.0"
+        },
+        {
+            "id": "transition_post_status",
+            "label": "User updates a post in a specific status",
+            "since": "1.0.0"
+        },
+        {
+            "id": "trashed_post",
+            "label": "Post/Page/CPT is moved to Trash",
+            "since": "1.0.0"
+        },
+        {
+            "id": "updated_user_meta",
+            "label": "User Meta Key Updated",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wordpress.user.created",
+            "label": "User is created",
+            "description": "Fires when a new WordPress user is registered",
+            "payloadSchema": {
+                "type": "object",
+                "properties": {
+                    "wp_user_id": {
+                        "type": "integer",
+                        "description": "User ID"
+                    },
+                    "user_login": {
+                        "type": "string",
+                        "description": "Username"
+                    },
+                    "display_name": {
+                        "type": "string",
+                        "description": "Display name"
+                    },
+                    "user_firstname": {
+                        "type": "string",
+                        "description": "First name"
+                    },
+                    "user_lastname": {
+                        "type": "string",
+                        "description": "Last name"
+                    },
+                    "user_email": {
+                        "type": "string",
+                        "format": "email",
+                        "description": "Email address"
+                    },
+                    "user_registered": {
+                        "type": "string",
+                        "format": "date-time",
+                        "description": "Registration date"
+                    },
+                    "user_role": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        },
+                        "description": "User roles"
+                    }
+                }
+            },
+            "examples": [
+                {
+                    "wp_user_id": 123,
+                    "user_login": "johndoe",
+                    "display_name": "John Doe",
+                    "user_firstname": "John",
+                    "user_lastname": "Doe",
+                    "user_email": "john@example.com",
+                    "user_registered": "2025-11-12 10:30:00",
+                    "user_role": [
+                        "subscriber"
+                    ]
+                }
+            ],
+            "tags": [
+                "users",
+                "registration"
+            ],
+            "since": "1.0.0"
+        },
+        {
+            "id": "wp_insert_comment",
+            "label": "User submits a comment on a post",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wp_login",
+            "label": "User logs in to the site",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wp_view_post",
+            "label": "User views any post",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "add_new_media",
+            "label": "Add New Image To Media Library",
+            "since": "1.0.0"
+        },
+        {
+            "id": "add_new_role",
+            "label": "Add a new role to the user",
+            "since": "1.0.0"
+        },
+        {
+            "id": "add_tag_to_post",
+            "label": "Add Tag To Post",
+            "since": "1.0.0"
+        },
+        {
+            "id": "add_taxonomy_to_post",
+            "label": "Add Taxonomy",
+            "since": "1.0.0"
+        },
+        {
+            "id": "change_role",
+            "label": "Role: Change the user",
+            "since": "1.0.0"
+        },
+        {
+            "id": "create_category",
+            "label": "Create New Category",
+            "since": "1.0.0"
+        },
+        {
+            "id": "create_role",
+            "label": "Create Role",
+            "since": "1.0.0"
+        },
+        {
+            "id": "create_tag",
+            "label": "Create New Tag",
+            "since": "1.0.0"
+        },
+        {
+            "id": "create_update_post",
+            "label": "Post: Create a Post",
+            "since": "1.0.0"
+        },
+        {
+            "id": "create_user_if_not_exists",
+            "label": "User: Create new user if not exists with Email",
+            "since": "1.0.0"
+        },
+        {
+            "id": "delete_user",
+            "label": "Delete User",
+            "since": "1.0.0"
+        },
+        {
+            "id": "find_post_by_criteria",
+            "label": "Find Posts",
+            "since": "1.0.0"
+        },
+        {
+            "id": "find_user_by_email",
+            "label": "Find User By Email",
+            "since": "1.0.0"
+        },
+        {
+            "id": "find_user_meta_by_key",
+            "label": "User: Find User meta by key",
+            "since": "1.0.0"
+        },
+        {
+            "id": "get_post_metadata",
+            "label": "Get Post Metadata",
+            "since": "1.0.0"
+        },
+        {
+            "id": "get_post_taxonomy",
+            "label": "Get Post Taxonomies",
+            "since": "1.0.0"
+        },
+        {
+            "id": "get_post_terms",
+            "label": "Get Post Terms",
+            "since": "1.0.0"
+        },
+        {
+            "id": "get_taxonomy_by_name",
+            "label": "Get Taxonomy By Name",
+            "since": "1.0.0"
+        },
+        {
+            "id": "get_user_by_role",
+            "label": "Get All Users By Role",
+            "since": "1.0.0"
+        },
+        {
+            "id": "remove_role",
+            "label": "Role: Remove a role from the user",
+            "since": "1.0.0"
+        },
+        {
+            "id": "remove_user",
+            "label": "User: Remove User",
+            "since": "1.0.0"
+        },
+        {
+            "id": "remove_user_meta",
+            "label": "Remove User Meta",
+            "since": "1.0.0"
+        },
+        {
+            "id": "send_mail",
+            "label": "Send an email",
+            "since": "1.0.0"
+        },
+        {
+            "id": "set_post_meta",
+            "label": "Post: Set Post meta",
+            "since": "1.0.0"
+        },
+        {
+            "id": "set_user_meta",
+            "label": "User: Set User meta",
+            "since": "1.0.0"
+        },
+        {
+            "id": "update_comment_status",
+            "label": "Update Comment Status",
+            "since": "1.0.0"
+        },
+        {
+            "id": "update_post",
+            "label": "Post: Update a Post",
+            "since": "1.0.0"
+        },
+        {
+            "id": "update_post_excerpt",
+            "label": "Post: Create a Post",
+            "since": "1.0.0"
+        },
+        {
+            "id": "update_user",
+            "label": "User: Update User Details",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wp_create_comment",
+            "label": "Create Comment",
+            "since": "1.0.0"
+        }
+    ]
+}

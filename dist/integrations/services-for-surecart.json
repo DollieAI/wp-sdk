@@ -1,0 +1,74 @@
+{
+    "id": "ServicesForSureCart",
+    "name": "ServicesForSurecart",
+    "slug": "services-for-surecart",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "ss_contract_signed",
+            "label": "Contract Signed",
+            "since": "1.0.0"
+        },
+        {
+            "id": "ss_customer_approves_final_delivery",
+            "label": "Customer Approves Final Delivery",
+            "since": "1.0.0"
+        },
+        {
+            "id": "ss_customer_request_revision",
+            "label": "Customer Request Revision",
+            "since": "1.0.0"
+        },
+        {
+            "id": "ss_delivery_date_changed",
+            "label": "Delivery Date Changed",
+            "since": "1.0.0"
+        },
+        {
+            "id": "ss_message_final_delivery_sent",
+            "label": "Final Delivery Sent",
+            "since": "1.0.0"
+        },
+        {
+            "id": "ss_message_sent",
+            "label": "Message Sent",
+            "since": "1.0.0"
+        },
+        {
+            "id": "ss_new_service_created",
+            "label": "New Service Created",
+            "since": "1.0.0"
+        },
+        {
+            "id": "ss_requirement_submitted",
+            "label": "Requirement Submitted",
+            "since": "1.0.0"
+        },
+        {
+            "id": "ss_service_auto_complete",
+            "label": "Service Auto Complete",
+            "since": "1.0.0"
+        },
+        {
+            "id": "ss_service_cancel",
+            "label": "Service Cancel",
+            "since": "1.0.0"
+        },
+        {
+            "id": "ss_service_completed",
+            "label": "Service Completed",
+            "since": "1.0.0"
+        },
+        {
+            "id": "ss_service_mark_completed",
+            "label": "Service Mark Completed",
+            "since": "1.0.0"
+        },
+        {
+            "id": "ss_service_marked_cancelled",
+            "label": "Service Marked as Canceled",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": []
+}

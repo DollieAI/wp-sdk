@@ -1,0 +1,25 @@
+{
+    "id": "UltimateMember",
+    "name": "UltimateMember",
+    "slug": "ultimate-member",
+    "since": "1.0.0",
+    "triggers": [
+        {
+            "id": "user_inactive",
+            "label": "User Become Inactive",
+            "since": "1.0.0"
+        }
+    ],
+    "actions": [
+        {
+            "id": "um_add_user_role",
+            "label": "Add a role to the user",
+            "since": "1.0.0"
+        },
+        {
+            "id": "um_set_user_role",
+            "label": "Set the user role",
+            "since": "1.0.0"
+        }
+    ]
+}

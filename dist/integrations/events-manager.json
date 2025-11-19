@@ -18,6 +18,11 @@
             "id": "em_user_registers_event_with_specific_ticket",
             "label": "User Registers Event with Specific Ticket",
             "since": "1.0.0"
+        },
+        {
+            "id": "em_user_unregister_from_event",
+            "label": "User Unregister from event",
+            "since": "1.0.0"
         }
     ],
     "actions": []

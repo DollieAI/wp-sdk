@@ -5,6 +5,41 @@
     "since": "1.0.0",
     "triggers": [
         {
+            "id": "add_tag_contact_fluentcrm",
+            "label": "Tag Added",
+            "since": "1.0.0"
+        },
+        {
+            "id": "contact_added_to_list_fluentcrm",
+            "label": "Contact Added to List",
+            "since": "1.0.0"
+        },
+        {
+            "id": "contact_custom_fields_updated_fluentcrm",
+            "label": "Contact Custom Fields Updated",
+            "since": "1.0.0"
+        },
+        {
+            "id": "contact_removed_from_list_fluentcrm",
+            "label": "Contact Removed from List",
+            "since": "1.0.0"
+        },
+        {
+            "id": "contact_status_set_to_specific_status_fluentcrm",
+            "label": "Contact Status Set to Specific Status",
+            "since": "1.0.0"
+        },
+        {
+            "id": "contact_updated_fluentcrm",
+            "label": "Contact Updated",
+            "since": "1.0.0"
+        },
+        {
+            "id": "new_contact_added_fluentcrm",
+            "label": "New Contact Added",
+            "since": "1.0.0"
+        },
+        {
             "id": "tag_removed_from_contact",
             "label": "Tag Removed",
             "since": "1.0.0"
@@ -87,6 +122,11 @@
             "since": "1.0.0"
         },
         {
+            "id": "fluentcrm_retrieve_contact_by_list_ids",
+            "label": "Retrieve Contact By User ID",
+            "since": "1.0.0"
+        },
+        {
             "id": "fluentcrm_retrieve_contact_by_segment",
             "label": "Retrieve Contact By Segment",
             "since": "1.0.0"
@@ -94,6 +134,11 @@
         {
             "id": "fluentcrm_retrieve_contact_by_status",
             "label": "Retrieve Contact By Status",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fluentcrm_retrieve_contact_by_tag_ids",
+            "label": "Retrieve Contact By Tag IDs",
             "since": "1.0.0"
         },
         {

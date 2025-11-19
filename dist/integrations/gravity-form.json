@@ -5,13 +5,28 @@
     "since": "1.0.0",
     "triggers": [
         {
+            "id": "form_entry_updated_gravityform",
+            "label": "Form Entry Updated",
+            "since": "1.0.0"
+        },
+        {
             "id": "user_register_gravityform",
             "label": "User Register with Gravity Form",
             "since": "1.0.0"
         },
         {
+            "id": "user_submits_gravityform",
+            "label": "Form Submitted",
+            "since": "1.0.0"
+        },
+        {
             "id": "user_submits_payment_gravityform",
             "label": "User Submits Payment Form",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_submits_specific_field_gravityform",
+            "label": "Form Submitted with Specific Field",
             "since": "1.0.0"
         }
     ],

@@ -3,7 +3,28 @@
     "name": "FunnelKitAutomations",
     "slug": "funnel-kit-automations",
     "since": "1.0.0",
-    "triggers": [],
+    "triggers": [
+        {
+            "id": "contact_added_to_list_funnel_kit_automations",
+            "label": "Contact Added to List",
+            "since": "1.0.0"
+        },
+        {
+            "id": "contact_removed_from_list_funnel_kit_automations",
+            "label": "Contact Removed from List",
+            "since": "1.0.0"
+        },
+        {
+            "id": "tag_added_to_contact_funnel_kit_automations",
+            "label": "Tag Added to Contact",
+            "since": "1.0.0"
+        },
+        {
+            "id": "tag_removed_from_contact_funnel_kit_automations",
+            "label": "Tag Removed from Contact",
+            "since": "1.0.0"
+        }
+    ],
     "actions": [
         {
             "id": "funnel_kit_automations_add_contact_to_lists",

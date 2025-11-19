@@ -10,6 +10,11 @@
             "since": "1.0.0"
         },
         {
+            "id": "ssa_appointment_canceled",
+            "label": "New Appointment Booked",
+            "since": "1.0.0"
+        },
+        {
             "id": "ssa_appointment_rescheduled",
             "label": "Appointment Rescheduled",
             "since": "1.0.0"

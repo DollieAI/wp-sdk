@@ -5,6 +5,8 @@
     label: 'RSVP on behalf of the user for an event',
     since: '1.0.0'
 )]
+
+namespace Dollie\SDK\Integrations\EventCalendar\Actions;
 /**
  * EventCalendarSendRsvp.
  * php version 5.6

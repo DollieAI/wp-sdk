@@ -13,6 +13,16 @@
             "id": "elementor_submit_form_specific_value",
             "label": "Form Submitted with Specific Field Value",
             "since": "1.0.0"
+        },
+        {
+            "id": "new_user_submits_elementor_form",
+            "label": "User submits a form",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_submits_elementor_form",
+            "label": "User submits a form",
+            "since": "1.0.0"
         }
     ],
     "actions": []

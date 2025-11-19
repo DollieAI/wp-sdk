@@ -205,8 +205,23 @@
             "since": "1.0.0"
         },
         {
+            "id": "find_user_by_id",
+            "label": "Find User By ID",
+            "since": "1.0.0"
+        },
+        {
+            "id": "find_user_meta",
+            "label": "User: Find User meta",
+            "since": "1.0.0"
+        },
+        {
             "id": "find_user_meta_by_key",
             "label": "User: Find User meta by key",
+            "since": "1.0.0"
+        },
+        {
+            "id": "get_post_by_id",
+            "label": "Get Post by ID",
             "since": "1.0.0"
         },
         {

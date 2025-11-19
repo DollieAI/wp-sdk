@@ -5,6 +5,16 @@
     "since": "1.0.0",
     "triggers": [
         {
+            "id": "user_credit_exceeds_specific_amount",
+            "label": "User Store Credit Exceeds Specific Amount",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_lifetime_credit_exceeds_specific_amount",
+            "label": "User Lifetime Credit Exceeds Specific Amount",
+            "since": "1.0.0"
+        },
+        {
             "id": "user_receives_store_credit",
             "label": "User Store Credit Exceeds Specific Amount",
             "since": "1.0.0"

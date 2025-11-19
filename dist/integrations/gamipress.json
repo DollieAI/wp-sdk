@@ -47,6 +47,11 @@
             "since": "1.0.0"
         },
         {
+            "id": "revoke_certain_types_points_user",
+            "label": "Revoke Certain Types of Points from User",
+            "since": "1.0.0"
+        },
+        {
             "id": "revoke_points_user",
             "label": "Revoke Points from the User",
             "since": "1.0.0"

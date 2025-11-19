@@ -53,6 +53,11 @@
             "id": "pg_user_removed_from_group",
             "label": "User Removed from Group",
             "since": "1.0.0"
+        },
+        {
+            "id": "pg_user_unassigned_group_manager",
+            "label": "User UnAssigned Group Manager",
+            "since": "1.0.0"
         }
     ],
     "actions": []

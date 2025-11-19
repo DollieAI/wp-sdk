@@ -8,6 +8,21 @@
             "id": "user_inactive",
             "label": "User Become Inactive",
             "since": "1.0.0"
+        },
+        {
+            "id": "user_logsin_form",
+            "label": "User LogsIn With A Form",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_registers_form",
+            "label": "User Registers With A Form",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_role_change",
+            "label": "User Role Change",
+            "since": "1.0.0"
         }
     ],
     "actions": [

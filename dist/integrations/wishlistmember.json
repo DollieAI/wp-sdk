@@ -17,6 +17,11 @@
     ],
     "actions": [
         {
+            "id": "wishlist_member_add_update_user",
+            "label": "Add/Update Member",
+            "since": "1.0.0"
+        },
+        {
             "id": "wishlist_member_add_user",
             "label": "Add User to Membership Level",
             "since": "1.0.0"
@@ -24,6 +29,11 @@
         {
             "id": "wishlist_member_check_if_user_is_member",
             "label": "Check if User is Member",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wishlist_member_create_level",
+            "label": "Create New Level",
             "since": "1.0.0"
         },
         {

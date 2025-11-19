@@ -82,6 +82,11 @@
             "since": "1.0.0"
         },
         {
+            "id": "bb_add_post_to_activity_stream_of_group",
+            "label": "Add post to activity stream of group",
+            "since": "1.0.0"
+        },
+        {
             "id": "bb_add_post_to_user_activity_feed",
             "label": "Add Post to User Activity Feed",
             "since": "1.0.0"
@@ -127,8 +132,18 @@
             "since": "1.0.0"
         },
         {
+            "id": "bb_send_friendship_request_user",
+            "label": "Send a friendship request to a user",
+            "since": "1.0.0"
+        },
+        {
             "id": "bb_send_message_to_group_members",
             "label": "Send Message to Group Members",
+            "since": "1.0.0"
+        },
+        {
+            "id": "bb_send_message_to_users",
+            "label": "Send Message",
             "since": "1.0.0"
         },
         {

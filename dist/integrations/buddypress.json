@@ -102,6 +102,11 @@
             "since": "1.0.0"
         },
         {
+            "id": "add_user_to_group",
+            "label": "Add user to group",
+            "since": "1.0.0"
+        },
+        {
             "id": "bp_create_group",
             "label": "Create a group",
             "since": "1.0.0"

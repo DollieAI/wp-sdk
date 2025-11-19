@@ -2,7 +2,7 @@
     "plugin": "dolliewp/sdk",
     "name": "Dollie Integrations SDK",
     "version": "1.0.0",
-    "generated_at": "2025-11-13T08:11:14Z",
+    "generated_at": "2025-11-18T11:40:23Z",
     "integrations": [
         {
             "id": "AcademyLMS",
@@ -75,6 +75,16 @@
             "slug": "advanced-coupons",
             "since": "1.0.0",
             "triggers": [
+                {
+                    "id": "user_credit_exceeds_specific_amount",
+                    "label": "User Store Credit Exceeds Specific Amount",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_lifetime_credit_exceeds_specific_amount",
+                    "label": "User Lifetime Credit Exceeds Specific Amount",
+                    "since": "1.0.0"
+                },
                 {
                     "id": "user_receives_store_credit",
                     "label": "User Store Credit Exceeds Specific Amount",
@@ -297,7 +307,18 @@
             "name": "Asgaros",
             "slug": "asgaros",
             "since": "1.0.0",
-            "triggers": [],
+            "triggers": [
+                {
+                    "id": "asgaros_user_creates_new_topic_forum",
+                    "label": "User Creates New Topic in Forum",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "asgaros_user_replies_topic_forum",
+                    "label": "User Replies to Topic in Forum",
+                    "since": "1.0.0"
+                }
+            ],
             "actions": [
                 {
                     "id": "asgaros_create_forum",
@@ -307,6 +328,11 @@
                 {
                     "id": "asgaros_create_topic",
                     "label": "Create a topic",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "asgaros_post_reply_in_topic",
+                    "label": "Post Reply in Topic",
                     "since": "1.0.0"
                 }
             ]
@@ -344,7 +370,13 @@
             "name": "BetterMessages",
             "slug": "better-messages",
             "since": "1.0.0",
-            "triggers": [],
+            "triggers": [
+                {
+                    "id": "bm_new_message_received",
+                    "label": "New Message Received",
+                    "since": "1.0.0"
+                }
+            ],
             "actions": [
                 {
                     "id": "bm_post_message_to_chatroom",
@@ -456,6 +488,11 @@
                     "since": "1.0.0"
                 },
                 {
+                    "id": "bb_add_post_to_activity_stream_of_group",
+                    "label": "Add post to activity stream of group",
+                    "since": "1.0.0"
+                },
+                {
                     "id": "bb_add_post_to_user_activity_feed",
                     "label": "Add Post to User Activity Feed",
                     "since": "1.0.0"
@@ -501,8 +538,18 @@
                     "since": "1.0.0"
                 },
                 {
+                    "id": "bb_send_friendship_request_user",
+                    "label": "Send a friendship request to a user",
+                    "since": "1.0.0"
+                },
+                {
                     "id": "bb_send_message_to_group_members",
                     "label": "Send Message to Group Members",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "bb_send_message_to_users",
+                    "label": "Send Message",
                     "since": "1.0.0"
                 },
                 {
@@ -641,6 +688,11 @@
                     "since": "1.0.0"
                 },
                 {
+                    "id": "add_user_to_group",
+                    "label": "Add user to group",
+                    "since": "1.0.0"
+                },
+                {
                     "id": "bp_create_group",
                     "label": "Create a group",
                     "since": "1.0.0"
@@ -694,8 +746,28 @@
             "since": "1.0.0",
             "triggers": [
                 {
+                    "id": "cartflows_downsell_offer_accepted",
+                    "label": "User accepts a downsell",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "cartflows_downsell_offer_rejected",
+                    "label": "User declines downsell",
+                    "since": "1.0.0"
+                },
+                {
                     "id": "cartflows_downsell_offer_skipped",
                     "label": "Downsell Offer Skipped",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "cartflows_upsell_offer_accepted",
+                    "label": "User accepts a one click upsell",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "cartflows_upsell_offer_rejected",
+                    "label": "User declines a one click upsell",
                     "since": "1.0.0"
                 },
                 {
@@ -853,11 +925,102 @@
             "name": "Edd",
             "slug": "edd",
             "since": "1.0.0",
-            "triggers": [],
+            "triggers": [
+                {
+                    "id": "edd_license_key_activated",
+                    "label": "New License Key",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "edd_license_key_deactivated",
+                    "label": "New License Key",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "edd_license_key_status_changed_to_active",
+                    "label": "License Key Status Changed To Active",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "edd_license_key_status_changed_to_disabled",
+                    "label": "License Key Status Changed To Disabled",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "edd_license_key_status_changed_to_expired",
+                    "label": "License Key Status Changed To Expired",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "edd_license_key_status_changed_to_inactive",
+                    "label": "License Key Status Changed To Active",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "edd_new_license_key",
+                    "label": "New License Key",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "edd_order_status_changes",
+                    "label": "Order Status Changes",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "edd_subscription_renewal",
+                    "label": "Subscription Renewal",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "edd_user_purchase_product",
+                    "label": "Order Created",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "edd_user_purchase_refund",
+                    "label": "Stripe Payment Refunded",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "edd_user_purchase_specific_product",
+                    "label": "Product Purchased",
+                    "since": "1.0.0"
+                }
+            ],
             "actions": [
+                {
+                    "id": "create_discount_edd_free",
+                    "label": "Create Discount (Free)",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "edd_create_discount",
+                    "label": "Create Discount",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "edd_delete_discount",
+                    "label": "Delete Discount",
+                    "since": "1.0.0"
+                },
                 {
                     "id": "edd_fetch_discount_details",
                     "label": "Fetch Discount Details",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "find_user_have_active_or_inactive_license_for_specific_download",
+                    "label": "User have subscription for download",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "find_user_have_subscription_for_specific_download",
+                    "label": "User have subscription for download",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "find_user_purchased_download",
+                    "label": "User has purchased a download",
                     "since": "1.0.0"
                 }
             ]
@@ -912,6 +1075,16 @@
                     "id": "elementor_submit_form_specific_value",
                     "label": "Form Submitted with Specific Field Value",
                     "since": "1.0.0"
+                },
+                {
+                    "id": "new_user_submits_elementor_form",
+                    "label": "User submits a form",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_submits_elementor_form",
+                    "label": "User submits a form",
+                    "since": "1.0.0"
                 }
             ],
             "actions": []
@@ -935,6 +1108,11 @@
                 {
                     "id": "em_user_registers_event_with_specific_ticket",
                     "label": "User Registers Event with Specific Ticket",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "em_user_unregister_from_event",
+                    "label": "User Unregister from event",
                     "since": "1.0.0"
                 }
             ],
@@ -1102,6 +1280,41 @@
             "since": "1.0.0",
             "triggers": [
                 {
+                    "id": "add_tag_contact_fluentcrm",
+                    "label": "Tag Added",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "contact_added_to_list_fluentcrm",
+                    "label": "Contact Added to List",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "contact_custom_fields_updated_fluentcrm",
+                    "label": "Contact Custom Fields Updated",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "contact_removed_from_list_fluentcrm",
+                    "label": "Contact Removed from List",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "contact_status_set_to_specific_status_fluentcrm",
+                    "label": "Contact Status Set to Specific Status",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "contact_updated_fluentcrm",
+                    "label": "Contact Updated",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "new_contact_added_fluentcrm",
+                    "label": "New Contact Added",
+                    "since": "1.0.0"
+                },
+                {
                     "id": "tag_removed_from_contact",
                     "label": "Tag Removed",
                     "since": "1.0.0"
@@ -1184,6 +1397,11 @@
                     "since": "1.0.0"
                 },
                 {
+                    "id": "fluentcrm_retrieve_contact_by_list_ids",
+                    "label": "Retrieve Contact By User ID",
+                    "since": "1.0.0"
+                },
+                {
                     "id": "fluentcrm_retrieve_contact_by_segment",
                     "label": "Retrieve Contact By Segment",
                     "since": "1.0.0"
@@ -1191,6 +1409,11 @@
                 {
                     "id": "fluentcrm_retrieve_contact_by_status",
                     "label": "Retrieve Contact By Status",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fluentcrm_retrieve_contact_by_tag_ids",
+                    "label": "Retrieve Contact By Tag IDs",
                     "since": "1.0.0"
                 },
                 {
@@ -1267,6 +1490,11 @@
                     "since": "1.0.0"
                 },
                 {
+                    "id": "fc_user_enrolls_in_course",
+                    "label": "User Enrolls In Course",
+                    "since": "1.0.0"
+                },
+                {
                     "id": "fc_user_joins_space",
                     "label": "User Joins Space",
                     "since": "1.0.0"
@@ -1274,6 +1502,11 @@
                 {
                     "id": "fc_user_leaves_space",
                     "label": "User Leaves Space",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "fc_user_requests_join_space",
+                    "label": "User Requests To Join Space",
                     "since": "1.0.0"
                 },
                 {
@@ -1350,7 +1583,18 @@
             "name": "FluentForm",
             "slug": "fluent-form",
             "since": "1.0.0",
-            "triggers": [],
+            "triggers": [
+                {
+                    "id": "user_submits_fluentform",
+                    "label": "User Submits Form",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_submits_specific_field_value_fluentform",
+                    "label": "User Submits Form with Specific Field Value",
+                    "since": "1.0.0"
+                }
+            ],
             "actions": [
                 {
                     "id": "register_a_new_user",
@@ -1378,7 +1622,53 @@
             "name": "FluentSupport",
             "slug": "fluent-support",
             "since": "1.0.0",
-            "triggers": [],
+            "triggers": [
+                {
+                    "id": "response_added_by_agent_fluent_support",
+                    "label": "Agent Replied",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "response_added_by_customer_fluent_support",
+                    "label": "Customer Replied",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ticket_closed_by_agent_fluent_support",
+                    "label": "Ticket Closed by Agent",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ticket_closed_by_customer_fluent_support",
+                    "label": "Ticket Closed by Customer",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ticket_closed_product_fluent_support",
+                    "label": "Ticket Closed for Product",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ticket_created_fluent_support",
+                    "label": "Ticket Created",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ticket_created_product_fluent_support",
+                    "label": "Ticket Created for Product",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ticket_product_replied_agent_fluent_support",
+                    "label": "Ticket for Product Replied by Agent",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ticket_product_replied_customer_fluent_support",
+                    "label": "Ticket for Product Replied by Customer",
+                    "since": "1.0.0"
+                }
+            ],
             "actions": [
                 {
                     "id": "add_tag_to_ticket_fluent_support",
@@ -1398,6 +1688,11 @@
                 {
                     "id": "create_ticket_fluent_support",
                     "label": "Create Ticket",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "get_all_tickets_fluent_support",
+                    "label": "Get All Tickets",
                     "since": "1.0.0"
                 },
                 {
@@ -1445,7 +1740,28 @@
             "name": "FunnelKitAutomations",
             "slug": "funnel-kit-automations",
             "since": "1.0.0",
-            "triggers": [],
+            "triggers": [
+                {
+                    "id": "contact_added_to_list_funnel_kit_automations",
+                    "label": "Contact Added to List",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "contact_removed_from_list_funnel_kit_automations",
+                    "label": "Contact Removed from List",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "tag_added_to_contact_funnel_kit_automations",
+                    "label": "Tag Added to Contact",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "tag_removed_from_contact_funnel_kit_automations",
+                    "label": "Tag Removed from Contact",
+                    "since": "1.0.0"
+                }
+            ],
             "actions": [
                 {
                     "id": "funnel_kit_automations_add_contact_to_lists",
@@ -1515,6 +1831,11 @@
                 {
                     "id": "revoke_achivement_user",
                     "label": "Revoke Achievement from User",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "revoke_certain_types_points_user",
+                    "label": "Revoke Certain Types of Points from User",
                     "since": "1.0.0"
                 },
                 {
@@ -1594,7 +1915,33 @@
             "name": "Givewp",
             "slug": "givewp",
             "since": "1.0.0",
-            "triggers": [],
+            "triggers": [
+                {
+                    "id": "givewp_donation_submit_specific_amount",
+                    "label": "User Submits Donation Form Specific Amount",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "givewp_donation_submit_specific_field_value",
+                    "label": "User Submits Donation Form Specific Field Value",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "givewp_donation_via_form",
+                    "label": "User Submits Donation Form",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "givewp_user_cancels_recurring_donation",
+                    "label": "User Cancels Recurring Donation",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "givewp_user_continues_recurring_donation",
+                    "label": "User Continues Recurring Donation",
+                    "since": "1.0.0"
+                }
+            ],
             "actions": [
                 {
                     "id": "givewp_add_not_to_donor",
@@ -1615,13 +1962,28 @@
             "since": "1.0.0",
             "triggers": [
                 {
+                    "id": "form_entry_updated_gravityform",
+                    "label": "Form Entry Updated",
+                    "since": "1.0.0"
+                },
+                {
                     "id": "user_register_gravityform",
                     "label": "User Register with Gravity Form",
                     "since": "1.0.0"
                 },
                 {
+                    "id": "user_submits_gravityform",
+                    "label": "Form Submitted",
+                    "since": "1.0.0"
+                },
+                {
                     "id": "user_submits_payment_gravityform",
                     "label": "User Submits Payment Form",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_submits_specific_field_gravityform",
+                    "label": "Form Submitted with Specific Field",
                     "since": "1.0.0"
                 }
             ],
@@ -1739,7 +2101,58 @@
             "name": "JetpackCrm",
             "slug": "jetpack-crm",
             "since": "1.0.0",
-            "triggers": [],
+            "triggers": [
+                {
+                    "id": "company_created_jetpack_crm",
+                    "label": "Company Created",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "company_deleted_jetpack_crm",
+                    "label": "Company Deleted",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "contact_created_jetpack_crm",
+                    "label": "Contact Created",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "contact_deleted_jetpack_crm",
+                    "label": "Contact Deleted",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "event_deleted_jetpack_crm",
+                    "label": "Event Deleted",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "invoice_deleted_jetpack_crm",
+                    "label": "Invoice Deleted",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "quote_accepted_jetpack_crm",
+                    "label": "Quote Accepted",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "quote_created_jetpack_crm",
+                    "label": "Quote Created",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "quote_deleted_jetpack_crm",
+                    "label": "Quote Deleted",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "transaction_deleted_jetpack_crm",
+                    "label": "Transaction Deleted",
+                    "since": "1.0.0"
+                }
+            ],
             "actions": [
                 {
                     "id": "jetpack_crm_add_tag_to_company",
@@ -1749,6 +2162,11 @@
                 {
                     "id": "jetpack_crm_add_tag_to_contact",
                     "label": "Add Tag to Contact",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "jetpack_crm_change_contact_status",
+                    "label": "Change Contact Status",
                     "since": "1.0.0"
                 },
                 {
@@ -1810,6 +2228,11 @@
                     "since": "1.0.0"
                 },
                 {
+                    "id": "lp_create_order",
+                    "label": "Create Bundle Order",
+                    "since": "1.0.0"
+                },
+                {
                     "id": "lp_find_agent_by_email",
                     "label": "Find Agent By Email",
                     "since": "1.0.0"
@@ -1848,8 +2271,38 @@
             "since": "1.0.0",
             "triggers": [
                 {
+                    "id": "course_added_to_ld_group",
+                    "label": "User Added in Group",
+                    "since": "1.0.0"
+                },
+                {
                     "id": "essay_question_graded",
                     "label": "User Added in Group",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "group_leader_added_to_ld_group",
+                    "label": "User Added in Group",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "group_leader_removed_from_ld_group",
+                    "label": "User Added in Group",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ld_purchase_course",
+                    "label": "Course Purchased",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_access_expires_ld_course",
+                    "label": "User Added in Group",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_added_ld_group",
+                    "label": "User Added to Group",
                     "since": "1.0.0"
                 },
                 {
@@ -1858,8 +2311,58 @@
                     "since": "1.0.0"
                 },
                 {
+                    "id": "user_completes_group_ld_course",
+                    "label": "User Completes Group Course",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_completes_ld_course",
+                    "label": "Course Completed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_completes_ld_lesson",
+                    "label": "Lesson Completed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_completes_ld_topic",
+                    "label": "Topic Completed",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_enrolled_ld_course",
+                    "label": "User Added in Group",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_fails_ld_quiz",
+                    "label": "User Fails Quiz",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_passes_ld_quiz",
+                    "label": "User Passes Quiz",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_removed_ld_group",
+                    "label": "User Removed from Group",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_submits_essay_ld_quiz",
+                    "label": "User Submits Essay Quiz",
+                    "since": "1.0.0"
+                },
+                {
                     "id": "user_submits_ld_assignment",
                     "label": "User Removed from Group",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_unenrolled_ld_course",
+                    "label": "User Added in Group",
                     "since": "1.0.0"
                 }
             ],
@@ -1867,6 +2370,11 @@
                 {
                     "id": "ld_enroll_to_course",
                     "label": "Enroll User in a course",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ld_find_course_taxonomies",
+                    "label": "Find Course Taxonomies",
                     "since": "1.0.0"
                 },
                 {
@@ -1912,6 +2420,11 @@
                 {
                     "id": "learndash_find_user_groups",
                     "label": "Find User Groups",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "learndash_mark_user_group_leader",
+                    "label": "Mark User as Group Leader",
                     "since": "1.0.0"
                 },
                 {
@@ -2069,6 +2582,11 @@
                 {
                     "id": "mail_mint_lists_added_to_contact",
                     "label": "Lists Added To Contact",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "mail_mint_send_campaign_email",
+                    "label": "Campaign Email Sent",
                     "since": "1.0.0"
                 },
                 {
@@ -2305,6 +2823,11 @@
                     "id": "mpc_complete_lesson",
                     "label": "Complete Lesson",
                     "since": "1.0.0"
+                },
+                {
+                    "id": "mpc_reset_progress",
+                    "label": "Reset Course Progress",
+                    "since": "1.0.0"
                 }
             ]
         },
@@ -2328,6 +2851,11 @@
             "slug": "metabox",
             "since": "1.0.0",
             "triggers": [
+                {
+                    "id": "metabox_after_form_submission",
+                    "label": "User Metabox Field Updated",
+                    "since": "1.0.0"
+                },
                 {
                     "id": "post_metabox_field_updated",
                     "label": "Field is updated on Post",
@@ -2475,6 +3003,11 @@
                 {
                     "id": "ninja_tables_delete_row",
                     "label": "Delete Row in Table",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ninja_tables_list_rows",
+                    "label": "Lists Rows in Table",
                     "since": "1.0.0"
                 },
                 {
@@ -2737,6 +3270,11 @@
                     "id": "pg_user_removed_from_group",
                     "label": "User Removed from Group",
                     "since": "1.0.0"
+                },
+                {
+                    "id": "pg_user_unassigned_group_manager",
+                    "label": "User UnAssigned Group Manager",
+                    "since": "1.0.0"
                 }
             ],
             "actions": []
@@ -2767,6 +3305,26 @@
                 {
                     "id": "add_update_profilepress_customer",
                     "label": "Add/Update ProfilePress customer",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ppress_get_customer_details_by_id",
+                    "label": "Get Plan Details by ID",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ppress_get_order_details_by_id",
+                    "label": "Get Order Details by ID",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ppress_get_plan_details_by_id",
+                    "label": "Get Plan Details by ID",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "ppress_get_subscription_details_by_id",
+                    "label": "Get Subscription Details by ID",
                     "since": "1.0.0"
                 }
             ]
@@ -2997,6 +3555,11 @@
                     "since": "1.0.0"
                 },
                 {
+                    "id": "ssa_appointment_canceled",
+                    "label": "New Appointment Booked",
+                    "since": "1.0.0"
+                },
+                {
                     "id": "ssa_appointment_rescheduled",
                     "label": "Appointment Rescheduled",
                     "since": "1.0.0"
@@ -3009,7 +3572,28 @@
             "name": "SliceWp",
             "slug": "slice-wp",
             "since": "1.0.0",
-            "triggers": [],
+            "triggers": [
+                {
+                    "id": "slicewp_new_affiliate",
+                    "label": "Affiliate Created",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "slicewp_new_commission",
+                    "label": "Commission Created",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "slicewp_update_affiliate",
+                    "label": "Affiliate Updated",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "slicewp_update_commission",
+                    "label": "Commission Updated",
+                    "since": "1.0.0"
+                }
+            ],
             "actions": [
                 {
                     "id": "slicewp_create_affiliate",
@@ -3116,7 +3700,13 @@
             "name": "Sureforms",
             "slug": "sureforms",
             "since": "1.0.0",
-            "triggers": [],
+            "triggers": [
+                {
+                    "id": "sureforms_form_submitted",
+                    "label": "Form Submitted",
+                    "since": "1.0.0"
+                }
+            ],
             "actions": [
                 {
                     "id": "sureforms_send_data",
@@ -3156,6 +3746,11 @@
             "since": "1.0.0",
             "triggers": [
                 {
+                    "id": "suremember_updated_group",
+                    "label": "Group Updated",
+                    "since": "1.0.0"
+                },
+                {
                     "id": "suremember_user_added_in_group",
                     "label": "User Added",
                     "since": "1.0.0"
@@ -3188,6 +3783,11 @@
                 {
                     "id": "attendee_registered_event",
                     "label": "Attendee Registered for Event",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "attendee_registered_wc",
+                    "label": "Attendee Registered with WC",
                     "since": "1.0.0"
                 },
                 {
@@ -3280,6 +3880,11 @@
             ],
             "actions": [
                 {
+                    "id": "tlms_enroll_to_course",
+                    "label": "Enroll User in Course",
+                    "since": "1.0.0"
+                },
+                {
                     "id": "tlms_list_enrolled_users",
                     "label": "List Enrolled Users",
                     "since": "1.0.0"
@@ -3292,6 +3897,11 @@
                 {
                     "id": "tlms_mark_lesson_complete",
                     "label": "Mark Lesson Complete",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "tlms_remove_from_course",
+                    "label": "Remove User from Course",
                     "since": "1.0.0"
                 },
                 {
@@ -3310,6 +3920,21 @@
                 {
                     "id": "user_inactive",
                     "label": "User Become Inactive",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_logsin_form",
+                    "label": "User LogsIn With A Form",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_registers_form",
+                    "label": "User Registers With A Form",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "user_role_change",
+                    "label": "User Role Change",
                     "since": "1.0.0"
                 }
             ],
@@ -3463,6 +4088,11 @@
                     "since": "1.0.0"
                 },
                 {
+                    "id": "voxel_post_review_approved",
+                    "label": "Post Review Approved",
+                    "since": "1.0.0"
+                },
+                {
                     "id": "voxel_post_reviewed",
                     "label": "Post Reviewed",
                     "since": "1.0.0"
@@ -3473,8 +4103,18 @@
                     "since": "1.0.0"
                 },
                 {
+                    "id": "voxel_post_unfollowed",
+                    "label": "Post UnFollowed",
+                    "since": "1.0.0"
+                },
+                {
                     "id": "voxel_post_updated",
                     "label": "Post Updated",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_post_wall_approved",
+                    "label": "Wall Post Approved",
                     "since": "1.0.0"
                 },
                 {
@@ -3508,6 +4148,11 @@
                     "since": "1.0.0"
                 },
                 {
+                    "id": "voxel_timeline_post_approved",
+                    "label": "Timeline Post Approved",
+                    "since": "1.0.0"
+                },
+                {
                     "id": "voxel_user_mentioned_in_comment",
                     "label": "User Mentioned In Comment",
                     "since": "1.0.0"
@@ -3520,6 +4165,16 @@
                 {
                     "id": "voxel_user_receives_message",
                     "label": "User Receives Message",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_users_timeline_approved",
+                    "label": "Users Timeline Approved",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_users_timeline_created",
+                    "label": "Users Timeline Created",
                     "since": "1.0.0"
                 }
             ],
@@ -3587,6 +4242,21 @@
                 {
                     "id": "voxel_get_member_by_email",
                     "label": "Get Member By Email",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_get_member_by_id",
+                    "label": "Get Member By ID",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_get_member_by_profile_id",
+                    "label": "Get Member By Profile ID",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "voxel_get_post_by_id",
+                    "label": "Get Post By ID",
                     "since": "1.0.0"
                 },
                 {
@@ -3723,6 +4393,11 @@
                     "since": "1.0.0"
                 },
                 {
+                    "id": "wf_get_contact_id",
+                    "label": "Get Contact ID",
+                    "since": "1.0.0"
+                },
+                {
                     "id": "wf_get_contact_tags",
                     "label": "Get Contact Tags",
                     "since": "1.0.0"
@@ -3767,7 +4442,13 @@
             "name": "Wployalty",
             "slug": "wployalty",
             "since": "1.0.0",
-            "triggers": [],
+            "triggers": [
+                {
+                    "id": "wp_loyalty_points_awarded_customer",
+                    "label": "Points Awarded Customer",
+                    "since": "1.0.0"
+                }
+            ],
             "actions": [
                 {
                     "id": "wp_loyalty_add_points_customer",
@@ -3968,6 +4649,11 @@
             ],
             "actions": [
                 {
+                    "id": "wishlist_member_add_update_user",
+                    "label": "Add/Update Member",
+                    "since": "1.0.0"
+                },
+                {
                     "id": "wishlist_member_add_user",
                     "label": "Add User to Membership Level",
                     "since": "1.0.0"
@@ -3975,6 +4661,11 @@
                 {
                     "id": "wishlist_member_check_if_user_is_member",
                     "label": "Check if User is Member",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wishlist_member_create_level",
+                    "label": "Create New Level",
                     "since": "1.0.0"
                 },
                 {
@@ -4113,6 +4804,11 @@
                     "since": "1.0.0"
                 },
                 {
+                    "id": "wc_add_new_customer",
+                    "label": "Add New Customer in WooCommerce",
+                    "since": "1.0.0"
+                },
+                {
                     "id": "wc_add_order_note",
                     "label": "Add Order Note",
                     "since": "1.0.0"
@@ -4153,8 +4849,28 @@
                     "since": "1.0.0"
                 },
                 {
+                    "id": "wc_delete_coupon_code",
+                    "label": "Delete a coupon code.",
+                    "since": "1.0.0"
+                },
+                {
                     "id": "wc_fetch_coupon_details",
                     "label": "Fetch Coupon Details",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_find_orders_by_user_id",
+                    "label": "Find Orders by User ID",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_get_order_details_by_order_id",
+                    "label": "Get Order Details by Order ID",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_get_product_by_id",
+                    "label": "Get Product By ID",
                     "since": "1.0.0"
                 },
                 {
@@ -4368,6 +5084,11 @@
                 {
                     "id": "wc_extend_subscription_date",
                     "label": "Extend User Subscription",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "wc_find_subscription_by_user_id",
+                    "label": "Find Subscription by User ID",
                     "since": "1.0.0"
                 },
                 {
@@ -4594,8 +5315,23 @@
                     "since": "1.0.0"
                 },
                 {
+                    "id": "find_user_by_id",
+                    "label": "Find User By ID",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "find_user_meta",
+                    "label": "User: Find User meta",
+                    "since": "1.0.0"
+                },
+                {
                     "id": "find_user_meta_by_key",
                     "label": "User: Find User meta by key",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "get_post_by_id",
+                    "label": "Get Post by ID",
                     "since": "1.0.0"
                 },
                 {
@@ -4757,9 +5493,30 @@
                     "id": "bbpress_reply_to_topic",
                     "label": "Reply To Topic.",
                     "since": "1.0.0"
+                },
+                {
+                    "id": "bbpress_topic_created",
+                    "label": "Topic Created.",
+                    "since": "1.0.0"
                 }
             ],
-            "actions": []
+            "actions": [
+                {
+                    "id": "add_topic_to_forum",
+                    "label": "Add Topic to Forum",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "bbp_add_reply_in_topic",
+                    "label": "Add Reply In Topic",
+                    "since": "1.0.0"
+                },
+                {
+                    "id": "bbp_user_subscribe_in_forum",
+                    "label": "Subscribe User In Forum",
+                    "since": "1.0.0"
+                }
+            ]
         },
         {
             "id": "wpForo",
@@ -4807,5 +5564,5 @@
             ]
         }
     ],
-    "checksum": "sha256:e562590f4a7120ad40a53f0cdb7c617b60a85949a99c6d41572ec19de2d9a414"
+    "checksum": "sha256:e330fbb9edacfd122f606127768fcb1dccdcb70a4b6c400f6f9a60a63d421c60"
 }

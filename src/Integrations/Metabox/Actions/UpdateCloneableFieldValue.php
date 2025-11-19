@@ -5,6 +5,8 @@
     label: 'Update Cloneable Field Value',
     since: '1.0.0'
 )]
+
+namespace Dollie\SDK\Integrations\Metabox\Actions;
 /**
  * UpdateCloneableFieldValue.
  * php version 5.6

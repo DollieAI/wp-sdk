@@ -22,6 +22,11 @@
             "since": "1.0.0"
         },
         {
+            "id": "ninja_tables_list_rows",
+            "label": "Lists Rows in Table",
+            "since": "1.0.0"
+        },
+        {
             "id": "ninja_tables_new_row",
             "label": "Add Row in Table",
             "since": "1.0.0"

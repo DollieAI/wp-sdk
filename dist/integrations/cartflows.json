@@ -5,8 +5,28 @@
     "since": "1.0.0",
     "triggers": [
         {
+            "id": "cartflows_downsell_offer_accepted",
+            "label": "User accepts a downsell",
+            "since": "1.0.0"
+        },
+        {
+            "id": "cartflows_downsell_offer_rejected",
+            "label": "User declines downsell",
+            "since": "1.0.0"
+        },
+        {
             "id": "cartflows_downsell_offer_skipped",
             "label": "Downsell Offer Skipped",
+            "since": "1.0.0"
+        },
+        {
+            "id": "cartflows_upsell_offer_accepted",
+            "label": "User accepts a one click upsell",
+            "since": "1.0.0"
+        },
+        {
+            "id": "cartflows_upsell_offer_rejected",
+            "label": "User declines a one click upsell",
             "since": "1.0.0"
         },
         {

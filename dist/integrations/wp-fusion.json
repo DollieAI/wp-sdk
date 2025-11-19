@@ -27,6 +27,11 @@
             "since": "1.0.0"
         },
         {
+            "id": "wf_get_contact_id",
+            "label": "Get Contact ID",
+            "since": "1.0.0"
+        },
+        {
             "id": "wf_get_contact_tags",
             "label": "Get Contact Tags",
             "since": "1.0.0"

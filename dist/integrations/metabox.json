@@ -5,6 +5,11 @@
     "since": "1.0.0",
     "triggers": [
         {
+            "id": "metabox_after_form_submission",
+            "label": "User Metabox Field Updated",
+            "since": "1.0.0"
+        },
+        {
             "id": "post_metabox_field_updated",
             "label": "Field is updated on Post",
             "since": "1.0.0"

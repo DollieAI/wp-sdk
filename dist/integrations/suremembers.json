@@ -5,6 +5,11 @@
     "since": "1.0.0",
     "triggers": [
         {
+            "id": "suremember_updated_group",
+            "label": "Group Updated",
+            "since": "1.0.0"
+        },
+        {
             "id": "suremember_user_added_in_group",
             "label": "User Added",
             "since": "1.0.0"

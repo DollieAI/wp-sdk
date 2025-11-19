@@ -3,11 +3,102 @@
     "name": "Edd",
     "slug": "edd",
     "since": "1.0.0",
-    "triggers": [],
+    "triggers": [
+        {
+            "id": "edd_license_key_activated",
+            "label": "New License Key",
+            "since": "1.0.0"
+        },
+        {
+            "id": "edd_license_key_deactivated",
+            "label": "New License Key",
+            "since": "1.0.0"
+        },
+        {
+            "id": "edd_license_key_status_changed_to_active",
+            "label": "License Key Status Changed To Active",
+            "since": "1.0.0"
+        },
+        {
+            "id": "edd_license_key_status_changed_to_disabled",
+            "label": "License Key Status Changed To Disabled",
+            "since": "1.0.0"
+        },
+        {
+            "id": "edd_license_key_status_changed_to_expired",
+            "label": "License Key Status Changed To Expired",
+            "since": "1.0.0"
+        },
+        {
+            "id": "edd_license_key_status_changed_to_inactive",
+            "label": "License Key Status Changed To Active",
+            "since": "1.0.0"
+        },
+        {
+            "id": "edd_new_license_key",
+            "label": "New License Key",
+            "since": "1.0.0"
+        },
+        {
+            "id": "edd_order_status_changes",
+            "label": "Order Status Changes",
+            "since": "1.0.0"
+        },
+        {
+            "id": "edd_subscription_renewal",
+            "label": "Subscription Renewal",
+            "since": "1.0.0"
+        },
+        {
+            "id": "edd_user_purchase_product",
+            "label": "Order Created",
+            "since": "1.0.0"
+        },
+        {
+            "id": "edd_user_purchase_refund",
+            "label": "Stripe Payment Refunded",
+            "since": "1.0.0"
+        },
+        {
+            "id": "edd_user_purchase_specific_product",
+            "label": "Product Purchased",
+            "since": "1.0.0"
+        }
+    ],
     "actions": [
+        {
+            "id": "create_discount_edd_free",
+            "label": "Create Discount (Free)",
+            "since": "1.0.0"
+        },
+        {
+            "id": "edd_create_discount",
+            "label": "Create Discount",
+            "since": "1.0.0"
+        },
+        {
+            "id": "edd_delete_discount",
+            "label": "Delete Discount",
+            "since": "1.0.0"
+        },
         {
             "id": "edd_fetch_discount_details",
             "label": "Fetch Discount Details",
+            "since": "1.0.0"
+        },
+        {
+            "id": "find_user_have_active_or_inactive_license_for_specific_download",
+            "label": "User have subscription for download",
+            "since": "1.0.0"
+        },
+        {
+            "id": "find_user_have_subscription_for_specific_download",
+            "label": "User have subscription for download",
+            "since": "1.0.0"
+        },
+        {
+            "id": "find_user_purchased_download",
+            "label": "User has purchased a download",
             "since": "1.0.0"
         }
     ]

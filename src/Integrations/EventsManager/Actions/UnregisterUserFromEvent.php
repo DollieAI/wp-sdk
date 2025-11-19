@@ -5,6 +5,8 @@
     label: 'Unregister the user from an event',
     since: '1.0.0'
 )]
+
+namespace Dollie\SDK\Integrations\EventsManager\Actions;
 /**
  * UnregisterUserFromEvent.
  * php version 5.6

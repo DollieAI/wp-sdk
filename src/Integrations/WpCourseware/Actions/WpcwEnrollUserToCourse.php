@@ -1,6 +1,6 @@
 <?php
 
-namespace Dollie\SDK\Integrations\WpCourseware\Actions;
+namespace Dollie\SDK\Integrations\WPCourseware\Actions;
 
 use Dollie\SDK\Attributes\Action;
 use Dollie\SDK\Integrations\AutomateAction;

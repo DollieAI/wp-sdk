@@ -3,7 +3,13 @@
     "name": "Wployalty",
     "slug": "wployalty",
     "since": "1.0.0",
-    "triggers": [],
+    "triggers": [
+        {
+            "id": "wp_loyalty_points_awarded_customer",
+            "label": "Points Awarded Customer",
+            "since": "1.0.0"
+        }
+    ],
     "actions": [
         {
             "id": "wp_loyalty_add_points_customer",

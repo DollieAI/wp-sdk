@@ -5,6 +5,8 @@
     label: 'Subscribe User In Forum',
     since: '1.0.0'
 )]
+
+namespace Dollie\SDK\Integrations\Asgaros\Actions;
 /**
  * SubscribeUserInForum.
  * php version 5.6

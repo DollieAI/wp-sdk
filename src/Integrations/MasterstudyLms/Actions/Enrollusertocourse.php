@@ -5,6 +5,8 @@
     label: 'Enroll User To Course',
     since: '1.0.0'
 )]
+
+namespace Dollie\SDK\Integrations\MasterStudyLms\Actions;
 /**
  * EnrollUserToCourse.
  * php version 5.6

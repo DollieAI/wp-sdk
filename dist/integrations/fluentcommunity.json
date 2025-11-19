@@ -45,6 +45,11 @@
             "since": "1.0.0"
         },
         {
+            "id": "fc_user_enrolls_in_course",
+            "label": "User Enrolls In Course",
+            "since": "1.0.0"
+        },
+        {
             "id": "fc_user_joins_space",
             "label": "User Joins Space",
             "since": "1.0.0"
@@ -52,6 +57,11 @@
         {
             "id": "fc_user_leaves_space",
             "label": "User Leaves Space",
+            "since": "1.0.0"
+        },
+        {
+            "id": "fc_user_requests_join_space",
+            "label": "User Requests To Join Space",
             "since": "1.0.0"
         },
         {

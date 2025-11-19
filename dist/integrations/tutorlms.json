@@ -42,6 +42,11 @@
     ],
     "actions": [
         {
+            "id": "tlms_enroll_to_course",
+            "label": "Enroll User in Course",
+            "since": "1.0.0"
+        },
+        {
             "id": "tlms_list_enrolled_users",
             "label": "List Enrolled Users",
             "since": "1.0.0"
@@ -54,6 +59,11 @@
         {
             "id": "tlms_mark_lesson_complete",
             "label": "Mark Lesson Complete",
+            "since": "1.0.0"
+        },
+        {
+            "id": "tlms_remove_from_course",
+            "label": "Remove User from Course",
             "since": "1.0.0"
         },
         {

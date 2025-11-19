@@ -5,8 +5,38 @@
     "since": "1.0.0",
     "triggers": [
         {
+            "id": "course_added_to_ld_group",
+            "label": "User Added in Group",
+            "since": "1.0.0"
+        },
+        {
             "id": "essay_question_graded",
             "label": "User Added in Group",
+            "since": "1.0.0"
+        },
+        {
+            "id": "group_leader_added_to_ld_group",
+            "label": "User Added in Group",
+            "since": "1.0.0"
+        },
+        {
+            "id": "group_leader_removed_from_ld_group",
+            "label": "User Added in Group",
+            "since": "1.0.0"
+        },
+        {
+            "id": "ld_purchase_course",
+            "label": "Course Purchased",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_access_expires_ld_course",
+            "label": "User Added in Group",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_added_ld_group",
+            "label": "User Added to Group",
             "since": "1.0.0"
         },
         {
@@ -15,8 +45,58 @@
             "since": "1.0.0"
         },
         {
+            "id": "user_completes_group_ld_course",
+            "label": "User Completes Group Course",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_completes_ld_course",
+            "label": "Course Completed",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_completes_ld_lesson",
+            "label": "Lesson Completed",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_completes_ld_topic",
+            "label": "Topic Completed",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_enrolled_ld_course",
+            "label": "User Added in Group",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_fails_ld_quiz",
+            "label": "User Fails Quiz",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_passes_ld_quiz",
+            "label": "User Passes Quiz",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_removed_ld_group",
+            "label": "User Removed from Group",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_submits_essay_ld_quiz",
+            "label": "User Submits Essay Quiz",
+            "since": "1.0.0"
+        },
+        {
             "id": "user_submits_ld_assignment",
             "label": "User Removed from Group",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_unenrolled_ld_course",
+            "label": "User Added in Group",
             "since": "1.0.0"
         }
     ],
@@ -24,6 +104,11 @@
         {
             "id": "ld_enroll_to_course",
             "label": "Enroll User in a course",
+            "since": "1.0.0"
+        },
+        {
+            "id": "ld_find_course_taxonomies",
+            "label": "Find Course Taxonomies",
             "since": "1.0.0"
         },
         {
@@ -69,6 +154,11 @@
         {
             "id": "learndash_find_user_groups",
             "label": "Find User Groups",
+            "since": "1.0.0"
+        },
+        {
+            "id": "learndash_mark_user_group_leader",
+            "label": "Mark User as Group Leader",
             "since": "1.0.0"
         },
         {

@@ -10,6 +10,11 @@
             "since": "1.0.0"
         },
         {
+            "id": "mail_mint_send_campaign_email",
+            "label": "Campaign Email Sent",
+            "since": "1.0.0"
+        },
+        {
             "id": "mail_mint_tags_added_to_contact",
             "label": "TagAppliedToContact",
             "since": "1.0.0"

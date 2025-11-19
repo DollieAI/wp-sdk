@@ -5,6 +5,8 @@
     label: 'Unroll User From Course',
     since: '1.0.0'
 )]
+
+namespace Dollie\SDK\Integrations\MasterStudyLms\Actions;
 /**
  * UnrollUserFromCourse.
  * php version 5.6

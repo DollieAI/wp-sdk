@@ -3,7 +3,13 @@
     "name": "BetterMessages",
     "slug": "better-messages",
     "since": "1.0.0",
-    "triggers": [],
+    "triggers": [
+        {
+            "id": "bm_new_message_received",
+            "label": "New Message Received",
+            "since": "1.0.0"
+        }
+    ],
     "actions": [
         {
             "id": "bm_post_message_to_chatroom",

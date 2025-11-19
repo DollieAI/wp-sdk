@@ -25,6 +25,11 @@
             "id": "mpc_complete_lesson",
             "label": "Complete Lesson",
             "since": "1.0.0"
+        },
+        {
+            "id": "mpc_reset_progress",
+            "label": "Reset Course Progress",
+            "since": "1.0.0"
         }
     ]
 }

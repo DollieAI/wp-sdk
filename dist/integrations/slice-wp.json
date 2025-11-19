@@ -3,7 +3,28 @@
     "name": "SliceWp",
     "slug": "slice-wp",
     "since": "1.0.0",
-    "triggers": [],
+    "triggers": [
+        {
+            "id": "slicewp_new_affiliate",
+            "label": "Affiliate Created",
+            "since": "1.0.0"
+        },
+        {
+            "id": "slicewp_new_commission",
+            "label": "Commission Created",
+            "since": "1.0.0"
+        },
+        {
+            "id": "slicewp_update_affiliate",
+            "label": "Affiliate Updated",
+            "since": "1.0.0"
+        },
+        {
+            "id": "slicewp_update_commission",
+            "label": "Commission Updated",
+            "since": "1.0.0"
+        }
+    ],
     "actions": [
         {
             "id": "slicewp_create_affiliate",

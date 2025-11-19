@@ -3,7 +3,33 @@
     "name": "Givewp",
     "slug": "givewp",
     "since": "1.0.0",
-    "triggers": [],
+    "triggers": [
+        {
+            "id": "givewp_donation_submit_specific_amount",
+            "label": "User Submits Donation Form Specific Amount",
+            "since": "1.0.0"
+        },
+        {
+            "id": "givewp_donation_submit_specific_field_value",
+            "label": "User Submits Donation Form Specific Field Value",
+            "since": "1.0.0"
+        },
+        {
+            "id": "givewp_donation_via_form",
+            "label": "User Submits Donation Form",
+            "since": "1.0.0"
+        },
+        {
+            "id": "givewp_user_cancels_recurring_donation",
+            "label": "User Cancels Recurring Donation",
+            "since": "1.0.0"
+        },
+        {
+            "id": "givewp_user_continues_recurring_donation",
+            "label": "User Continues Recurring Donation",
+            "since": "1.0.0"
+        }
+    ],
     "actions": [
         {
             "id": "givewp_add_not_to_donor",

@@ -3,7 +3,18 @@
     "name": "Asgaros",
     "slug": "asgaros",
     "since": "1.0.0",
-    "triggers": [],
+    "triggers": [
+        {
+            "id": "asgaros_user_creates_new_topic_forum",
+            "label": "User Creates New Topic in Forum",
+            "since": "1.0.0"
+        },
+        {
+            "id": "asgaros_user_replies_topic_forum",
+            "label": "User Replies to Topic in Forum",
+            "since": "1.0.0"
+        }
+    ],
     "actions": [
         {
             "id": "asgaros_create_forum",
@@ -13,6 +24,11 @@
         {
             "id": "asgaros_create_topic",
             "label": "Create a topic",
+            "since": "1.0.0"
+        },
+        {
+            "id": "asgaros_post_reply_in_topic",
+            "label": "Post Reply in Topic",
             "since": "1.0.0"
         }
     ]

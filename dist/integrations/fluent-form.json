@@ -3,7 +3,18 @@
     "name": "FluentForm",
     "slug": "fluent-form",
     "since": "1.0.0",
-    "triggers": [],
+    "triggers": [
+        {
+            "id": "user_submits_fluentform",
+            "label": "User Submits Form",
+            "since": "1.0.0"
+        },
+        {
+            "id": "user_submits_specific_field_value_fluentform",
+            "label": "User Submits Form with Specific Field Value",
+            "since": "1.0.0"
+        }
+    ],
     "actions": [
         {
             "id": "register_a_new_user",

@@ -77,6 +77,11 @@
             "since": "1.0.0"
         },
         {
+            "id": "wc_find_subscription_by_user_id",
+            "label": "Find Subscription by User ID",
+            "since": "1.0.0"
+        },
+        {
             "id": "wc_remove_product_user_subscription",
             "label": "Remove Product User Subscription",
             "since": "1.0.0"

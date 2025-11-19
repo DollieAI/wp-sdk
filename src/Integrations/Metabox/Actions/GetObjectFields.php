@@ -5,6 +5,8 @@
     label: 'Get Object Fields',
     since: '1.0.0'
 )]
+
+namespace Dollie\SDK\Integrations\Metabox\Actions;
 /**
  * GetObjectFields.
  * php version 5.6

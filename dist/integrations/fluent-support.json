@@ -3,7 +3,53 @@
     "name": "FluentSupport",
     "slug": "fluent-support",
     "since": "1.0.0",
-    "triggers": [],
+    "triggers": [
+        {
+            "id": "response_added_by_agent_fluent_support",
+            "label": "Agent Replied",
+            "since": "1.0.0"
+        },
+        {
+            "id": "response_added_by_customer_fluent_support",
+            "label": "Customer Replied",
+            "since": "1.0.0"
+        },
+        {
+            "id": "ticket_closed_by_agent_fluent_support",
+            "label": "Ticket Closed by Agent",
+            "since": "1.0.0"
+        },
+        {
+            "id": "ticket_closed_by_customer_fluent_support",
+            "label": "Ticket Closed by Customer",
+            "since": "1.0.0"
+        },
+        {
+            "id": "ticket_closed_product_fluent_support",
+            "label": "Ticket Closed for Product",
+            "since": "1.0.0"
+        },
+        {
+            "id": "ticket_created_fluent_support",
+            "label": "Ticket Created",
+            "since": "1.0.0"
+        },
+        {
+            "id": "ticket_created_product_fluent_support",
+            "label": "Ticket Created for Product",
+            "since": "1.0.0"
+        },
+        {
+            "id": "ticket_product_replied_agent_fluent_support",
+            "label": "Ticket for Product Replied by Agent",
+            "since": "1.0.0"
+        },
+        {
+            "id": "ticket_product_replied_customer_fluent_support",
+            "label": "Ticket for Product Replied by Customer",
+            "since": "1.0.0"
+        }
+    ],
     "actions": [
         {
             "id": "add_tag_to_ticket_fluent_support",
@@ -23,6 +69,11 @@
         {
             "id": "create_ticket_fluent_support",
             "label": "Create Ticket",
+            "since": "1.0.0"
+        },
+        {
+            "id": "get_all_tickets_fluent_support",
+            "label": "Get All Tickets",
             "since": "1.0.0"
         },
         {

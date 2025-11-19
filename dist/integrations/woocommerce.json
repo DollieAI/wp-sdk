@@ -82,6 +82,11 @@
             "since": "1.0.0"
         },
         {
+            "id": "wc_add_new_customer",
+            "label": "Add New Customer in WooCommerce",
+            "since": "1.0.0"
+        },
+        {
             "id": "wc_add_order_note",
             "label": "Add Order Note",
             "since": "1.0.0"
@@ -122,8 +127,28 @@
             "since": "1.0.0"
         },
         {
+            "id": "wc_delete_coupon_code",
+            "label": "Delete a coupon code.",
+            "since": "1.0.0"
+        },
+        {
             "id": "wc_fetch_coupon_details",
             "label": "Fetch Coupon Details",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wc_find_orders_by_user_id",
+            "label": "Find Orders by User ID",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wc_get_order_details_by_order_id",
+            "label": "Get Order Details by Order ID",
+            "since": "1.0.0"
+        },
+        {
+            "id": "wc_get_product_by_id",
+            "label": "Get Product By ID",
             "since": "1.0.0"
         },
         {

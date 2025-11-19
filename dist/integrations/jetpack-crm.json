@@ -3,7 +3,58 @@
     "name": "JetpackCrm",
     "slug": "jetpack-crm",
     "since": "1.0.0",
-    "triggers": [],
+    "triggers": [
+        {
+            "id": "company_created_jetpack_crm",
+            "label": "Company Created",
+            "since": "1.0.0"
+        },
+        {
+            "id": "company_deleted_jetpack_crm",
+            "label": "Company Deleted",
+            "since": "1.0.0"
+        },
+        {
+            "id": "contact_created_jetpack_crm",
+            "label": "Contact Created",
+            "since": "1.0.0"
+        },
+        {
+            "id": "contact_deleted_jetpack_crm",
+            "label": "Contact Deleted",
+            "since": "1.0.0"
+        },
+        {
+            "id": "event_deleted_jetpack_crm",
+            "label": "Event Deleted",
+            "since": "1.0.0"
+        },
+        {
+            "id": "invoice_deleted_jetpack_crm",
+            "label": "Invoice Deleted",
+            "since": "1.0.0"
+        },
+        {
+            "id": "quote_accepted_jetpack_crm",
+            "label": "Quote Accepted",
+            "since": "1.0.0"
+        },
+        {
+            "id": "quote_created_jetpack_crm",
+            "label": "Quote Created",
+            "since": "1.0.0"
+        },
+        {
+            "id": "quote_deleted_jetpack_crm",
+            "label": "Quote Deleted",
+            "since": "1.0.0"
+        },
+        {
+            "id": "transaction_deleted_jetpack_crm",
+            "label": "Transaction Deleted",
+            "since": "1.0.0"
+        }
+    ],
     "actions": [
         {
             "id": "jetpack_crm_add_tag_to_company",
@@ -13,6 +64,11 @@
         {
             "id": "jetpack_crm_add_tag_to_contact",
             "label": "Add Tag to Contact",
+            "since": "1.0.0"
+        },
+        {
+            "id": "jetpack_crm_change_contact_status",
+            "label": "Change Contact Status",
             "since": "1.0.0"
         },
         {

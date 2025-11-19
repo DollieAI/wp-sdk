@@ -10,6 +10,11 @@
             "since": "1.0.0"
         },
         {
+            "id": "attendee_registered_wc",
+            "label": "Attendee Registered with WC",
+            "since": "1.0.0"
+        },
+        {
             "id": "user_attends_event",
             "label": "User Attends Event",
             "since": "1.0.0"

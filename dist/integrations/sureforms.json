@@ -3,7 +3,13 @@
     "name": "Sureforms",
     "slug": "sureforms",
     "since": "1.0.0",
-    "triggers": [],
+    "triggers": [
+        {
+            "id": "sureforms_form_submitted",
+            "label": "Form Submitted",
+            "since": "1.0.0"
+        }
+    ],
     "actions": [
         {
             "id": "sureforms_send_data",

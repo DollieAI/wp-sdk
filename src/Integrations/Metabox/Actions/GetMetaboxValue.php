@@ -5,6 +5,8 @@
     label: 'Get Meta Value',
     since: '1.0.0'
 )]
+
+namespace Dollie\SDK\Integrations\Metabox\Actions;
 /**
  * GetMetaBoxValue.
  * php version 5.6

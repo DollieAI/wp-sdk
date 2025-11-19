@@ -5,6 +5,8 @@
     label: 'Mark a course complete for the user',
     since: '1.0.0'
 )]
+
+namespace Dollie\SDK\Integrations\MasterStudyLms\Actions;
 /**
  * MarkCourseCompleteForUser.
  * php version 5.6

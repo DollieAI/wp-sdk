@@ -8,7 +8,28 @@
             "id": "bbpress_reply_to_topic",
             "label": "Reply To Topic.",
             "since": "1.0.0"
+        },
+        {
+            "id": "bbpress_topic_created",
+            "label": "Topic Created.",
+            "since": "1.0.0"
         }
     ],
-    "actions": []
+    "actions": [
+        {
+            "id": "add_topic_to_forum",
+            "label": "Add Topic to Forum",
+            "since": "1.0.0"
+        },
+        {
+            "id": "bbp_add_reply_in_topic",
+            "label": "Add Reply In Topic",
+            "since": "1.0.0"
+        },
+        {
+            "id": "bbp_user_subscribe_in_forum",
+            "label": "Subscribe User In Forum",
+            "since": "1.0.0"
+        }
+    ]
 }

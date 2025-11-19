@@ -1,0 +1,117 @@
+<?php
+
+namespace Dollie\SDK\Integrations\ServicesForSureCart\Triggers;
+
+use Dollie\SDK\Attributes\Trigger;
+use Dollie\SDK\Controllers\AutomationController;
+use Dollie\SDK\Integrations\WordPress\WordPress;
+use Dollie\SDK\Traits\SingletonLoader;
+
+#[Trigger(
+    id: 'ss_contract_signed',
+    label: 'Contract Signed',
+    since: '1.0.0'
+)]
+/**
+ * ContractSigned.
+ * php version 5.6
+ *
+ * @category ContractSigned
+ * @author   BSF <username@example.com>
+ * @license  https://www.gnu.org/licenses/gpl-3.0.html GPLv3
+ * @link     https://www.brainstormforce.com/
+ * @since    1.0.0
+ */
+/**
+ * ContractSigned
+ *
+ * @category ContractSigned
+ * @author   BSF <username@example.com>
+ * @license  https://www.gnu.org/licenses/gpl-3.0.html GPLv3
+ * @link     https://www.brainstormforce.com/
+ * @since    1.0.0
+ *
+ * @psalm-suppress UndefinedTrait
+ */
+class ContractSigned
+{
+    use SingletonLoader;
+
+    /**
+     * Integration type.
+     *
+     * @var string
+     */
+    public $integration = 'ServicesForSureCart';
+
+    /**
+     * Trigger name.
+     *
+     * @var string
+     */
+    public $trigger = 'ss_contract_signed';
+
+    /**
+     * Constructor
+     *
+     * @since  1.0.0
+     */
+    public function __construct()
+    {
+        add_filter('dollie_trigger_register_trigger', [$this, 'register']);
+    }
+
+    /**
+     * Register action.
+     *
+     * @param array $triggers trigger data.
+     * @return array
+     */
+    public function register($triggers)
+    {
+
+        $triggers[$this->integration][$this->trigger] = [
+            'label' => __('Contract Signed', 'dollie'),
+            'action' => $this->trigger,
+            'common_action' => 'surelywp_services_contract_submit',
+            'function' => [$this, 'trigger_listener'],
+            'priority' => 10,
+            'accepted_args' => 1,
+        ];
+
+        return $triggers;
+
+    }
+
+    /**
+     * Trigger listener
+     *
+     * @param array $contract_data Contract Data.
+     * @since 1.0.0
+     *
+     * @return void
+     */
+    public function trigger_listener($contract_data)
+    {
+
+        global $wpdb;
+        $service_result = $wpdb->get_row($wpdb->prepare("SELECT * FROM {$wpdb->prefix}surelywp_sv_services WHERE service_id = %d", $contract_data['service_id']), ARRAY_A);
+        $user_data = WordPress::get_user_context($service_result['user_id']);
+        unset($service_result['user_id']);
+        $context = array_merge($contract_data, $user_data, $service_result);
+        AutomationController::dollie_trigger_handle_trigger(
+            [
+                'trigger' => $this->trigger,
+                'context' => $context,
+            ]
+        );
+
+    }
+}
+
+/**
+ * Ignore false positive
+ *
+ * @psalm-suppress UndefinedMethod
+ */
+ContractSigned::get_instance();

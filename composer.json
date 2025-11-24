@@ -29,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Dollie\\SDK\\": "src/"
+            "Dollie\\SDK\\": "src/",
+            "Dollie\\SDK\\Build\\": "scripts/src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Dollie\\SDK\\Build\\": "scripts/src/",
             "Dollie\\SDK\\Tests\\": "tests/"
         }
     },

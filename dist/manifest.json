@@ -2,7 +2,7 @@
     "plugin": "dolliewp/sdk",
     "name": "Dollie Integrations SDK",
     "version": "1.0.0",
-    "generated_at": "2025-11-24T21:46:15Z",
+    "generated_at": "2025-11-24T21:50:07Z",
     "integrations": [
         {
             "id": "AcademyLMS",
@@ -5564,5 +5564,5 @@
             ]
         }
     ],
-    "checksum": "sha256:4fef75025c227c59862b0467196ae19c4c8486f2889d6cb2acae1a8805a4d794"
+    "checksum": "sha256:86d9790e021de22b75a14af67f2783b89d36e70bcdfb15bd121e75a3978022e1"
 }

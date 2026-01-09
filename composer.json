@@ -1,5 +1,5 @@
 {
-    "name": "dollieai/sdk",
+    "name": "dollieai/wp-sdk",
     "version": "1.0.0",
     "description": "Dollie Integrations SDK - Manifest-first integration framework for WordPress automations",
     "type": "library",

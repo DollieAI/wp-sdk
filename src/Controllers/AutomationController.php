@@ -52,9 +52,9 @@ class AutomationController
             }
         }
 
-        // Apply WordPress filter if available
-        if (function_exists('apply_filters')) {
-            apply_filters('dollie_trigger_fired', $trigger, $context);
+        // Fire WordPress action to notify listeners (e.g., TriggerDispatcher sends to CHQ)
+        if (function_exists('do_action')) {
+            do_action('dollie_trigger_fired', $trigger, $context);
         }
     }
 

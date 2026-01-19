@@ -40,6 +40,20 @@ abstract class BaseIntegration
     protected $actions = [];
 
     /**
+     * Integration description
+     *
+     * @var string
+     */
+    public $description;
+
+    /**
+     * Integration icon URL
+     *
+     * @var string
+     */
+    public $icon_url;
+
+    /**
      * Integration constructor
      */
     public function __construct()

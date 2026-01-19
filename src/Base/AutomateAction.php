@@ -26,6 +26,14 @@ abstract class AutomateAction
     public $action;
 
     /**
+     * Constructor - registers the action via filter
+     */
+    public function __construct()
+    {
+        add_filter('dollie_trigger_register_action', [$this, 'register']);
+    }
+
+    /**
      * Register an action
      *
      * @param array $actions Actions array

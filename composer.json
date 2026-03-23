@@ -1,6 +1,6 @@
 {
     "name": "dollieai/wp-sdk",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "Dollie Integrations SDK - Manifest-first integration framework for WordPress automations",
     "type": "library",
     "license": "MIT",
@@ -20,7 +20,7 @@
         }
     ],
     "require": {
-        "php": "^8.2",
+        "php": "^8.0",
         "ext-json": "*"
     },
     "require-dev": {
